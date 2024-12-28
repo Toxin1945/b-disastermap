@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>PhoneShop_au</name>
+
+        <!-- auショップ 長野若里 -->
+        <Placemark>
+            <name>auショップ 長野若里</name>
+            <description>
+                <![CDATA[
+                    <b>auショップ 長野若里</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・災害対策蓄電池の配備<br>
+                        &emsp;・携帯電話の充電<br>
+                        &emsp;・移動基地局車<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;--<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.18427,36.6282</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- auショップ 長野高田 -->
+        <Placemark>
+            <name>auショップ 長野高田</name>
+            <description>
+                <![CDATA[
+                <b>auショップ 長野高田</b><br>
+                <b>災害支援</b><br>
+                    &emsp;--<br>
+                <b> フリーWi-Fi</b><br>
+                    &emsp;d-WiFi<br>
+                    &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                <b>公式HP</b><br>
+                    &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.22007,36.64268</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        
+        <!-- auショップ 長野東郵便局前 -->
+        <Placemark>
+            <name>auショップ 長野東郵便局前</name>
+            <description>
+                <![CDATA[
+                <b>auショップ 長野東郵便局前</b><br>
+                <b>災害支援</b><br>
+                    &emsp;・災害対策蓄電池の配備<br>
+                    &emsp;・携帯電話の充電<br>
+                    &emsp;・移動基地局車<br>
+                <b> フリーWi-Fi</b><br>
+                    &emsp;d-WiFi<br>
+                    &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                <b>公式HP</b><br>
+                    &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.22975,36.65431</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- auショップ 長野若槻 -->
+        <Placemark>
+            <name>auショップ 長野若槻</name>
+            <description>
+                <![CDATA[
+                <b>auショップ 長野若槻</b><br>
+                <b>災害支援</b><br>
+                    &emsp;・災害対策蓄電池の配備<br>
+                    &emsp;・携帯電話の充電<br>
+                    &emsp;・移動基地局車<br>
+                <b> フリーWi-Fi</b><br>
+                    &emsp;d-WiFi<br>
+                    &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                <b>公式HP</b><br>
+                    &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.21777,36.67488</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- auショップ 長野南バイパス -->
+        <Placemark>
+            <name>auショップ 長野南バイパス</name>
+            <description>
+                <![CDATA[
+                <b>auショップ 長野南バイパス</b><br>
+                <b>災害支援</b><br>
+                    &emsp;・災害対策蓄電池の配備<br>
+                    &emsp;・携帯電話の充電<br>
+                    &emsp;・移動基地局車<br>
+                <b> フリーWi-Fi</b><br>
+                    &emsp;--<br>
+                <b>公式 HP</b><br>
+                    &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.17385,36.60266</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- auショップ 長野篠ノ井 -->
+        <Placemark>
+            <name>auショップ 長野篠ノ井</name>
+            <description>
+                <![CDATA[
+                <b>auショップ 長野篠ノ井</b><br>
+                <b>災害支援</b><br>
+                    &emsp;・災害対策蓄電池の配備<br>
+                    &emsp;・携帯電話の充電<br>
+                    &emsp;・移動基地局車<br>
+                <b> フリーWi-Fi</b><br>
+                    &emsp;--<br>
+                <b>公式 HP</b><br>
+                    &emsp;<a href="https://www.au.com/" target="_blank">https://www.au.com/</a>
+                <br >
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.14933,36.5824</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_au</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    
+    </Document>
+</kml>

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>ConvenienceStore_Lawson</name>
+
+        <!-- ローソン 篠ノ井北小森店 -->
+        <Placemark>
+            <name>ローソン 篠ノ井北小森店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 篠ノ井北小森店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.16075,36.57946</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 青木島大塚店-->
+        <Placemark>
+            <name>ローソン 青木島大塚店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 青木島大塚店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18533,36.61727</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        
+        <!-- ローソン 川中島御厨店-->
+        <Placemark>
+            <name>ローソン 川中島御厨店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 川中島御厨店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.15895,36.59864</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野SBC通店-->
+        <Placemark>
+            <name>ローソン 長野SBC通店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野SBC通店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20194,36.67052</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野ホクト文化ホール前店-->
+        <Placemark>
+            <name>ローソン 長野ホクト文化ホール前店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野ホクト文化ホール前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18718,36.63835</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野安茂里店-->
+        <Placemark>
+            <name>ローソン 長野安茂里店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野安茂里店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.16007,36.63005</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野稲田1丁目店-->
+        <Placemark>
+            <name>ローソン 長野稲田1丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野稲田1丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21723,36.67404</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野稲田3丁目店-->
+        <Placemark>
+            <name>ローソン 長野稲田3丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野稲田3丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.23118,36.67318</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野稲里町田牧店-->
+        <Placemark>
+            <name>ローソン 長野稲里町田牧店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野稲里町田牧店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17359,36.58873</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野駅前店-->
+        <Placemark>
+            <name>ローソン 長野駅前店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野駅前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18669,36.64401</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野居町店-->
+        <Placemark>
+            <name>ローソン 長野居町店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野居町店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20253,36.65068</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野県庁前店-->
+        <Placemark>
+            <name>ローソン 長野県庁前店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野県庁前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18185,36.64955</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野差出南3丁目-->
+        <Placemark>
+            <name>ローソン 長野差出南3丁目</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野差出南3丁目</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        --
+                ]]></description>
+            <Point>
+                <coordinates>138.17709,36.62872</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野三本柳店-->
+        <Placemark>
+            <name>ローソン 長野三本柳店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野三本柳店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.16514,36.61306</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野三輪6丁目店-->
+        <Placemark>
+            <name>ローソン 長野三輪6丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野三輪6丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.1965,36.65908</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野市民病院店-->
+        <Placemark>
+            <name>ローソン 長野市民病院店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野市民病院店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.25429,36.66963</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野松代町店-->
+        <Placemark>
+            <name>ローソン 長野松代町店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野松代町店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19765,36.57101</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野上松三丁目店-->
+        <Placemark>
+            <name>ローソン 長野上松三丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野上松三丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20004,36.67726</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野上松二丁目店-->
+        <Placemark>
+            <name>ローソン 長野上松二丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野上松二丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19303,36.66832</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        
+        <!-- ローソン 長野信大教育学部西店-->
+        <Placemark>
+            <name>ローソン 長野信大教育学部西店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野信大教育学部西店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17988,36.65665</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野西尾張部店-->
+        <Placemark>
+            <name>ローソン 長野西尾張部店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野西尾張部店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22702,36.64741</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野石渡店-->
+        <Placemark>
+            <name>ローソン 長野石渡店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野石渡店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.24087,36.65945</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野川中島原店-->
+        <Placemark>
+            <name>ローソン 長野川中島原店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野川中島原店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.15268,36.58705</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野川中島今里店-->
+        <Placemark>
+            <name>ローソン 長野川中島今里店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野川中島今里店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.14475,36.61149</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野大橋南店-->
+        <Placemark>
+            <name>ローソン 長野大橋南店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野大橋南店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19726,36.6121</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野大豆島店-->
+        <Placemark>
+            <name>ローソン 長野大豆島店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野大豆島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.23765,36.62847</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野檀田店-->
+        <Placemark>
+            <name>ローソン 長野檀田店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野檀田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21251,36.67594</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野田中店-->
+        <Placemark>
+            <name>ローソン 長野田中店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野田中店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.23209,36.69221</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野東通り店-->
+        <Placemark>
+            <name>ローソン 長野東通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野東通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19847,36.64624</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野南千歳店-->
+        <Placemark>
+            <name>ローソン 長野南千歳店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野南千歳店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18711,36.64701</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野南千歳1丁目店-->
+        <Placemark>
+            <name>ローソン 長野南千歳1丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野南千歳1丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                        &emsp;・au Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18974,36.64524</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野日詰店-->
+        <Placemark>
+            <name>ローソン 長野日詰店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野日詰店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21249,36.62923</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野富竹店-->
+        <Placemark>
+            <name>ローソン 長野富竹店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野富竹店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2434,36.67006</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野穂保店-->
+        <Placemark>
+            <name>ローソン 長野穂保店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野穂保店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2675,36.68376</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野北長池店-->
+        <Placemark>
+            <name>ローソン 長野北長池店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野北長池店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.24826,36.65698</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 長野本郷駅前店-->
+        <Placemark>
+            <name>ローソン 長野本郷駅前店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 長野本郷駅前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20374,36.66212</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ローソン 北長野駅前店-->
+        <Placemark>
+            <name>ローソン 北長野駅前店</name>
+            <description>
+                <![CDATA[
+                    <b>ローソン 北長野駅前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・小型発電機の配備<br>
+                        &emsp;・避難所への緊急支援物資提供<br>
+                        &emsp;・医療救護<br>
+                        &emsp;・非常炊き出し<br>
+                        &emsp;・行方不明者との連絡<br>
+                        &emsp;・状況に応じて電源やトイレなども開放<br>
+                        &emsp;・携帯電話の充電サービス(台風15号・19号時)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22283,36.66578</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_Lawson</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        
+    </Document>
+</kml>

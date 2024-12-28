@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>HotSpring</name>
+
+        <!-- ぶらっと稲田 -->
+        <Placemark>
+            <name>ぶらっと稲田</name>
+            <description>
+                <![CDATA[
+                    <b>ぶらっと稲田</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;平日 : 9:00〜深夜0:00<br>
+                        &emsp;土・日・祝 : 7:00〜深夜0:00<br>
+                    <b>定休日</b><br>
+                        &emsp;年中無休(保守点検のため年5日程休業あり）<br>
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥700<br>
+                        &emsp;学生証割引(大学・専門学校(学生証提示)) : ¥500<br>
+                        &emsp;学生証割引(高校生) : ¥250<br>
+                        &emsp;中学生 : ¥250<br>
+                        &emsp;小学生 : ¥150<br>
+                        &emsp;乳幼児 : 無料<br>
+                    <b>ホームページ</b><br>
+                        <a href="https://onsen.nifty.com/naganoshuuhen-onsen/onsen010524/" target="_blank>https://onsen.nifty.com/naganoshuuhen-onsen/onsen010524/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.230084,36.6711762</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- アルプス温泉 -->
+        <Placemark>
+            <name>アルプス温泉</name>
+            <description>
+                <![CDATA[
+                    <b>アルプス温泉</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 14:00〜22:30<br> 
+                    <b>定休日</b><br>
+                        &emsp;月曜日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥380<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1867256,36.6486411</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 初の湯旅館 -->
+        <Placemark>
+            <name>初の湯旅館</name>
+            <description>
+                <![CDATA[
+                    <b>初の湯旅館</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 16:00〜21:30<br> 
+                    <b>定休日</b><br>
+                        &emsp;月曜・正月休み : 1月1〜4日<br>
+                        &emsp;盆休み : 8月13〜16日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥400<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2134125,36.6699589</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 東の湯 -->
+        <Placemark>
+            <name>東の湯</name>
+            <description>
+                <![CDATA[
+                    <b>東の湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;15:00〜20:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;火曜・土曜<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥400<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br>
+                        &emsp;10枚綴り : ¥4,000<br>
+                        &emsp;※無料利用券1枚付<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2011011,36.6529609</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 滝乃湯 -->
+        <Placemark>
+            <name>滝乃湯</name>
+            <description>
+                <![CDATA[
+                    <b>滝乃湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;16:00〜21:30<br> 
+                    <b>定休日</b><br>
+                        &emsp;月曜<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥400<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2209657,36.6681749</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 梅の湯 -->
+        <Placemark>
+            <name>梅の湯</name>
+            <description>
+                <![CDATA[
+                    <b>梅の湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 15:00〜22:00（21:00）<br> 
+                    <b>定休日</b><br>
+                        &emsp;なし・年中無休<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥390<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br>
+                        &emsp;回数券あり（10回分で11枚）<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2025741,36.5635209</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 亀の湯 -->
+        <Placemark>
+            <name>亀の湯</name>
+            <description>
+                <![CDATA[
+                    <b>亀の湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;12:30〜23:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;月曜<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥400<br>
+                        &emsp;中人 : ¥150<br>
+                        &emsp;小人 : ¥70<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1848299,36.6546768</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 田川の湯 -->
+        <Placemark>
+            <name>田川の湯</name>
+            <description>
+                <![CDATA[
+                    <b>田川の湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;15:30〜22:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;月曜・金曜<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥400<br>
+                        &emsp;小人 : ¥150<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://yuru-to.net/detail.php?oid=12820" target="_blank>https://yuru-to.net/detail.php?oid=12820</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2036975,36.6300258</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 裾花峡天然温泉宿 うるおい館 -->
+        <Placemark>
+            <name>裾花峡天然温泉宿 うるおい館</name>
+            <description>
+                <![CDATA[
+                    <b>裾花峡天然温泉宿 うるおい館</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;一般営業時間 : 10:00〜23:00<br>
+                        &emsp;朝風呂営業時間 : 6:00〜9:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;--<br> 
+                    <b>料金設定</b><br>
+                        &emsp;日帰り入浴<br>
+                        &emsp;&emsp;大人・平日 : ¥700（土日祝・特定休期間は¥750)<br>
+                        &emsp;&emsp;学生割引 : ¥530<br>
+                        &emsp;&emsp;中学生 : ¥530<br>
+                        &emsp;&emsp;小学生 : ¥210<br>
+                        &emsp;&emsp;幼児 : ¥110<br>
+                        &emsp;朝風呂<br>
+                        &emsp;&emsp;平日 : ¥480<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="	https://uruoikan.com/" target="_blank>https://uruoikan.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1741592,36.6540931</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コトリの湯 -->
+        <Placemark>
+            <name>コトリの湯</name>
+            <description>
+                <![CDATA[
+                    <b>コトリの湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;11:00〜21:00（最終入館時間 20:30<br> 
+                    <b>定休日</b><br>
+                        &emsp;毎週木曜日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;巣ごもりプラン（16時までの入場で上限６時間）<br>
+                        &emsp;&emsp;大人<br>
+                        &emsp;&emsp;&emsp;・平日 : ¥850<br>
+                        &emsp;&emsp;&emsp;・土日祝 : ¥950<br>
+                        &emsp;&emsp;子供<br>
+                        &emsp;&emsp;&emsp;・平日 : ¥450<br>
+                        &emsp;&emsp;&emsp;・土日祝 : ¥500<br>
+                        &emsp;&emsp;(三歳未満は無料)<br>
+                        &emsp;シジュウカラ（16時〜19:30までの入場で閉館まで）<br>
+                        &emsp;&emsp;大人<br>
+                        &emsp;&emsp;&emsp;・平日 : ¥750<br>
+                        &emsp;&emsp;&emsp;・土日祝 : ¥800<br>
+                        &emsp;ひとっぷろプラン（90分）<br>
+                        &emsp;&emsp;大人<br>
+                        &emsp;&emsp;&emsp;・平日 : ¥650<br>
+                        &emsp;&emsp;&emsp;・土日祝 : ¥700<br>
+                        &emsp;&emsp;子供<br>
+                        &emsp;&emsp;&emsp;・平日 : ¥300<br>
+                        &emsp;&emsp;&emsp;・土日祝 : ¥350<br>
+                        &emsp;&emsp;３歳未満全日無料<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="http://kotorinoyu.jp/" target="_blank">http://kotorinoyu.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2135338,36.5517049</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 国民宿舎,松代荘 -->
+        <Placemark>
+            <name>国民宿舎,松代荘</name>
+            <description>
+                <![CDATA[
+                    <b>国民宿舎,松代荘</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; （日帰り入浴）10:00〜22:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;--<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥510<br>
+                        &emsp;子供 : ¥200<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="	https://www.matusirosou.com/" target="_blank">	https://www.matusirosou.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2108738,36.56835650000001</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 大室温泉まきばの湯 -->
+        <Placemark>
+            <name>大室温泉まきばの湯</name>
+            <description>
+                <![CDATA[
+                    <b>大室温泉まきばの湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;夏季（4〜9月） 9:00〜22:00<br>
+                        &emsp;冬季（10〜3月） 9:00〜21:30<br> 
+                    <b>定休日</b><br>
+                        &emsp;毎週月曜日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;小・中学生 : ¥350<br>
+                        &emsp;大人 : ¥550<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://makibanoyu.com/" target="_blank">https://makibanoyu.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.226191,36.6019556</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 豊野温泉りんごの湯 -->
+        <Placemark>
+            <name>豊野温泉りんごの湯</name>
+            <description>
+                <![CDATA[
+                    <b>豊野温泉りんごの湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 10:00〜22:00（最終入館受付21:30）<br> 
+                    <b>定休日</b><br>
+                        &emsp;毎月第4火曜日（祝日の場合は翌日）<br>
+                        &emsp;12月31日は18:00閉館<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥410<br>
+                        &emsp;小学生 : ¥300<br>
+                        &emsp;幼児 : 無料<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://ringonoyu.co.jp/" target="_blank">https://ringonoyu.co.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.265284,36.70744499999999</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 川中島温泉テルメDOME -->
+        <Placemark>
+            <name>川中島温泉テルメDOME</name>
+            <description>
+                <![CDATA[
+                    <b>川中島温泉テルメDOME</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;10:00〜24:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;年中無休（メンテナンス休業あり）<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人<br>
+                        &emsp;&emsp;平日 : ¥720<br>
+                        &emsp;&emsp;土日祝 : ¥770<br>
+                        &emsp;中〜大学生（身分証あり） : ¥510<br>
+                        &emsp;小人 : ¥360<br>
+                        &emsp;(3歳以下無料)<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://www.kawanakajimaonsen.com/" target = "_blank">https://www.kawanakajimaonsen.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1566004,36.5963331</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 若槻温泉 -->
+        <Placemark>
+            <name>若槻温泉</name>
+            <description>
+                <![CDATA[
+                    <b>若槻温泉</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;9:00〜21:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;毎月21日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥500<br>
+                        &emsp;子供 : ¥300<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2206932,36.6906183</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- むれ温泉 天狗の館 -->
+        <Placemark>
+            <name>むれ温泉 天狗の館</name>
+            <description>
+                <![CDATA[
+                    <b>むれ温泉 天狗の館</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 10:00〜21:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;火曜日（6月11月には臨時休館）<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥600<br>
+                        &emsp;小学生 : ¥300<br>
+                        &emsp;幼児 : 無料<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1890293,36.7447055</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 広徳の湯 -->
+        <Placemark>
+            <name>広徳の湯</name>
+            <description>
+                <![CDATA[
+                    <b>広徳の湯</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 10:00〜24:00<br> 
+                    <b>定休日</b><br>
+                        &emsp;祝日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;中学生以上 : ¥600<br>
+                        &emsp;3歳から小学生 : ¥250<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://kotokuspa.com/" target="_blank">https://kotokuspa.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1775938,36.5872615</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 中尾山温泉,松仙閣 -->
+        <Placemark>
+            <name>中尾山温泉,松仙閣</name>
+            <description>
+                <![CDATA[
+                    <b>中尾山温泉,松仙閣</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;12:00〜20:00（平日）<br>
+                        &emsp;11:00〜20:00（休日）<br> 
+                    <b>定休日</b><br>
+                        &emsp;無休<br> 
+                    <b>料金設定</b><br>
+                        &emsp;大人 : ¥680<br>
+                        &emsp;小学生 : ¥250<br>
+                        &emsp;幼児 : ¥100<br>
+                        &emsp;貸切風呂1時間¥2000(別途入浴料、要予約)<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://www.shyosenkaku.co.jp/" target="_blank">https://www.shyosenkaku.co.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1223574,36.5997862</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 大岡温泉 -->
+        <Placemark>
+            <name>大岡温泉</name>
+            <description>
+                <![CDATA[
+                    <b>大岡温泉</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 11:00〜18:00<br> 
+                    <b>定休日</b><br>
+                        &emsp; 	火曜日<br> 
+                    <b>料金設定</b><br>
+                        &emsp;小学生以上 : ¥360<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="	https://oookaonsen.eternal-story.com/" target="_blank">	https://oookaonsen.eternal-story.com/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0076952,36.520974</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>HotSpring</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

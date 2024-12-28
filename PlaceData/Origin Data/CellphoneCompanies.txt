@@ -1,0 +1,432 @@
+    <!-- ソフトバンク 長野中央 -->
+    <Placemark>
+        <name>ソフトバンク 長野中央</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンク 長野中央</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2033,36.62896</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ソフトバンク 北尾張部 -->
+    <Placemark>
+        <name>ソフトバンク 北尾張部</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンク 北尾張部</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.23782,36.65491</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ソフトバンク 平林 -->
+    <Placemark>
+        <name>ソフトバンク 平林</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンク 平林</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.215,36.65426</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ソフトバンク 長野北 -->
+    <Placemark>
+        <name>ソフトバンク 長野北</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンク 長野北</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.22587,36.67513</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ソフトバンクYAMADA SBC通り本店 -->
+    <Placemark>
+        <name>ソフトバンクYAMADA SBC通り本店</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンクYAMADA SBC通り本店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.20997,36.66972</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ソフトバンク長野南バイパス -->
+    <Placemark>
+        <name>ソフトバンク長野南バイパス</name>
+        <description>
+            <![CDATA[
+            <b>ソフトバンク長野南バイパス</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.17346,36.60318</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野若里 -->
+    <Placemark>
+        <name>auショップ 長野若里</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野若里</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.18427,36.6282</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野高田 -->
+    <Placemark>
+        <name>auショップ 長野高田</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野高田</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.22007,36.64268</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野東郵便局前 -->
+    <Placemark>
+        <name>auショップ 長野東郵便局前</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野東郵便局前</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.22975,36.65431</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野若槻 -->
+    <Placemark>
+        <name>auショップ 長野若槻</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野若槻</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.21777,36.67488</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野南バイパス -->
+    <Placemark>
+        <name>auショップ 長野南バイパス</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野南バイパス</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.17385,36.60266</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- auショップ 長野篠ノ井 -->
+    <Placemark>
+        <name>auショップ 長野篠ノ井</name>
+        <description>
+            <![CDATA[
+            <b>auショップ 長野篠ノ井</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.14933,36.5824</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野篠ノ井店 -->
+    <Placemark>
+        <name>ドコモショップ 長野篠ノ井店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野篠ノ井店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.15367,36.57523</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野TOiGO店 -->
+    <Placemark>
+        <name>ドコモショップ 長野TOiGO店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野TOiGO店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.18787,36.64982</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野長池店 -->
+    <Placemark>
+        <name>ドコモショップ 長野長池店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野長池店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2363,36.64206</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野東口店 -->
+    <Placemark>
+        <name>ドコモショップ 長野東口店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野東口店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.19202,36.64323</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野南バイパス店 -->
+    <Placemark>
+        <name>ドコモショップ 長野南バイパス店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野南バイパス店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.17319,36.60331</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドコモショップ 長野若槻店 -->
+    <Placemark>
+        <name>ドコモショップ 長野若槻店</name>
+        <description>
+            <![CDATA[
+            <b>ドコモショップ 長野若槻店</b><br>
+            <b>災害支援</b><br>
+            <br >
+            <b> フリーWi-Fi</b><br>
+            <br >
+            <b>公式 HP</b><br>
+            <br >
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.21699,36.67544</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>PhoneShop_</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+

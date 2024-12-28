@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>PhoneShop_softbank</name>
+
+        <!-- ソフトバンク 長野中央 -->
+        <Placemark>
+            <name>ソフトバンク 長野中央</name>
+            <description>
+                <![CDATA[
+                    <b>ソフトバンク 長野中央</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;ソフトバンクWi-Fi<br>
+                        &emsp;(SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2033,36.62896</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ソフトバンク 北尾張部 -->
+        <Placemark>
+            <name>ソフトバンク 北尾張部</name>
+            <description>
+                <![CDATA[
+                    <b>ソフトバンク 北尾張部</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;ソフトバンクWi-Fi<br>
+                        &emsp;(SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.23782,36.65491</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ソフトバンク 平林 -->
+        <Placemark>
+            <name>ソフトバンク 平林</name>
+            <description>
+                <![CDATA[
+                    <b>ソフトバンク 平林</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;ソフトバンクWi-Fi<br>
+                        &emsp;(SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.215,36.65426</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ソフトバンク 長野北 -->
+        <Placemark>
+            <name>ソフトバンク 長野北</name>
+            <description>
+                <![CDATA[
+                <b>ソフトバンク 長野北</b><br>
+                <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;ソフトバンクWi-Fi<br>
+                        &emsp;(SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.22587,36.67513</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ソフトバンクYAMADA SBC通り本店 -->
+        <Placemark>
+            <name>ソフトバンクYAMADA SBC通り本店</name>
+            <description>
+                <![CDATA[
+                <b>ソフトバンクYAMADA SBC通り本店</b><br>
+                <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;・ソフトバンクWi-Fi<br>
+                        &emsp;  (SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                        &emsp;・au Wi-Fi<br>
+                        &emsp;  (SSID : 「au_Wi-Fi2」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.20997,36.66972</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    
+        <!-- ソフトバンク長野南バイパス -->
+        <Placemark>
+            <name>ソフトバンク長野南バイパス</name>
+            <description>
+                <![CDATA[
+                <b>ソフトバンク長野南バイパス</b><br>
+                <b>災害支援</b><br>
+                        &emsp;・移動電源車の全国配備<br>
+                        &emsp;・移動基地局車<br>
+                        &emsp;・自治体などへの携帯電話貸し出し<br>
+                        &emsp;・避難所へのWi-Fi機器の設置<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;ソフトバンクWi-Fi<br>
+                        &emsp;(SSID : 「mobilepoint」、「0000softbank」または「0001softbank」)<br>
+                    <b>公式HP</b><br>
+                        &emsp;<a href="https://www.softbank.jp/" target="_blank">https://www.softbank.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.17346,36.60318</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_softbank</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

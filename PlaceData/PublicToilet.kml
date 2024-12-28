@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>PublicToilet</name>
+
+        <!-- 御安心処 -->
+        <Placemark>
+            <name>御安心処</name>
+            <description>
+                <![CDATA[
+                    <b>御安心処</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗 : 5<br>
+                        &emsp;洋式 : 2<br>
+                        &emsp;和式 : 1<br>
+                        &emsp;小便器 : 6<br>
+                        &emsp;乳幼児チェア : 1<br>
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗 : 5<br>
+                        &emsp;洋式 : 7<br>
+                        &emsp;和式 : 1<br>
+                        &emsp;おむつ台 : 1<br>
+                        &emsp;乳幼児チェア : 2<br>
+                    <b>多機能トイレ(2ヶ所)</b><br>
+                        &emsp;オストメイト対応 : 1<br>
+                        &emsp;おむつ台 : 1<br>
+                        &emsp;乳幼児チェア : 1<br>
+                        &emsp;※他に子供用トイレ(大・小)があります<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1879031,36.6606083</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 雲上台 -->
+        <Placemark>
+            <name>雲上台</name>
+            <description>
+                <![CDATA[
+                    <b>雲上台</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1883177,36.6692824</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 東司（とうす） -->
+        <Placemark>
+            <name>東司（とうす）</name>
+            <description>
+                <![CDATA[
+                    <b>東司（とうす）</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：４<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：４<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1885072,36.6561421</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ふれ愛の交差点 -->
+        <Placemark>
+            <name>ふれ愛の交差点</name>
+            <description>
+                <![CDATA[
+                    <b>ふれ愛の交差点</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br>
+                        &emsp;洋式：１<br>
+                        &emsp;小便器：２<br>
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br>
+                        &emsp;洋式：２<br>
+                        &emsp;和式：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;オストメイト対応：１<br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1886557,36.643912</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 杜の化粧処 -->
+        <Placemark>
+            <name>杜の化粧処</name>
+            <description>
+                <![CDATA[
+                    <b>杜の化粧処</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1909279,36.6533228</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 憩カラフルハウス -->
+        <Placemark>
+            <name>憩カラフルハウス</name>
+            <description>
+                <![CDATA[
+                    <b>憩カラフルハウス</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1887948,36.6546698</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 藤棚のオアシス -->
+        <Placemark>
+            <name>藤棚のオアシス</name>
+            <description>
+                <![CDATA[
+                    <b>藤棚のオアシス</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;子供用小便器：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1914997,36.6503158</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- つるのお宿 -->
+        <Placemark>
+            <name>つるのお宿</name>
+            <description>
+                <![CDATA[
+                    <b>つるのお宿</b><br>
+                    <b>男女兼用</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1980984,36.6526354</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 八角処 -->
+        <Placemark>
+            <name>八角処</name>
+            <description>
+                <![CDATA[
+                    <b>八角処</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(1か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2013367,36.6500304</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 石堂の泉 -->
+        <Placemark>
+            <name>石堂の泉</name>
+            <description>
+                <![CDATA[
+                    <b>石堂の泉</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br>
+                        &emsp;洋式：１<br>
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1859835,36.6484942</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 長野駅善光寺口 -->
+        <Placemark>
+            <name>長野駅善光寺口</name>
+            <description>
+                <![CDATA[
+                    <b>長野駅善光寺口</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：３<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：５<br> 
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：３<br> 
+                        &emsp;洋式：３<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;子供用小便器：１<br> 
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>多機能トイレ(３か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1881516,36.6434057</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 長野駅東口 -->
+        <Placemark>
+            <name>長野駅東口</name>
+            <description>
+                <![CDATA[
+                    <b>長野駅東口</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br>
+                        &emsp;洋式：２<br>
+                        &emsp;小便器：５<br>
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：３<br>
+                        &emsp;洋式：４<br>
+                        &emsp;和式：１<br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1897376,36.6430708</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 南部のせせらぎ -->
+        <Placemark>
+            <name>南部のせせらぎ</name>
+            <description>
+                <![CDATA[
+                    <b>南部のせせらぎ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(２か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2001788,36.6410094</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 大銀杏 -->
+        <Placemark>
+            <name>大銀杏</name>
+            <description>
+                <![CDATA[
+                    <b>大銀杏</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：３<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;子供用小便器：１<br> 
+                        &emsp;おむつ台：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2208032,36.667196</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 浅川ループライン展望広場 -->
+        <Placemark>
+            <name>浅川ループライン展望広場</name>
+            <description>
+                <![CDATA[
+                    <b>浅川ループライン展望広場</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br> 
+                        &emsp;Z小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1904974,36.6929051</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 杏の泉 -->
+        <Placemark>
+            <name>杏の泉</name>
+            <description>
+                <![CDATA[
+                    <b>杏の泉</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;小便器：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;おむつ台：１<br> 
+                    <b>多機能トイレ(1か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1613289,36.6297711</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 今井駅 -->
+        <Placemark>
+            <name>今井駅</name>
+            <description>
+                <![CDATA[
+                    <b>今井駅</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;乳幼児チェア：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1451584,36.5954452</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 篠ノ井駅東口 -->
+        <Placemark>
+            <name>篠ノ井駅東口</name>
+            <description>
+                <![CDATA[
+                    <b>篠ノ井駅東口</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br>
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1385638,36.5776227</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 恐竜のみち -->
+        <Placemark>
+            <name>恐竜のみち</name>
+            <description>
+                <![CDATA[
+                    <b>恐竜のみち</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1374022,36.5778353</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 通い路 -->
+        <Placemark>
+            <name>通い路</name>
+            <description>
+                <![CDATA[
+                    <b>通い路</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br>
+                        &emsp;小便器：２<br>
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：２<br>
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;おむつ台：１<br>
+                        &emsp;乳幼児チェア：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.139442,36.5721014</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- カチューシャのふる里 -->
+        <Placemark>
+            <name>カチューシャのふる里</name>
+            <description>
+                <![CDATA[
+                    <b>カチューシャのふる里</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1846388,36.5650409</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 松代駅前 -->
+        <Placemark>
+            <name>松代駅前</name>
+            <description>
+                <![CDATA[
+                    <b>松代駅前</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：１<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;乳幼児チェア：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                        &emsp;オストメイト対応：１<br> 
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1985732,36.566097</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 清々庵 -->
+        <Placemark>
+            <name>清々庵</name>
+            <description>
+                <![CDATA[
+                    <b>清々庵</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：３<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;子供用小便器：１<br> 
+                    <b>多機能トイレ(１か所<)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2009464,36.5611707</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 悠楽庵 -->
+        <Placemark>
+            <name>悠楽庵</name>
+            <description>
+                <![CDATA[
+                    <b>悠楽庵</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br>
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br>
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1967367,36.5591907</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 緑泉苑 -->
+        <Placemark>
+            <name>緑泉苑</name>
+            <description>
+                <![CDATA[
+                    <b>緑泉苑</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：４<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：２<br> 
+                        &emsp;洋式：２<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;子供用小便器：１<br> 
+                    <b>多機能トイレ(１か所)</b><br> 
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1977915,36.562959</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 松代祝（ほうり）の泉 -->
+        <Placemark>
+            <name>松代祝（ほうり）の泉</name>
+            <description>
+                <![CDATA[
+                    <b>松代祝（ほうり）の泉</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>多機能トイレ(１か所9</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2035998,36.5631263</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 松代地震観測所前 -->
+        <Placemark>
+            <name>松代地震観測所前</name>
+            <description>
+                <![CDATA[
+                    <b>松代地震観測所前</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2028697,36.5435878</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 金井山 -->
+        <Placemark>
+            <name>金井山</name>
+            <description>
+                <![CDATA[
+                    <b>金井山</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1999576,36.5893523</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 信濃川田駅 -->
+        <Placemark>
+            <name>信濃川田駅</name>
+            <description>
+                <![CDATA[
+                    <b>信濃川田駅</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2383977,36.6056031</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 綿内駅公衆トイレ -->
+        <Placemark>
+            <name>綿内駅公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>綿内駅公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br> 
+                    <b>多機能トイレ(1か所)</b><br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2595034,36.6250793</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 芋井さくら -->
+        <Placemark>
+            <name>芋井さくら</name>
+            <description>
+                <![CDATA[
+                    <b>芋井さくら</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp; 手洗：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp; 手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1535832,36.6759303</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 七二会瀬脇公衆トイレ -->
+        <Placemark>
+            <name>七二会瀬脇公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>七二会瀬脇公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br> 
+                        &emsp;おむつ台：１<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.088008,36.6167343</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 市場のまちかど -->
+        <Placemark>
+            <name>市場のまちかど</name>
+            <description>
+                <![CDATA[
+                    <b>市場のまちかど</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0777793,36.6273428</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 七二会笹平公衆トイレ -->
+        <Placemark>
+            <name>七二会笹平公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>七二会笹平公衆トイレ</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0819438,36.6089357</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 泉の園 -->
+        <Placemark>
+            <name>泉の園</name>
+            <description>
+                <![CDATA[
+                    <b>泉の園</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0722431,36.5716875</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    
+        <!-- 信濃浅野駅前公衆トイレ -->
+        <Placemark>
+            <name>信濃浅野駅前公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>信濃浅野駅前公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：２<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.294787,36.7218339</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    
+        <!-- 馬場公衆トイレ -->
+        <Placemark>
+            <name>馬場公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>馬場公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0913317,36.7062539</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    
+        <!-- 戸隠支所前公衆トイレ -->
+        <Placemark>
+            <name>戸隠支所前公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>戸隠支所前公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0894238,36.7020811</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 中村公衆トイレ -->
+        <Placemark>
+            <name>中村公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>中村公衆トイレ</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;小便器：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0967255,36.7039732</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 折橋公衆トイレ -->
+        <Placemark>
+            <name>折橋公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>折橋公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp; 手洗：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0794311,36.6877752</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 銚子口公衆トイレ -->
+        <Placemark>
+            <name>銚子口公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>銚子口公衆トイレ</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1066117,36.6931594</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 宝光社 -->
+        <Placemark>
+            <name>宝光社</name>
+            <description>
+                <![CDATA[
+                    <b>宝光社</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0761909,36.7313686</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 追通(おっかよう)公衆トイレ -->
+        <Placemark>
+            <name>追通(おっかよう)公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>追通(おっかよう)公衆トイレ</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;洋式：１<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0487641,36.6721972</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 土合公衆トイレ -->
+        <Placemark>
+            <name>土合公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>土合公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0812231,36.670494</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 下内 -->
+        <Placemark>
+            <name>下内</name>
+            <description>
+                <![CDATA[
+                    <b>下内</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：１<br>
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;洋式：２<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp; １か所<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0938708,36.67031</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 上祖山公衆トイレ -->
+        <Placemark>
+            <name>上祖山公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>上祖山公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;小便器：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0557846,36.6698816</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 須田町公衆トイレ -->
+        <Placemark>
+            <name>須田町公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>須田町公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：２<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0049807,36.6825808</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 大岡芦ノ尻 -->
+        <Placemark>
+            <name>大岡芦ノ尻</name>
+            <description>
+                <![CDATA[
+                    <b>大岡芦ノ尻</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br>
+                        &emsp;和式：１<br>
+                        &emsp;小便器：１<br>  
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>137.9783449,36.4870377</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 川口バス停公衆トイレ -->
+        <Placemark>
+            <name>川口バス停公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>川口バス停公衆トイレ</b><br>
+                    <b>男女兼用トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;--<br> 
+                    <b>多機能トイレ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>137.965497,36.5353449</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 高福寺公衆トイレ -->
+        <Placemark>
+            <name>高福寺公衆トイレ</name>
+            <description>
+                <![CDATA[
+                    <b>高福寺公衆トイレ</b><br>
+                    <b>男子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;小便器：２<br> 
+                    <b>女子トイレ</b><br>
+                        &emsp;手洗：１<br> 
+                        &emsp;洋式：１<br> 
+                        &emsp;和式：１<br> 
+                    <b>多機能トイレ(１か所)</b><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.0035346,36.6372084</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PublicToilet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Laundry</name>
+
+        <!-- コインランドリー・スプラッシュ-->
+        <Placemark>
+            <name>コインランドリー・スプラッシュ</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリー・スプラッシュ</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;5:00～24:00(年中無休)<br>
+                    <b>料金設定</b><br>
+                        &emsp;洗濯乾燥機<br>
+                            &emsp;&emsp;10kg : ¥1,000<br>
+                            &emsp;&emsp;16kg : ¥1,300<br>
+                        &emsp;洗濯乾燥機(洗濯機のみ)<br>
+                            &emsp;&emsp;7kg : ¥300<br>
+                        &emsp;洗濯乾燥機(乾燥機のみ)<br>
+                            &emsp;&emsp;14kg : ¥100<br>
+                            &emsp;&emsp;25kg : ¥100<br>
+                        &emsp;靴用洗濯機<br>
+                            &emsp;&emsp;2足 : ¥200<br>
+                        &emsp;靴用乾燥機<br>
+                            &emsp;&emsp;2足 : ¥100<br>
+                    <b>URL</b><br>
+                        <a href="https://www.coin-laundry.co.jp/userp/shop_detail/10014162" target="_blank">https://www.coin-laundry.co.jp/userp/shop_detail/10014162</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1797391,36.6415278</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コインランドリーホワイトピア 若里店 -->
+        <Placemark>
+            <name>コインランドリーホワイトピア 若里店</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリーホワイトピア 若里店</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;6:00〜23:00(年中無休)<br> 
+                    <b>料金設定</b><br>
+                        &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://www.whitopia.jp/" target = "_blank">https://www.whitopia.jp/</a>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1909048,36.6340738</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コインランドリー ホワイトピア 松岡店 -->
+        <Placemark>
+            <name>コインランドリー ホワイトピア 松岡店</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリー ホワイトピア 松岡店</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;7:00〜24:00(年中無休)<br> 
+                    <b>料金設定</b><br>
+                        &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                    &emsp;<a href="https://www.whitopia.jp/" target = "_blank">https://www.whitopia.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2151422,36.6282883</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コインランドリーホワイトピア 南堀店 -->
+        <Placemark>
+            <name>コインランドリーホワイトピア 南堀店</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリーホワイトピア 南堀店</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 7:00〜24:00(年中無休)<br> 
+                    <b>料金設定</b><br>
+                        &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;<a href="https://www.whitopia.jp/" target = "_blank">https://www.whitopia.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2348115,36.66584319999999</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コインランドリーホワイトピア 丹波島店 -->
+        <Placemark>
+            <name>コインランドリーホワイトピア 丹波島店</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリーホワイトピア 丹波島店</b><br>
+                    <b>営業時間</b><br>
+                    &emsp; 7:00〜23:00(年中無休)<br> 
+                    <b>料金設定</b><br>
+                    &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                    &emsp;<a href="https://www.whitopia.jp/" target = "_blank">https://www.whitopia.jp/</a><br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.1693253,36.6169689</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- コインランドリーふわふわハローコール 広徳店 -->
+        <Placemark>
+            <name>コインランドリーふわふわハローコール 広徳店</name>
+            <description>
+                <![CDATA[
+                    <b>コインランドリーふわふわハローコール 広徳店</b><br>
+                    <b>営業時間</b><br>
+                        &emsp;--<br> 
+                    <b>料金設定</b><br>
+                        &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.17876,36.590331</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- しゃぼん長野稲里店 -->
+        <Placemark>
+            <name>しゃぼん長野稲里店</name>
+            <description>
+                <![CDATA[
+                    <b>しゃぼん長野稲里店</b><br>
+                    <b>営業時間</b><br>
+                        &emsp; 9:00〜24:00(年中無休)<br> 
+                    <b>料金設定</b><br>
+                        &emsp;--<br> 
+                    <b>ホームページ</b><br>
+                        &emsp;--<br> 
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.16968,36.602377</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>Laundry</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 大型コインランドリー マンマチャオ三輪店 -->
+        <Placemark>
+        <name>大型コインランドリー マンマチャオ三輪店</name>
+        <description>
+            <![CDATA[
+                <b>大型コインランドリー マンマチャオ三輪店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;24時間(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯機<br>
+                    &emsp;&emsp;18kg : ¥600<br>
+                    &emsp;&emsp;27kg : ¥800<br>
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;14kg : ¥600<br>
+                    &emsp;&emsp;27kg : ¥800<br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1000<br>
+                    &emsp;&emsp;15kg : ¥1200<br>
+                    &emsp;乾燥機<br>
+                    &emsp;&emsp;14kg : ¥100<br>
+                    &emsp;&emsp;23kg : ¥100<br>
+                    &emsp;スニーカーランドリー<br>
+                    &emsp;&emsp;洗濯 : ¥200<br>
+                    &emsp;&emsp;乾燥 : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;<a href="https://www.ciao-net.jp/" target = "_blank">https://www.ciao-net.jp/</a><br>
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1981432,36.6587336</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- コインランドリーすかい 金井田店 -->
+    <Placemark>
+        <name>コインランドリーすかい 金井田店</name>
+        <description>
+            <![CDATA[
+                <b>コインランドリーすかい 金井田店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;5:00〜23:00(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥<br>
+                    &emsp;&emsp;4kg : ¥700<br>
+                    &emsp;&emsp;8kg : ¥900<br>
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;12kg : ¥600<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;8kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1595727,36.58195020000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ブルースカイランドリー 若里店 -->
+    <Placemark>
+        <name>ブルースカイランドリー 若里店</name>
+        <description>
+            <![CDATA[
+                <b>ブルースカイランドリー 若里店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;24時間営業<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;10kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br> 
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;27kg : ¥1,000<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                    &emsp;洗濯機<br>
+                    &emsp;&emsp;11kg : ¥400<br>
+                    &emsp;&emsp;20kg : ¥700<br>
+                    &emsp;&emsp;28kg : ¥1,000<br>
+                    &emsp;乾燥機<br>
+                    &emsp;&emsp;16kg : ¥100<br>
+                    &emsp;&emsp;30kg : ¥100<br>
+                    &emsp;スニーカー<br>
+                    &emsp;&emsp;洗濯 : ¥200<br>
+                    &emsp;&emsp;乾燥 : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;<a href="https://www.bsl-web.co.jp/" target = "_blank">https://www.bsl-web.co.jp/</a><br>
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1876807,36.6326092</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- せんたくウサギチェーン長野上松店 -->
+    <Placemark>
+        <name>せんたくウサギチェーン長野上松店</name>
+        <description>
+            <![CDATA[
+                <b>せんたくウサギチェーン長野上松店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;24時間営業(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;10kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;12kg : ¥500<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯機<br>
+                    &emsp;&emsp;11kg : ¥400<br>
+                    &emsp;&emsp;20kg : ¥600<br>
+                    &emsp;&emsp;28kg : ¥800<br>
+                    &emsp;乾燥機<br>
+                    &emsp;&emsp;16kg : ¥100<br>
+                    &emsp;&emsp;30kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2000101,36.6752809</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- あゆちゃんランドリー -->
+    <Placemark>
+        <name>あゆちゃんランドリー</name>
+        <description>
+            <![CDATA[
+                <b>あゆちゃんランドリー</b><br>
+                <b>営業時間</b><br>
+                    &emsp; 6:00〜21:00(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;スニーカー
+                    &emsp;洗濯 : ¥200
+                    &emsp;+乾燥 : ¥100<br> 
+                <b>ホームページ</b><br>
+                &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1425696,36.7066013</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- LAUNDRY SUN2(ランドリーサンサン）北長野駅店 -->
+    <Placemark>
+        <name>LAUNDRY SUN2(ランドリーサンサン)北長野駅店</name>
+        <description>
+            <![CDATA[
+                <b>LAUNDRY SUN2(ランドリーサンサン）北長野駅店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;5:00〜24:00<br> 
+                <b>料金設定</b><br>
+                    &emsp;大型洗濯乾燥機<br>
+                    &emsp;&emsp;15kg : ¥1,300<br>
+                    &emsp;&emsp;22kg : ¥1,800<br>
+                    &emsp;大型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;32kg : ¥1,200<br>
+                    &emsp;大型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;22kg : ¥100<br>
+                    &emsp;中型洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;中型洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;中型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥1,000<br>
+                    &emsp;中型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                    &emsp;小型洗濯乾燥機<br>
+                    &emsp;&emsp;5kg : ¥700<br>
+                    &emsp;&emsp;8kg : ¥900<br>
+                    &emsp;小型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;14kg : ¥500<br>
+                    &emsp;小型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;8kg : ¥100<br>
+                    &emsp;洗濯機<br>
+                    &emsp;&emsp;14kg : ¥500<br>
+                <b>ホームページ</b><br>
+                &emsp;<a href="https://sun2.info/" target = "_blank">https://sun2.info/</a><br>
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2224059,36.6650453</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- コインランドリーふわり 朝陽店（ハローコール） -->
+    <Placemark>
+        <name>コインランドリーふわり 朝陽店（ハローコール）</name>
+        <description>
+            <![CDATA[
+                <b>コインランドリーふわり 朝陽店（ハローコール）</b><br>
+                <b>営業時間</b><br>
+                    &emsp; 5:00〜24:00<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;&emsp;22kg : ¥1,600<br>
+                    &emsp;(台風19号時、被災地応援活動として全自動洗濯乾燥機を半額料金で営業)<br> 
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.24261,36.667157</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- LAUNDRY SUN2(ランドリーサンサン）中越店 -->
+    <Placemark>
+        <name>LAUNDRY SUN2(ランドリーサンサン)中越店</name>
+        <description>
+            <![CDATA[
+                <b>LAUNDRY SUN2(ランドリーサンサン）中越店</b><br>
+                <b>営業時間</b><br>
+                &emsp; 5:00〜24:00<br> 
+                <b>料金設定</b><br>
+                    &emsp;大型洗濯乾燥機<br>
+                    &emsp;&emsp;15kg : ¥1,300<br>
+                    &emsp;&emsp;22kg : ¥1,800<br>
+                    &emsp;大型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;32kg : ¥1,200<br>
+                    &emsp;大型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;22kg : ¥100<br>
+                    &emsp;中型洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;中型洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;中型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥1,000<br>
+                    &emsp;中型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                    &emsp;小型洗濯乾燥機<br>
+                    &emsp;&emsp;5kg : ¥700<br>
+                    &emsp;&emsp;8kg : ¥900<br>
+                    &emsp;小型洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;14kg : ¥500<br>
+                    &emsp;小型洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;8kg : ¥100<br>
+                    &emsp;洗濯機<br>
+                    &emsp;&emsp;14kg : ¥500<br>
+                <b>ホームページ</b><br>
+                &emsp;<a href="https://sun2.info/" target = "_blank">https://sun2.info/</a><br>
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2192797,36.6593162</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- しゃぼん長野高田店 -->
+    <Placemark>
+        <name>しゃぼん長野高田店</name>
+        <description>
+            <![CDATA[
+                <b>しゃぼん長野高田店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;24時間営業<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br>
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.208558,36.641862</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- コインランドリーらくーん南長野店 -->
+    <Placemark>
+        <name>コインランドリーらくーん南長野店</name>
+        <description>
+            <![CDATA[
+                <b>コインランドリーらくーん南長野店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;24時間営業<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br> 
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1695194,36.6037747</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- コインランドリーらくーん長野北店 -->
+    <Placemark>
+        <name>コインランドリーらくーん長野北店</name>
+        <description>
+            <![CDATA[
+                <b>コインランドリーらくーん長野北店</b><br>
+                <b>営業時間</b><br>
+                &emsp;24時間営業<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br> 
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2102112,36.6763012</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- しゃぼん長野稲里２号店 -->
+    <Placemark>
+        <name>しゃぼん長野稲里２号店</name>
+        <description>
+            <![CDATA[
+                <b>しゃぼん長野稲里２号店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;--<br> 
+                <b>料金設定</b><br>
+                    &emsp;--<br> 
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1833721,36.61085310000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ニューライフ・ランドリー 徳間店 -->
+    <Placemark>
+        <name>ニューライフ・ランドリー 徳間店</name>
+        <description>
+            <![CDATA[
+                <b>ニューライフ・ランドリー 徳間店</b><br>
+                <b>営業時間</b><br>
+                    &emsp;6:00〜24:00(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br> 
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                <b>ホームページ</b><br>
+                    &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2318607,36.67513940000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ニューライフ・ランドリー 居町店 -->
+    <Placemark>
+        <name>ニューライフ・ランドリー 居町店</name>
+        <description>
+            <![CDATA[
+                <b>ニューライフ・ランドリー 居町店</b><br>
+                <b>営業時間</b><br>
+                &emsp;6:00〜24:00(年中無休)<br> 
+                <b>料金設定</b><br>
+                    &emsp;洗濯乾燥機<br>
+                    &emsp;&emsp;8kg : ¥1,000<br>
+                    &emsp;&emsp;15kg : ¥1,200<br> 
+                    &emsp;洗濯乾燥機(洗濯のみ)<br>
+                    &emsp;&emsp;22kg : ¥900<br>
+                    &emsp;洗濯乾燥機(乾燥のみ)<br>
+                    &emsp;&emsp;15kg : ¥100<br>
+                <b>ホームページ</b><br>
+                &emsp;<a href="http://laundry-system.com/2000039/" target = "_blank">http://laundry-system.com/2000039/</a><br>
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1996562,36.6489315</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>Laundry</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+    </Document>
+</kml>

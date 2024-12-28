@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>TestData</name>
+
+        <!-- テストデータ(長野市役所)-->
+        <Placemark>
+            <name>長野市役所</name>
+            <description><![CDATA[(Testdata)長野市役所]]></description>
+            <Point>
+                <coordinates>138.19494,36.648735</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>TestData</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

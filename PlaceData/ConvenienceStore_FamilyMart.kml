@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>ConvenienceStore_FamilyMart</name>
+
+        <!-- ファミリーマート 長野大豆島店 -->
+        <Placemark>
+            <name>ファミリーマート 長野大豆島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野大豆島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.235,36.62737</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野大豆島店-->
+        <Placemark>
+            <name>ファミリーマート 長野大豆島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野大豆島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.235,36.62737</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野若槻大通り店-->
+        <Placemark>
+            <name>ファミリーマート 長野若槻大通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野若槻大通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22076,36.68023</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野東和田店-->
+        <Placemark>
+            <name>ファミリーマート 長野東和田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野東和田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2227,36.65068</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野三輪荒屋店-->
+        <Placemark>
+            <name>ファミリーマート 長野三輪荒屋店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野三輪荒屋店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20753,36.65374</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート  長野若里一丁目店-->
+        <Placemark>
+            <name>ファミリーマート  長野若里一丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート  長野若里一丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18504,36.63218</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野伊勢宮店-->
+        <Placemark>
+            <name>ファミリーマート 長野伊勢宮店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野伊勢宮店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.16923,36.62861</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野中氷鉋店-->
+        <Placemark>
+            <name>ファミリーマート 長野中氷鉋店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野中氷鉋店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17029,36.6106</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野水沢上庭店-->
+        <Placemark>
+            <name>ファミリーマート 長野水沢上庭店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野水沢上庭店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17582,36.5817</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野川中島御厨店-->
+        <Placemark>
+            <name>ファミリーマート 長野川中島御厨店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野川中島御厨店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.16187,36.5917</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野中越1丁目店-->
+        <Placemark>
+            <name>ファミリーマート 長野中越1丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野中越1丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22047,36.65951</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野松代店-->
+        <Placemark>
+            <name>ファミリーマート 長野松代店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野松代店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;--<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20006,36.56227</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート  長野駅東口店-->
+        <Placemark>
+            <name>ファミリーマート  長野駅東口店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート  長野駅東口店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19278,36.64216</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野中御所4丁目-->
+        <Placemark>
+            <name>ファミリーマート 長野中御所4丁目</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野中御所4丁目</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18153,36.63569</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野中御所4丁目-->
+        <Placemark>
+            <name>ファミリーマート 長野中御所4丁目</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野中御所4丁目</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.10588,36.54285</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野早苗町店-->
+        <Placemark>
+            <name>ファミリーマート 長野早苗町店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート長野早苗町店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19811,36.65098</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野平林店-->
+        <Placemark>
+            <name>ファミリーマート 長野平林店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野平林店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21511,36.65227</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野真島店-->
+        <Placemark>
+            <name>ファミリーマート 長野真島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野真島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21329,36.60783</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野SBC通り店-->
+        <Placemark>
+            <name>ファミリーマート 長野SBC通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野SBC通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21028,36.67028</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野風間店-->
+        <Placemark>
+            <name>ファミリーマート 長野風間店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野風間店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22776,36.63588</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野栗田店-->
+        <Placemark>
+            <name>ファミリーマート 長野栗田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野栗田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19112,36.6391</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野サンロード店-->
+        <Placemark>
+            <name>ファミリーマート 長野サンロード店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野サンロード店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.22559,36.67516</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野中央通り店-->
+        <Placemark>
+            <name>ファミリーマート 長野中央通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野中央通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18725,36.64766</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野吉田店-->
+        <Placemark>
+            <name>ファミリーマート 長野吉田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野吉田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21533,36.66934</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野居町店-->
+        <Placemark>
+            <name>ファミリーマート 長野居町店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野居町店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19991,36.64893</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野宇木店-->
+        <Placemark>
+            <name>ファミリーマート 長野宇木店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野宇木店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20395,36.66915</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野東通り店-->
+        <Placemark>
+            <name>ファミリーマート 長野東通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野東通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20002,36.63665</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野松岡店-->
+        <Placemark>
+            <name>ファミリーマート 長野松岡店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野松岡店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21547,36.62591</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野篠ノ井布施高田店-->
+        <Placemark>
+            <name>ファミリーマート 長野篠ノ井布施高田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野篠ノ井布施高田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.1445,36.5769</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート  長野アップルライン店-->
+        <Placemark>
+            <name>ファミリーマート  長野アップルライン店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート  長野アップルライン店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.28661,36.70951</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野五分一店-->
+        <Placemark>
+            <name>ファミリーマート 長野五分一店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野五分一店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21214,36.64622</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野若穂綿内店-->
+        <Placemark>
+            <name>ファミリーマート 長野若穂綿内店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野若穂綿内店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2571,36.62298</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野伊勢宮1丁目店-->
+        <Placemark>
+            <name>ファミリーマート 長野伊勢宮1丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野伊勢宮1丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17228,36.63352</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野里島店-->
+        <Placemark>
+            <name>ファミリーマート 長野里島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野里島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.15449,36.58142</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野芹田店-->
+        <Placemark>
+            <name>ファミリーマート 長野芹田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野芹田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;--<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.1987,36.63258</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野木工団地店-->
+        <Placemark>
+            <name>ファミリーマート 長野木工団地店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野木工団地店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.23809,36.64436</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野大通り店-->
+        <Placemark>
+            <name>ファミリーマート 長野大通り店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野大通り店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19224,36.65117</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野川合新田店-->
+        <Placemark>
+            <name>ファミリーマート 長野川合新田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野川合新田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;--<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20135,36.62536</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野屋島店-->
+        <Placemark>
+            <name>ファミリーマート 長野屋島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野屋島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.24443,36.64228</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野合戦場-->
+        <Placemark>
+            <name>ファミリーマート 長野合戦場</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野合戦場</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.15766,36.57739</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野上高田店-->
+        <Placemark>
+            <name>ファミリーマート 長野上高田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野上高田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.21261,36.63947</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野安茂里店-->
+        <Placemark>
+            <name>ファミリーマート 長野安茂里店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野安茂里店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.14759,36.62337</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野駅前店-->
+        <Placemark>
+            <name>ファミリーマート 長野駅前店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野駅前店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.1876,36.64397</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野若里店-->
+        <Placemark>
+            <name>ファミリーマート 長野若里店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野若里店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.19407,36.62847</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野しののい店-->
+        <Placemark>
+            <name>ファミリーマート 長野しののい店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野しののい店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;--<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.14075,36.56719</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+
+        <!-- ファミリーマート 長野高田店-->
+        <Placemark>
+            <name>ファミリーマート 長野高田店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野高田店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2058,36.6428</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+
+        <!-- ファミリーマート 長野吉田4丁目店-->
+        <Placemark>
+            <name>ファミリーマート 長野吉田4丁目店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野吉田4丁目店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.2275,36.66645</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+
+        <!-- ファミリーマート 篠ノ井杵淵店-->
+        <Placemark>
+            <name>ファミリーマート 篠ノ井杵淵店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 篠ノ井杵淵店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.18344,36.5824</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+
+        <!-- ファミリーマート 長野小島店-->
+        <Placemark>
+            <name>ファミリーマート 長野小島店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野小島店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.25768,36.66504</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+
+        <!-- ファミリーマート 長野下氷鉋店-->
+        <Placemark>
+            <name>ファミリーマート 長野下氷鉋店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野下氷鉋店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.17938,36.61153</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野松代町東条店-->
+        <Placemark>
+            <name>ファミリーマート 長野松代町東条店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野松代町東条店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.20637,36.5564</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ファミリーマート 長野北長池店-->
+        <Placemark>
+            <name>ファミリーマート 長野北長池店</name>
+            <description>
+                <![CDATA[
+                    <b>ファミリーマート 長野北長池店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・緊急支援物資の提供<br>
+                        &emsp;・被災地の復旧活動<br>
+                        &emsp;・小型発電機等の配置<br>
+                        &emsp;・「SEMA」(物資・サービス等の支援を行う緊急災害対応アライアンス)(※)<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                ]]></description>
+            <Point>
+                <coordinates>138.24218,36.65167</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>ConvenienceStore_FamilyMart</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+    </Document>
+</kml>

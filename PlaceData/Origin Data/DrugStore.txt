@@ -1,0 +1,1835 @@
+    <!-- マツモトキヨシ 安茂里店 -->
+    <Placemark>
+        <name>マツモトキヨシ 安茂里店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 安茂里店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.161698,36.630417</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ　長野MIDORI店 -->
+    <Placemark>
+        <name>マツモトキヨシ　長野MIDORI店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ　長野MIDORI店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 10:00～20:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; ・d Wi-Fi
+・au Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1888573,36.6434909</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 南長野運動公園店 -->
+    <Placemark>
+        <name>マツモトキヨシ 南長野運動公園店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 南長野運動公園店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1802309,36.5813838</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ しののい店 -->
+    <Placemark>
+        <name>マツモトキヨシ しののい店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ しののい店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.154152,36.57395559999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野若槻大通り店 -->
+    <Placemark>
+        <name>ウエルシア長野若槻大通り店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野若槻大通り店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2204132,36.67957689999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 三輪店 -->
+    <Placemark>
+        <name>マツモトキヨシ 三輪店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 三輪店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.21153,36.65904</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 長野南店 -->
+    <Placemark>
+        <name>マツモトキヨシ 長野南店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 長野南店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～20:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1726076,36.6042958</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野若穂店 -->
+    <Placemark>
+        <name>ウエルシア長野若穂店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野若穂店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 24時間営業<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2706997,36.6324058</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ファミリードラッグ 松代店 -->
+    <Placemark>
+        <name>ファミリードラッグ 松代店</name>
+        <description>
+            <![CDATA[
+            <b>ファミリードラッグ 松代店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～20:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.197758,36.57015020000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野三輪店 -->
+    <Placemark>
+        <name>ウエルシア長野三輪店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野三輪店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 24時間営業<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1964361,36.6586063</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野川中島店 -->
+    <Placemark>
+        <name>ウエルシア長野川中島店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野川中島店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1703015,36.60982829999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野大豆島店 -->
+    <Placemark>
+        <name>ウエルシア長野大豆島店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野大豆島店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.238611,36.6297845</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野篠ノ井小森店 -->
+    <Placemark>
+        <name>ウエルシア長野篠ノ井小森店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野篠ノ井小森店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1530503,36.5758584</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ウエルシア長野篠ノ井布施高田店 -->
+    <Placemark>
+        <name>ウエルシア長野篠ノ井布施高田店</name>
+        <description>
+            <![CDATA[
+            <b>ウエルシア長野篠ノ井布施高田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.welcia-yakkyoku.co.jp">https://www.welcia-yakkyoku.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.147299,36.5817017</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ　上松店 -->
+    <Placemark>
+        <name>マツモトキヨシ　上松店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ　上松店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; ・d Wi-Fi
+・au Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.19419,36.6687723</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 徳間店 -->
+    <Placemark>
+        <name>マツモトキヨシ 徳間店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 徳間店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～18:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2285378,36.6759563</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 稲田店 -->
+    <Placemark>
+        <name>マツモトキヨシ 稲田店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 稲田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:30～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2244511,36.6757022</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 東和田店 -->
+    <Placemark>
+        <name>マツモトキヨシ 東和田店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 東和田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:30～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp; d Wi-Fi<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2216061,36.65463500000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ ケーズタウン若里店 -->
+    <Placemark>
+        <name>マツモトキヨシ ケーズタウン若里店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ ケーズタウン若里店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 10:00～20:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1964324,36.631424</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ 長野栗田店 -->
+    <Placemark>
+        <name>マツモトキヨシ 長野栗田店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ 長野栗田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1917868,36.6382711</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マツモトキヨシ石堂町店 -->
+    <Placemark>
+        <name>マツモトキヨシ石堂町店</name>
+        <description>
+            <![CDATA[
+            <b>マツモトキヨシ石堂町店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 10:00～20:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.matsukiyo.co.jp">https://www.matsukiyo.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1869695,36.64575249999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クオール北長野薬局 -->
+    <Placemark>
+        <name>クオール北長野薬局</name>
+        <description>
+            <![CDATA[
+            <b>クオール北長野薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:30～17:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2211079,36.6665509</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- さくら薬局 長野東口店 -->
+    <Placemark>
+        <name>さくら薬局 長野東口店</name>
+        <description>
+            <![CDATA[
+            <b>さくら薬局 長野東口店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 月・火・水・金　8:00～19:00
+木・土　8:00～17:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kraft-net.co.jp/">https://www.kraft-net.co.jp/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1879106,36.6396622</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- さくら薬局長野桜枝町店 -->
+    <Placemark>
+        <name>さくら薬局長野桜枝町店</name>
+        <description>
+            <![CDATA[
+            <b>さくら薬局長野桜枝町店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　9:00～13:30
+土曜以外　9:00～18:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kraft-net.co.jp/">https://www.kraft-net.co.jp/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1813725,36.6587822</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- まゆみだ薬局 -->
+    <Placemark>
+        <name>まゆみだ薬局</name>
+        <description>
+            <![CDATA[
+            <b>まゆみだ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　8:30～17:00
+土曜以外　8:30～19:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.209208,36.67707900000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- さゆり薬局 -->
+    <Placemark>
+        <name>さゆり薬局</name>
+        <description>
+            <![CDATA[
+            <b>さゆり薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 	土曜日　8:30～15:00
+土曜以外　8:30～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2207931,36.6852958</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- 松代モリキ薬局 -->
+    <Placemark>
+        <name>松代モリキ薬局</name>
+        <description>
+            <![CDATA[
+            <b>松代モリキ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　8:45～13:00
+土曜以外　8:45～18:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/">http://www.moriki-group.info/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2003332,36.5632738</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- 湯谷ひとみ薬局 -->
+    <Placemark>
+        <name>湯谷ひとみ薬局</name>
+        <description>
+            <![CDATA[
+            <b>湯谷ひとみ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　8:30～13:00
+土曜以外　8:30～18:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.202695,36.676132</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- 長池ひとみ薬局 -->
+    <Placemark>
+        <name>長池ひとみ薬局</name>
+        <description>
+            <![CDATA[
+            <b>長池ひとみ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 	月・火・木・金　8:30～19:00
+水・土　8:30～13:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2354445,36.6478667</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- 川中島ひとみ薬局 -->
+    <Placemark>
+        <name>川中島ひとみ薬局</name>
+        <description>
+            <![CDATA[
+            <b>川中島ひとみ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　8:30～13:30
+土曜以外　8:30～18:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1593384,36.5933407</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- 日詰モリキ薬局 -->
+    <Placemark>
+        <name>日詰モリキ薬局</name>
+        <description>
+            <![CDATA[
+            <b>日詰モリキ薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　9:00～13:00
+土曜以外　9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/">http://www.moriki-group.info/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2125391,36.6360646</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- モリキ薬局まゆみ田店 -->
+    <Placemark>
+        <name>モリキ薬局まゆみ田店</name>
+        <description>
+            <![CDATA[
+            <b>モリキ薬局まゆみ田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　9:00～13:00
+土曜以外　9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2126908,36.6753267</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 大豆島店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 大豆島店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 大豆島店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 24時間営業<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.238601,36.62877399999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 安茂里店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 安茂里店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 安茂里店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 土曜日　9:00～13:30
+土曜以外　9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.158905,36.630356</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 稲葉店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 稲葉店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 稲葉店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2107491,36.6295385</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 石渡店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 石渡店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 石渡店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:30～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.238371,36.659933</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ コスメ店 -->
+    <Placemark>
+        <name>アメリカンドラッグ コスメ店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ コスメ店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1876982,36.64669689999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 長野北長池店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 長野北長池店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 長野北長池店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～0:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2473188,36.6566589</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- コスメ�薬局 -->
+    <Placemark>
+        <name>コスメ�薬局</name>
+        <description>
+            <![CDATA[
+            <b>コスメ�薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 月・火・木・金　8:30～19:00
+水　8:30～18:00
+土　8:30～14:00<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2020742,36.6421072</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグまゆみ田店 -->
+    <Placemark>
+        <name>アメリカンドラッグまゆみ田店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグまゆみ田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～23:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.212691,36.675327</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ アグリ篠ノ井店 -->
+    <Placemark>
+        <name>アメリカンドラッグ アグリ篠ノ井店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ アグリ篠ノ井店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1300783,36.582519</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 柳原店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 柳原店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 柳原店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.257634,36.661136</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 南長野店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 南長野店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 南長野店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1700072,36.6032306</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 長野日詰店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 長野日詰店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 長野日詰店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.212419,36.63641899999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 長野三輪店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 長野三輪店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 長野三輪店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2064676,36.6589874</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 長野豊野店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 長野豊野店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 長野豊野店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.280939,36.7098132</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ ながの東急ライフ店 -->
+    <Placemark>
+        <name>アメリカンドラッグ ながの東急ライフ店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ ながの東急ライフ店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:30～19:30<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2221093,36.66645880000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 長野川中島店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 長野川中島店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 長野川中島店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～23:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1592511,36.6007548</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ長野信州新町店 -->
+    <Placemark>
+        <name>アメリカンドラッグ長野信州新町店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ長野信州新町店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.0077789,36.5694573</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- イナサト象山屋薬局 -->
+    <Placemark>
+        <name>イナサト象山屋薬局</name>
+        <description>
+            <![CDATA[
+            <b>イナサト象山屋薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～19:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1669495,36.6051598</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 伊勢宮店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 伊勢宮店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 伊勢宮店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1736891,36.6291918</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- モリキ伊勢宮薬局 -->
+    <Placemark>
+        <name>モリキ伊勢宮薬局</name>
+        <description>
+            <![CDATA[
+            <b>モリキ伊勢宮薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/">http://www.moriki-group.info/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1736732,36.6292349</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 丹波島店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 丹波島店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 丹波島店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1746085,36.6171944</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 松代店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 松代店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 松代店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2018006,36.572835</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグオワリベ店 -->
+    <Placemark>
+        <name>アメリカンドラッグオワリベ店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグオワリベ店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.228242,36.649509</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- オワリベ象山屋薬局 -->
+    <Placemark>
+        <name>オワリベ象山屋薬局</name>
+        <description>
+            <![CDATA[
+            <b>オワリベ象山屋薬局</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～18:30<br> 
+            <b>定休日</b><br>
+            &emsp; 日曜日<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.228153,36.6494732</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 石渡店 -->
+    <Placemark>
+        <name>クスリのアオキ 石渡店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 石渡店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.243726,36.660844</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 若宮店 -->
+    <Placemark>
+        <name>クスリのアオキ 若宮店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 若宮店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.225653,36.64733200000001</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 三輪東店 -->
+    <Placemark>
+        <name>クスリのアオキ 三輪東店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 三輪東店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2094017,36.6585443</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 中御所店 -->
+    <Placemark>
+        <name>クスリのアオキ 中御所店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 中御所店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.1829402,36.6377319</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- マーシィー稲田薬局『健幸館』 -->
+    <Placemark>
+        <name>マーシィー稲田薬局『健幸館』</name>
+        <description>
+            <![CDATA[
+            <b>マーシィー稲田薬局『健幸館』</b><br>
+            <b>営業時間</b><br>
+            &emsp; 10:00～19:30<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2184432,36.6758265</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 稲葉店 -->
+    <Placemark>
+        <name>クスリのアオキ 稲葉店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 稲葉店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2105227,36.628862</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 三本柳店 -->
+    <Placemark>
+        <name>クスリのアオキ 三本柳店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 三本柳店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.157067,36.616664</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 篠ノ井店 -->
+    <Placemark>
+        <name>クスリのアオキ 篠ノ井店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 篠ノ井店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.140704,36.568046</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 大塚店 -->
+    <Placemark>
+        <name>クスリのアオキ 大塚店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 大塚店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.188103,36.60972599999999</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- ドラッグナカジマ 東和田店 -->
+    <Placemark>
+        <name>ドラッグナカジマ 東和田店</name>
+        <description>
+            <![CDATA[
+            <b>ドラッグナカジマ 東和田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～21:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;--<br> 
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2216191,36.6546399</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 南高田店 -->
+    <Placemark>
+        <name>クスリのアオキ 南高田店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 南高田店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.221787,36.643216</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 稲里店 -->
+    <Placemark>
+        <name>クスリのアオキ 稲里店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 稲里店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.166452,36.608254</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- アメリカンドラッグ 徳間店 -->
+    <Placemark>
+        <name>アメリカンドラッグ 徳間店</name>
+        <description>
+            <![CDATA[
+            <b>アメリカンドラッグ 徳間店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 8:30～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="http://www.moriki-group.info/moriki-groupsearch/group/cat/">http://www.moriki-group.info/moriki-groupsearch/group/cat/</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.2307329,36.6775647</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+
+    <!-- クスリのアオキ 三輪店 -->
+    <Placemark>
+        <name>クスリのアオキ 三輪店</name>
+        <description>
+            <![CDATA[
+            <b>クスリのアオキ 三輪店</b><br>
+            <b>営業時間</b><br>
+            &emsp; 9:00～22:00<br> 
+            <b>定休日</b><br>
+            &emsp;--<br> 
+            <b>ホームページ</b><br>
+            &emsp;<a href="https://www.kusuri-aoki.co.jp">https://www.kusuri-aoki.co.jp</a><br>
+            <b>フリーWi-Fi</b><br>
+            &emsp;--<br> 
+            ]]>
+        </description>
+        <Point>
+            <coordinates>138.204509,36.670244</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="category">
+                <value>DrugStore</value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+

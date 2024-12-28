@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>PhoneShop_docomo</name>
+
+        <!-- ドコモショップ 長野篠ノ井店 -->
+        <Placemark>
+            <name>ドコモショップ 長野篠ノ井店</name>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野篠ノ井店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.15367,36.57523</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ドコモショップ 長野TOiGO店 -->
+        <Placemark>
+            <name>ドコモショップ 長野TOiGO店</name>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野TOiGO店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.18787,36.64982</coordinates>
+            </Point>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+            <!-- ドコモショップ 長野長池店 -->
+        <name>ドコモショップ 長野長池店</name>
+        <Placemark>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野長池店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.2363,36.64206</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ドコモショップ 長野東口店 -->
+        <Placemark>
+            <name>ドコモショップ 長野東口店</name>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野東口店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.19202,36.64323</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ドコモショップ 長野南バイパス店 -->
+        <Placemark>
+            <name>ドコモショップ 長野南バイパス店</name>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野南バイパス店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.17319,36.60331</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- ドコモショップ 長野若槻店 -->
+        <Placemark>
+            <name>ドコモショップ 長野若槻店</name>
+            <description>
+                <![CDATA[
+                    <b>ドコモショップ 長野若槻店</b><br>
+                    <b>災害支援</b><br>
+                        &emsp;・自治体への衛星携帯電話、スマートフォン等携帯端末の貸し出し<br>
+                        &emsp;・無料充電サービスとWi-Fiの提供<br>
+                        &emsp;・支援物資提供<br>
+                        &emsp;・避難所の巡回、御用聞きなどの実施<br>
+                        &emsp;・電動自転車提供<br>
+                        &emsp;・災害時データ無制限モード<br>
+                        &emsp;・帰宅困難者への自社ビル開放<br>
+                    <b>フリーWi-Fi</b><br>
+                        &emsp;d Wi-Fi<br>
+                        &emsp;(SSID : 「0001docomo」または「0000docomo」)<br>
+                    <b>公式 HP</b><br>
+                        &emsp;<a href="https://www.nttdocomo.co.jp/" target="_blank" >https://www.nttdocomo.co.jp/<br>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>138.21699,36.67544</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="category">
+                    <value>PhoneShop_docomo</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

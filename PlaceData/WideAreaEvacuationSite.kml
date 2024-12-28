@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>広域避難場所</name>
+
+        <!--城山公園-->
+        <Placemark>
+            <name>城山公園</name>
+            <description>
+                <![CDATA[
+                <b>城山公園</b><br>
+                <b>洪水等</b> : <br>
+                <b>土砂災害</b> : ○(南東の一部を除く）<br>
+                <b>地震</b> : ○<br>
+                <b>大規模な火事</b> : ○<br>
+                <b>指定避難所</b> : ×
+                ]]>
+            </description>
+            <ExtendedData>
+                <Data name="洪水等">
+                    <value>○</value>
+                </Data>
+                <Data name="土砂災害">
+                    <value>○(南東の一部を除く)</value>
+                </Data>
+                <Data name="地震">
+                    <value>○</value>
+                </Data>
+                <Data name="大規模な火事">
+                    <value>○</value>
+                </Data>
+                <Data name="指定避難所">
+                    <value>×</value>
+                </Data>
+                <Data name="category">
+                    <value>Evacuation_Wide</value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>138.1919798,36.6637902,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <!--長野運動公園総合運動場-->
+        <Placemark>
+            <name>長野運動公園総合運動場</name>
+            <description>
+                <![CDATA[
+                <b>長野運動公園総合運動場</b><br>
+                <b>洪水等</b> : ○(2階以上)<br>
+                <b>土砂災害</b> : ○<br>
+                <b>地震</b> : ○<br>
+                <b>大規模な火事</b> : ○<br>
+                <b>指定避難所</b> : ○
+                ]]>
+            </description>
+            <ExtendedData>
+                <Data name="洪水等">
+                    <value>○(2階以上)</value>
+                </Data>
+                <Data name="土砂災害">
+                    <value>○</value>
+                </Data>
+                <Data name="地震">
+                    <value>○</value>
+                </Data>
+                <Data name="大規模な火事">
+                    <value>○</value>
+                </Data>
+                <Data name="指定避難所">
+                    <value>○</value>
+                </Data>
+                <Data name="category">
+                    <value>Evacuation_Wide</value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>138.2311947,36.6608696</coordinates>
+            </Point>
+        </Placemark>
+
+        <!--南長野運動公園-->
+        <Placemark>
+            <name>南長野運動公園</name>
+            <description>
+                <![CDATA[
+                <b>南長野運動公園</b><br>
+                <b>洪水等</b> : ○(2階以上)<br>
+                <b>土砂災害</b> : ○<br>
+                <b>地震</b> : ○<br>
+                <b>大規模な火事</b> : ○<br>
+                <b>指定避難所</b> : ○
+                ]]>
+            </description>
+            <ExtendedData>
+                <Data name="洪水等">
+                    <value>○(2階以上)</value>
+                </Data>
+                <Data name="土砂災害">
+                    <value>○</value>
+                </Data>
+                <Data name="地震">
+                    <value>○</value>
+                </Data>
+                <Data name="大規模な火事">
+                    <value>○</value>
+                </Data>
+                <Data name="指定避難所">
+                    <value>○</value>
+                </Data>
+                <Data name="category">
+                    <value>Evacuation_Wide</value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>138.1677423,36.5794011</coordinates>
+            </Point>
+        </Placemark>
+
+        <!--長野市立松代中学校-->
+        <Placemark>
+            <name>長野市立松代中学校</name>
+            <description>
+                <![CDATA[
+                <b>長野市立松代中学校</b><br>
+                <b>洪水等</b> : ×<br>
+                <b>土砂災害</b> : ○<br>
+                <b>地震</b> : ○<br>
+                <b>大規模な火事</b> : ○<br>
+                <b>指定避難所</b> : ○
+                ]]>
+            </description>
+            <ExtendedData>
+                <Data name="洪水等">
+                    <value>×</value>
+                </Data>
+                <Data name="土砂災害">
+                    <value>○</value>
+                </Data>
+                <Data name="地震">
+                    <value>○</value>
+                </Data>
+                <Data name="大規模な火事">
+                    <value>○</value>
+                </Data>
+                <Data name="指定避難所">
+                    <value>○</value>
+                </Data>
+                <Data name="category">
+                    <value>Evacuation_Wide</value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>138.1989729,36.567845</coordinates>
+            </Point>
+        </Placemark>
+
+        <!--川中島古戦場史跡公園-->
+        <Placemark>
+            <name>川中島古戦場史跡公園</name>
+            <description>
+                <![CDATA[
+                <b>川中島古戦場史跡公園</b><br>
+                <b>洪水等</b> : ×<br>
+                <b>土砂災害</b> : ○<br>
+                <b>地震</b> : ○<br>
+                <b>大規模な火事</b> : ○<br>
+                <b>指定避難所</b> : ×
+                ]]>
+            </description>
+            <ExtendedData>
+                <Data name="洪水等">
+                    <value>×</value>
+                </Data>
+                <Data name="土砂災害">
+                    <value>○</value>
+                </Data>
+                <Data name="地震">
+                    <value>○</value>
+                </Data>
+                <Data name="大規模な火事">
+                    <value>○</value>
+                </Data>
+                <Data name="指定避難所">
+                    <value>×</value>
+                </Data>
+                <Data name="category">
+                    <value>Evacuation_Wide</value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>138.1879928,36.5900513</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
