@@ -8,7 +8,7 @@
       <description>
           <![CDATA[
               <b>長野市立加茂小学校</b><br>
-              <b>洪水等</b> : ○(グラウンドを除く）<br>
+              <b>洪水等</b> : ○(グラウンドを除く)<br>
               <b>土砂災害</b> : ○<br>
               <b>地震</b> : ○<br>
               <b>大規模な火事</b> : ×<br>
@@ -17,7 +17,7 @@
       </description>
       <ExtendedData>
           <Data name="洪水等" > 
-              <value>○(グラウンドを除く）</value>
+              <value>○(グラウンドを除く)</value>
           </Data>
           <Data name="土砂災害">
               <value>○</value>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>よりよい防災マップ</title>
+    <title>Home - よりよい防災マップ</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,34 +30,128 @@
       font-style: normal;
     }
 
-
     .font_bold {
       font-family: "M PLUS 1p", sans-serif;
       font-weight: 800;
       font-style: normal;
     }
 
+    .navbar-nav {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0;
+      margin: 0 auto;
+      height: 100%;
+    }
+
+    .header_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3b864a;
+      font-size: larger;
+      height: 50px;
+      width: 230px;
+    }
+
+
+    .nav-item {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+    }
+
+    header.site-header {
+      padding: 0;
+      margin: 0;
+    }
+
+    .container-fluid {
+      padding: 0;
+    }
+
+    .navbar {
+      margin: 0;
+      padding: 0;
+    }
+
+    @media (max-width: 1000px) {
+      .site-header-pc{
+          display: none;
+      }
+    }
+
+    @media (max-width: 1100px) {
+        .hooter-pc {
+            display: none !important;
+        }
+    } 
+
+    @media (min-width: 1000px) {
+      .site-header-phone {
+        display: none !important;
+      }
+    }
+
+    .nav-item:hover{
+      background-color: #3b864a;
+    }
+
+    .nav-item:hover .header_button {
+      color: #ffffff;
+    }
+
+    .nav-link {
+      padding: 0;
+    }
+
+    .nav-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #3b864a;
+      z-index: 0;
+    }
+
+    .nav-item:first-child::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #3b864a;
+      z-index: 0;
+    }
+
+    .nav-item:last-child::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #3b864a;
+      z-index: 0;
+    }
 
     .display_map {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
     }
 
     #map { 
-        height: 800px; /* マップの高さ */
-        width: 1000px;  /* マップの幅 */
-        margin: 0 auto; /* マップを中央に配置 */
+      height: 800px; /* マップの高さ */
+      width: 1000px;  /* マップの幅 */
+      margin: 0 auto; /* マップを中央に配置 */
     }
 
-    table, th, td {
-      border: 1px solid black;
-    }
-    table {
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 8px;
-    }
     summary {
       list-style-type: none;
     }
@@ -71,29 +165,233 @@
     summary details[open] summary:before {
       content: "−";
     }
-  
+
+    .footer_link{
+      color:#ffffff;
+      font-size: large;
+    }
+
+
+    .footer_link:hover {
+      color: #7d7d7d;
+    }
+
+    .btn_footer{
+      background-color: #3b864a;
+      color: #ffffff;
+      border-radius:30px;
+      height: 50px;
+      width: 300px;
+      text-decoration:none;
+      color:#ffffff;
+      font-size:larger;
+    }
+
+    .btn_footer:hover{
+      color: #c8cbcb;
+      background-color: #255b2f;
+    }
+
+    a{
+      color: #255b2f;
+    }
+
+    /* サイドメニュー用カスタムスタイル */
+    .offcanvas {
+        background-color: #ffffff;
+    }
+
+    .offcanvas a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .offcanvas a:hover {
+        color: #ddd;
+    }
+
+    .site-header-pc, .site-header-phone {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1050;
+        background-color: white;
+    }
+    .offcanvas-top {
+        top: 50px !important;
+        height: 80vw !important;
+    }
+    .offcanvas-backdrop.show {
+        background: rgba(0, 0, 0, 0.5);
+        top: 80px;
+        height: calc(100% - 80px);
+    }
     </style>
   </head>
 
   <body>
+    <header class="p-0">
+      <div class="site-header-pc">
+        <div class="d-flex align-items-center justify-content-center position-relative">
+          <img src="./Icon/top_icon.png" alt="icon" style="width: 2cm;" class="px-2">
+          <h1 class="font_bold py-2" style="color: #3b864a;">よりよい防災マップ @Web</h1>
+          <h3 class="font_mid position-absolute end-0 me-5 bottom-0" style="color: #3b864a;">長野工業高校</h3>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow pt-4">
+          <div class="container-fluid">
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item" style="background-color: #3b864a;">
+                <a class="nav-link active" aria-current="page" href="./index.html">
+                  <div class="header_button" style="color: #ffffff; width: clamp(10vw,15vw,15vw);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                      <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                    </svg>
+                    <div class="ms-2">Home</div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about.html">
+                  <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                    </svg>
+                    <div class="ms-2" style="font-size: medium; text-align: center;">よりよい防災マップとは</div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./detail.html">
+                  <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                    </svg>
+                    <div class="ms-2" style="font-size: medium; text-align: center;">掲載情報について</div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./howto.html">
+                  <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                    </svg>
+                    <div class="ms-2">使い方</div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./info.html">
+                  <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                    </svg>
+                    <div class="ms-2">お知らせ</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-    <header class="site-header">
-      <h1 class="font_bold py-3 d-flex justify-content-center">よりよい防災マップ @Web</h1>
-      <h2 class="font_mid text-end px-3">長野工業高校 ポヨヨグラム</h2>
+      <div class="site-header-phone">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+          <div class="d-flex align-items-center">
+            <img src="./Icon/top_icon.png" alt="icon" style="width: 15vw;" class="px-2">
+            <h1 class="font_bold py-2" style="color: #3b864a; font-size: 4vw;">よりよい防災マップ @Web</h1>
+            <nav class="navbar navbar-light">
+            <button class="navbar-toggler ms-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="background-color: #3b864a; color: #fff;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </button>
+          </nav>
+          </div>
+          <h3 class="font_mid" style="color: #3b864a; font-size: 3vw;">長野工業高校</h3>
+        </div>
+      </div>
     </header>
+
+    <!-- オフキャンバスメニュー（上から表示） -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+      <div class="offcanvas-body">
+        <a class="active" href="./index.html">
+          <div class="d-flex align-items-center ps-2" style="background-color: #3b864a; color: #ffffff; height: 15vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+            </svg>
+            <div class="ms-2 font" style="font-size: 3vw;">Home</div>
+          </div>
+        </a>
+        <a class="active" href="./about.html">
+          <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+            </svg>
+            <div class="ms-2 font" style="font-size: 3vw;">よりよい防災マップとは</div>
+          </div>
+        </a>
+        <a class="active" href="./detail.html">
+          <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <div class="ms-2 font" style="font-size: 3vw;">掲載情報について</div>
+          </div>
+        </a>
+        <a class="active" href="./howto.html">
+          <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+            </svg>
+            <div class="ms-2 font" style="font-size: 3vw;">使い方</div>
+          </div>
+        </a>
+        <a class="active" href="./info.html">
+          <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+            </svg>
+            <div class="ms-2 font" style="font-size: 3vw;">お知らせ</div>
+          </div>
+        </a>
+      </div>
+    </div>
     
-    <div class="bezel">
+    <div class="bezel pb-3" style="margin-top: clamp(60px, 20vw, 170px);">
       <div class="container">
-        <div class="row font">
+        <div class="row" style="color: #3b864a;">
+          <div class="d-flex align-items-top justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5vw" height="2.5vw" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+            </svg>
+            <h2 class="ps-2 font_bold" style="color: #3b864a; font-size: 2vw;">Home</h2>
+          </div>
+        </div>
+
+        <div class="row font" style="font-size: 1vw;">
             <p>発災時に役立つ情報をまとめた防災マップです。<br>
               各ポイントのアイコンをクリックすることで、詳細な情報を確認することができます。<br>
               チェックボックスをクリックすることで、ピンの表示/非表示を切り替えることができます。<br>
-              ピンの画像は、クリック(タップ)することで拡大表示できます。</p>
+              ピンの画像は、クリック(タップ)することで拡大表示できます。
+            </p>
+            <p>
+              各施設の詳細情報は<a href="./detail.html">コチラ</a>からご覧ください。
+            </p>
         </div>
+        
         <div class="row">
-          <div class="col-3">
+          <!-- マップ -->
+          <div class="col-12 col-lg-9 order-1 order-lg-2 display_map">
+            <div id="map"></div>
+          </div>
+          
+
+          <!-- チェックボックス -->
+          <div class="col-12 col-lg-3 order-2 order-lg-1">
               <!--選択フォーム-->
-              <div class="border border-primary px-3 py-2">
+              <div class="px-3 py-2" style="border: 1px solid #255b2f;">
                 <form name="icon_select_point">
                   <!-- フリーWi-Fi -->
                   <div class="py-1">
@@ -107,85 +405,177 @@
                   </div>
                   <div class="py-1 accordion-body">
                     <!-- 広域避難場所 -->
-                    <input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
                     <label class="form-check-label font" for="DisasterArea_Wide">広域避難場所</label>
+                    <details class="ms-3">
+                      <summary class="font_mid mt-1">さらに絞り込む</summary>
+                      <div class="mt-2">
+                        &emsp;<input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" checked>
+                        <label class="form-check-label font" for="DisasterArea_Wide_Designated">指定避難所</label>
+                      </div>
+                    </details>
                     <!--絞り込み検索(広域避難場所にチェックが入った時のみ表示したい！！！)-->
+                    <script>
+                      function Check_DW() {
+                        var isWideChecked = document.icon_select_point.DisasterArea_Wide.checked;
+                        if (isWideChecked && !kmlLayer_ew) {
+                          // レイヤーが未作成でチェックがONの場合に読み込み
+                          document.getElementById("DisasterArea_Wide_Designated").checked = false;
+                          kmlLayer_ew = omnivore.kml('./PlaceData/WideAreaEvacuationSite.kml').on('ready', function () {
+                              kmlLayer_ew.eachLayer(function (layer) {
+                                  if (layer instanceof L.Marker) {
+                                      var feature = layer.feature; // GeoJSON feature
+                                      var category = feature.properties['category'];
+                                  
+                                      // カテゴリに応じたアイコン設定
+                                      if (category === 'Evacuation_Wide') {
+                                          layer.setIcon(Icon_Evacuation_Wide); // 広域避難場所
+                                      } else {
+                                          layer.setIcon(Icon_Error); // エラー表示
+                                      }
+                                              
+                                      // 広域避難場所リストに追加
+                                      wideMarkers.push(layer);
+                                    
+                                      // 指定避難所かどうかの判定
+                                      if (feature.properties['指定避難所'] === '○') {
+                                          designatedMarkers.push(layer);
+                                      }
+                                    
+                                      // ポップアップを設定
+                                      layer.bindPopup(layer.feature.properties.description);
+                                  }
+                              });
+                            }).addTo(map);
+                          } else if (!isWideChecked && kmlLayer_ew) {
+                              // チェックがOFFの場合、レイヤを削除
+                              map.removeLayer(kmlLayer_ew);
+                              kmlLayer_ew = null; // レイヤを削除したらnullにしておく
+                              wideMarkers = [];
+                              designatedMarkers = [];
+                          
+                              document.getElementById("DisasterArea_Wide_Designated").checked = false;
+                          }
+
+                          // チェックがONの場合、絞り込みを反映
+                          if (isWideChecked) {
+                              Selected();
+                          }
+                      }
+                      function Selected() {
+                          // 広域避難所のチェック状態を確認
+                          var isWideChecked = document.icon_select_point.DisasterArea_Wide.checked;
+                      
+                          // 広域避難所がチェックされていない場合は処理を終了
+                          if (!isWideChecked) {
+                              return;
+                          }
+                        
+                          // 絞り込みチェックボックスの状態取得
+                          var isDesignatedChecked = document.getElementById("DisasterArea_Wide_Designated").checked;
+                        
+                          // すべての広域避難場所マーカーを一旦非表示
+                          wideMarkers.forEach(marker => map.removeLayer(marker));
+                        
+                          if (isDesignatedChecked) {
+                              // 指定避難所のみ表示
+                              designatedMarkers.forEach(marker => marker.addTo(map));
+                          } else {
+                              // 全ての広域避難場所を表示
+                              wideMarkers.forEach(marker => marker.addTo(map));
+                          }
+                      }
+
+                      // 広域避難所チェックボックスのイベントリスナー
+                      document.getElementById("DisasterArea_Wide").addEventListener("change", Check_DW);
+
+                      // 指定避難所チェックボックスのイベントリスナー
+                      document.getElementById("DisasterArea_Wide_Designated").addEventListener("change", Selected);
+                    </script>
                   </div>
                   <!-- 指定緊急避難場所 -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check()" checked>
                     <label class="form-check-label font" for="Evacuation_Designated">指定緊急避難場所</label>
+                    <!--絞り込み検索-->
+                    <details class="ms-3">
+                      <summary class="font_mid mt-1">さらに絞り込む</summary>
+                      <div class="mt-2">
+                        &emsp;<input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide_flood" id="DisasterArea_Wide_flood" onclick="Selected('DisasterArea_Wide_flood')" checked>
+                        <label class="form-check-label font" for="DisasterArea_Wide_Designated">洪水等</label>
+                      </div>
+                    </details>
                   </div>
                   <!-- 薬局・ドラッグストア -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()">
                     <label class="form-check-label font" for="Drugstore">薬局・ドラッグストア</label>
                   </div>
                   <!-- コインランドリー -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="Laundry" id="Laundry" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="Laundry" id="Laundry" onclick="Check()">
                     <label class="form-check-label font" for="Laundry">コインランドリー</label>
                   </div>
                   <!-- 入浴施設 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()">
                     <label class="form-check-label font" for="HotSpring">入浴施設</label>
                   </div>
                   <!-- 公衆トイレ -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()">
                     <label class="form-check-label font" for="PublicToilet">公衆トイレ</label>
                   </div>
                   <!-- 公衆電話 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()">
                     <label class="form-check-label font" for="PublicPhone">公衆電話</label>
                   </div>
                   <!-- コンビニ -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()">
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson">ローソン</label>
                   </div>
                   <!-- 携帯会社 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-0" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()" checked>
+                    <input class="form-check-input mt-0" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()">
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_au">auショップ</label>
                   </div>
                   <!-- docomo -->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_docomo">docomo</label>
                   </div>
                   <!-- softbank -->
                   <div class="px-4">
-                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()" checked>
+                    <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_softbank">softbank</label>
                   </div>
                 </form>
               </div>
               <br>
               <!--災害情報レイヤ-->
-              <div class="border border-primary p-2">
+              <div class="p-2" style="border: 1px solid #255b2f;">
                 <form name="icon_select_layer">
                   <div class="py-1">
                     <!-- 洪水警戒地域 -->
@@ -205,1421 +595,1197 @@
               <div class="font_bold my-2">デバッグモード</div>
               <input class="form-check-input my-1" type="checkbox" name="DebagMode" id="DebagMode" onclick="Debag()" checked>
               <label class="form-check-label font my-1" for="DebagMode">全解除</label>
-
           </div>
-          <!-- マップ -->
-          <div class="col-9 display_map">
-            <div id="map"></div>
-            <script>
-              //Web初期化時にもCheck()を発火
-              //基礎レイヤ追加
-              var map = L.map('map').setView([36.648735,138.19494], 18);
-              var removeMarkers = [];
-              L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-                attribution: '国土地理院'
-              }).addTo(map);
 
-              //フリーWi-Fi追加(初期値：表示)
-              var kmlLayer_wf = omnivore.kml('./PlaceData/Free Wi-Fi.kml').on('ready', function() {
-                  //map.fitBounds(kmlLayer_wf.getBounds()); // KMLの範囲にズーム
-                  kmlLayer_wf.eachLayer(function(layer) {
-                    if (layer instanceof L.Marker) {
-                      var feature = layer.feature; // GeoJSON feature
-                      // ExtendedData内のcategory属性を取得
-                      var category = feature.properties['category'];
-                      if (category === 'FreeWiFi') { //災害ベンダー
-                        layer.setIcon(Icon_WiFi);
-                      }
-                      else {
-                        layer.setIcon(Icon_Error); //エラー表示
-                      }
-
-                      // layerに対してポップアップを設定
-                      layer.bindPopup(layer.feature.properties.description);
-                    }
-                });
-              }).addTo(map);
-
-              //災害ベンダー追加(初期値：表示)
-              var kmlLayer_dv = omnivore.kml('./PlaceData/DisasterVendor.kml').on('ready', function() {
-                  //map.fitBounds(kmlLayer_dv.getBounds()); // KMLの範囲にズーム
-                  kmlLayer_dv.eachLayer(function(layer) {
-                    if (layer instanceof L.Marker) {
-                      var feature = layer.feature; // GeoJSON feature
-                      // ExtendedData内のcategory属性を取得
-                      var category = feature.properties['category'];
-                      if (category === 'Vendor') { //災害ベンダー
-                        layer.setIcon(Icon_Vendor);
-                      }
-                      else {
-                        layer.setIcon(Icon_Error); //エラー表示
-                      }
-
-                      // layerに対してポップアップを設定
-                      layer.bindPopup(layer.feature.properties.description);
-                    }
-                });
-              }).addTo(map);
-
-              //広域避難場所追加(初期値：表示)
-              var kmlLayer_ew = omnivore.kml('./PlaceData/WideAreaEvacuationSite.kml').on('ready', function() {
-                kmlLayer_ew.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'Evacuation_Wide') {
-                      layer.setIcon(Icon_Evacuation_Wide); // 広域避難場所
-                    }
-                    /*else if (category === 'Evacuation_Designated') {
-                      layer.setIcon(Icon_Evacuation_Designated); // 指定緊急避難場所
-                    }*/
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-
-                    if (feature.properties['指定避難所'] === '×') {
-                        removeMarkers.push(layer);
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //指定緊急避難場所追加(初期値：表示)
-              var kmlLayer_de = omnivore.kml('./PlaceData/DesignatedEmergencyEvacuationSite.kml').on('ready', function() {
-                kmlLayer_de.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'Evacuation_Designated') {
-                      layer.setIcon(Icon_Evacuation_Designated); // 指定緊急避難場所
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //薬局・ドラッグストア(初期値：表示)
-              var kmlLayer_ds = omnivore.kml('./PlaceData/DrugStore.kml').on('ready', function() {
-                kmlLayer_ds.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'DrugStore') {
-                      layer.setIcon(Icon_DrugStore); // 指定緊急避難場所
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //コインランドリー(初期値：表示)
-              var kmlLayer_cl = omnivore.kml('PlaceData/Laundry.kml').on('ready', function() {
-                kmlLayer_cl.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'Laundry') {
-                      layer.setIcon(Icon_Laundry); // 指定緊急避難場所
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //入浴施設(初期値：表示)
-              var kmlLayer_hs = omnivore.kml('./PlaceData/HotSpring.kml').on('ready', function() {
-                kmlLayer_hs.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'HotSpring') {
-                      layer.setIcon(Icon_HotSpring); // 指定緊急避難場所
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //公衆トイレ(初期値：表示)
-              var kmlLayer_pt = omnivore.kml('./PlaceData/PublicToilet.kml').on('ready', function() {
-                kmlLayer_pt.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'PublicToilet') {
-                      layer.setIcon(Icon_PublicToilet); //公衆トイレ
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //公衆電話(初期値：表示)
-              var kmlLayer_pp = omnivore.kml('./PlaceData/PublicPhone.kml').on('ready', function() {
-                kmlLayer_pp.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'PublicPhone') {
-                      layer.setIcon(Icon_PublicPhone); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //セブンイレブン(初期値：表示)
-                var kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
-                kmlLayer_cs_se.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'ConvenienceStore_SevenEleven') {
-                      layer.setIcon(Icon_ConvenienceStore_SevenEleven); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //ファミマ(初期値：表示)
-              var kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
-                kmlLayer_cs_fm.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'ConvenienceStore_FamilyMart') {
-                      layer.setIcon(Icon_ConvenienceStore_FamilyMart); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //ローソン(初期値：表示)
-              var kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
-                kmlLayer_cs_l.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'ConvenienceStore_Lawson') {
-                      layer.setIcon(Icon_ConvenienceStore_Lawson); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //auショップ(初期値：表示)
-              var kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
-                kmlLayer_ps_au.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'PhoneShop_au') {
-                      layer.setIcon(Icon_PhoneShop_au); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //docomo(初期値：表示)
-              var kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
-                kmlLayer_ps_dcm.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'PhoneShop_docomo') {
-                      layer.setIcon(Icon_PhoneShop_docomo); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //softbank(初期値：表示)
-              var kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
-                kmlLayer_ps_sb.eachLayer(function(layer) {
-                  if (layer instanceof L.Marker) {
-                    var feature = layer.feature; // GeoJSON feature
-                    // ExtendedData内のcategory属性を取得
-                    var category = feature.properties['category'];
-                    if (category === 'PhoneShop_softbank') {
-                      layer.setIcon(Icon_PhoneShop_softbank); //公衆電話
-                    }
-                    else {
-                      layer.setIcon(Icon_Error); //エラー表示
-                    }
-                    // layerに対してポップアップを設定
-                    layer.bindPopup(layer.feature.properties.description);
-                  }
-                });
-              }).addTo(map);
-
-              //洪水レイヤ
-              var Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
-                opacity: 0.5
-              }).addTo(map);
-
-              var info = L.control({position: 'bottomleft'});
-              info.onAdd = function (map) {
-                  this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-                  this.update();
-                  return this._div;
-              };
-              // method that we will use to update the control based on feature properties passed
-              info.update = function (props) {
-                  this._div.innerHTML = '<img src="./PlaceData/浸水_凡例.png" width="200" height="200">';
-              };
-              info.addTo(map);
-
-              //土砂災害レイヤ
-              var Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
-                opacity: 0.5
-              }).addTo(map);
-
-              //アイコンの設定
-              //フリーWi-Fi
-              var Icon_WiFi = L.icon({
-                iconUrl: './Icon/フリーWi-Fi.png',
-                iconRetinaUrl: './Icon/フリーWi-Fi.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //災害ベンダー
-              var Icon_Vendor = L.icon({
-                iconUrl: './Icon/Disaster Vendor.png',
-                iconRetinaUrl: './Icon/Disaster Vendor.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //広域避難場所
-              var Icon_Evacuation_Wide = L.icon({
-                iconUrl: './Icon/Wide area evacuation site.png',
-                iconRetinaUrl: './Icon/Wide area evacuation site.png',
-                iconSize: [30,30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //指定緊急避難場所
-              var Icon_Evacuation_Designated = L.icon({
-                iconUrl: './Icon/Designated emergency evacuation site.png',
-                iconRetinaUrl: './Icon/Designated emergency evacuation site.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //薬局・ドラッグストア
-              var Icon_DrugStore = L.icon({
-                iconUrl: './Icon/drug store.png',
-                iconRetinaUrl: './Icon/drug store.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //コインランドリー
-              var Icon_Laundry = L.icon({
-                iconUrl: './Icon/コインランドリー.png',
-                iconRetinaUrl: './Icon/コインランドリー.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //入浴施設
-              var Icon_HotSpring = L.icon({
-                iconUrl: './Icon/hot spring.png',
-                iconRetinaUrl: './Icon/hot spring.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //公衆トイレ
-              var Icon_PublicToilet= L.icon({
-                iconUrl: './Icon/restroom.png',
-                iconRetinaUrl: './Icon/restroom.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //公衆電話
-              var Icon_PublicPhone = L.icon({
-                iconUrl: './Icon/phone.png',
-                iconRetinaUrl: './Icon/phone.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //セブンイレブン
-              var Icon_ConvenienceStore_SevenEleven = L.icon({
-                iconUrl: './Icon/convenience.png',
-                iconRetinaUrl: './Icon/convenience.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //ファミリーマート
-              var Icon_ConvenienceStore_FamilyMart = L.icon({
-                iconUrl: './Icon/FamilyMart.png',
-                iconRetinaUrl: './Icon/FamilyMart.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //ローソン
-              var Icon_ConvenienceStore_Lawson = L.icon({
-                iconUrl: './Icon/LAWSON.png',
-                iconRetinaUrl: './Icon/LAWSON.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //auショップ
-                var Icon_PhoneShop_au = L.icon({
-                iconUrl: './Icon/au.png',
-                iconRetinaUrl: './Icon/au.png',
-                iconSize: [50, 30],
-                iconAnchor: [25, 10],
-                popupAnchor: [15, -20]
-              });
-              //docomo
-              var Icon_PhoneShop_docomo = L.icon({
-                iconUrl: './Icon/docomo.png',
-                iconRetinaUrl: './Icon/docomo.png',
-                iconSize: [50, 30],
-                iconAnchor: [25, 10],
-                popupAnchor: [15, -20]
-              });
-              //softbank
-              var Icon_PhoneShop_softbank = L.icon({
-                iconUrl: './Icon/softbank.png',
-                iconRetinaUrl: './Icon/softbank.png',
-                iconSize: [50, 7],
-                iconAnchor: [25, 4],
-                popupAnchor: [20, -3]
-              });
-              
-              
-              //テスト用アイコンデータ
-              var Icon_Test = L.icon({
-                iconUrl: './Icon/Test.png',
-                iconRetinaUrl: './Icon/Test.png',
-                iconSize: [30, 30],
-                iconAnchor: [15, 10],
-                popupAnchor: [0, -20]
-              });
-              //エラー表示用アイコン
-              var Icon_Error= L.icon({
-                iconUrl: './Icon/Error.png',
-                iconRetinaUrl: './Icon/Error.png',
-                iconSize: [100, 100],
-                iconAnchor: [50, 40],
-                popupAnchor: [0, -60]
-              });
-
-
-              function Check(){    
-                //フリーWi-Fi
-                if (document.icon_select_point.WiFi.checked && !kmlLayer_wf) { 
-                  kmlLayer_wf = omnivore.kml('./PlaceData/Free Wi-Fi.kml').on('ready', function() {
-                      kmlLayer_wf.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'FreeWiFi') { //災害ベンダー
-                          layer.setIcon(Icon_WiFi);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.WiFi.checked && kmlLayer_wf) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_wf);
-                  kmlLayer_wf = null; // レイヤを削除したらnullにしておく
-                }
-
-                //災害ベンダー
-                if (document.icon_select_point.vendor.checked && !kmlLayer_dv) { 
-                  kmlLayer_dv = omnivore.kml('./PlaceData/DisasterVendor.kml').on('ready', function() {
-                      kmlLayer_dv.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'Vendor') { //災害ベンダー
-                          layer.setIcon(Icon_Vendor);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.vendor.checked && kmlLayer_dv) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_dv);
-                  kmlLayer_dv = null; // レイヤを削除したらnullにしておく
-                }
-
-                //広域避難場所
-                if (document.icon_select_point.DisasterArea_Wide.checked && !kmlLayer_ew) { 
-                  document.getElementById("DisasterArea_Wide_Designated").checked = true;
-                  kmlLayer_ew = omnivore.kml('./PlaceData/WideAreaEvacuationSite.kml').on('ready', function() {
-                      kmlLayer_ew.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'Evacuation_Wide') {
-                          layer.setIcon(Icon_Evacuation_Wide); // 広域避難場所
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        if (feature.properties['指定避難所'] === '○') {
-                          removeMarkers.push(layer);
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.DisasterArea_Wide.checked && kmlLayer_ew) {
-                  document.getElementById("DisasterArea_Wide_Designated").checked = false;
-                  Selected();
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_ew);
-                  kmlLayer_ew = null; // レイヤを削除したらnullにしておく
-                }
-
-                //指定緊急避難場所
-                if (document.icon_select_point.Evacuation_Designated.checked && !kmlLayer_de) { 
-                  kmlLayer_de = omnivore.kml('./PlaceData/DesignatedEmergencyEvacuationSite.kml').on('ready', function() {
-                      kmlLayer_de.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'Evacuation_Designated') { //指定緊急避難場所
-                          layer.setIcon(Icon_Evacuation_Designated);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.Evacuation_Designated.checked && kmlLayer_de) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_de);
-                  kmlLayer_de = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ドラッグストア
-                if (document.icon_select_point.DrugStore.checked && !kmlLayer_ds) { 
-                  kmlLayer_ds = omnivore.kml('./PlaceData/DrugStore.kml').on('ready', function() {
-                      kmlLayer_ds.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'DrugStore') { //ドラッグストア
-                          layer.setIcon(Icon_DrugStore);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.DrugStore.checked && kmlLayer_ds) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_ds);
-                  kmlLayer_ds = null; // レイヤを削除したらnullにしておく
-                }
-
-                //コインランドリー
-                if (document.icon_select_point.Laundry.checked && !kmlLayer_cl) { 
-                  kmlLayer_cl = omnivore.kml('PlaceData/Laundry.kml').on('ready', function() {
-                      kmlLayer_cl.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'Laundry') { //コインランドリー
-                          layer.setIcon(Icon_Laundry);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.Laundry.checked && kmlLayer_cl) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_cl);
-                  kmlLayer_cl = null; // レイヤを削除したらnullにしておく
-                }
-
-                //入浴施設
-                if (document.icon_select_point.HotSpring.checked && !kmlLayer_hs) { 
-                  kmlLayer_hs = omnivore.kml('./PlaceData/HotSpring.kml').on('ready', function() {
-                      kmlLayer_hs.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'HotSpring') { //コインランドリー
-                          layer.setIcon(Icon_HotSpring);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.HotSpring.checked && kmlLayer_hs) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_hs);
-                  kmlLayer_hs = null; // レイヤを削除したらnullにしておく
-                }
-
-                //公衆トイレ
-                if (document.icon_select_point.PublicToilet.checked && !kmlLayer_pt) { 
-                  kmlLayer_pt = omnivore.kml('./PlaceData/PublicToilet.kml').on('ready', function() {
-                      kmlLayer_pt.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'PublicToilet') { //公衆トイレ
-                          layer.setIcon(Icon_PublicToilet);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.PublicToilet.checked && kmlLayer_pt) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_pt);
-                  kmlLayer_pt = null; // レイヤを削除したらnullにしておく
-                }
-
-                //公衆電話
-                if (document.icon_select_point.PublicPhone.checked && !kmlLayer_pp) { 
-                  kmlLayer_pp = omnivore.kml('./PlaceData/PublicPhone.kml').on('ready', function() {
-                      kmlLayer_pp.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'PublicPhone') { //公衆電話
-                          layer.setIcon(Icon_PublicPhone);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.PublicPhone.checked && kmlLayer_pp) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_pp);
-                  kmlLayer_pp = null; // レイヤを削除したらnullにしておく
-                }
-
-                //セブンイレブン
-                if (document.icon_select_point.ConvenienceStore_SevenEleven.checked && !kmlLayer_cs_se) { 
-                  kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
-                      kmlLayer_cs_se.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'ConvenienceStore_SevenEleven') { //セブンイレブン
-                          layer.setIcon(Icon_ConvenienceStore_SevenEleven);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.ConvenienceStore_SevenEleven.checked && kmlLayer_cs_se) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_cs_se);
-                  kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ファミマ
-                if (document.icon_select_point.ConvenienceStore_FamilyMart.checked && !kmlLayer_cs_fm) { 
-                  kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
-                      kmlLayer_cs_fm.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'ConvenienceStore_FamilyMart') { //ファミマ
-                          layer.setIcon(Icon_ConvenienceStore_FamilyMart);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.ConvenienceStore_FamilyMart.checked && kmlLayer_cs_fm) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_cs_fm);
-                  kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ローソン
-                if (document.icon_select_point.ConvenienceStore_Lawson.checked && !kmlLayer_cs_l) { 
-                  kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
-                      kmlLayer_cs_l.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'ConvenienceStore_Lawson') { //ローソン
-                          layer.setIcon(Icon_ConvenienceStore_Lawson);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.ConvenienceStore_Lawson.checked && kmlLayer_cs_l) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_cs_l);
-                  kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
-                }
-
-                //auショップ
-                if (document.icon_select_point.PhoneShop_au.checked && !kmlLayer_ps_au) { 
-                  kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
-                      kmlLayer_ps_au.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'PhoneShop_au') { //auショップ
-                          layer.setIcon(Icon_PhoneShop_au);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.PhoneShop_au.checked && kmlLayer_ps_au) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_ps_au);
-                  kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
-                }
-
-                //docomo
-                if (document.icon_select_point.PhoneShop_docomo.checked && !kmlLayer_ps_dcm) { 
-                  kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
-                      kmlLayer_ps_dcm.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'PhoneShop_docomo') { //docomo
-                          layer.setIcon(Icon_PhoneShop_docomo);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.PhoneShop_docomo.checked && kmlLayer_ps_dcm) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_ps_dcm);
-                  kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
-                }
-
-                //softbank
-                if (document.icon_select_point.PhoneShop_softbank.checked && !kmlLayer_ps_sb) { 
-                  kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
-                      kmlLayer_ps_sb.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'PhoneShop_softbank') { //softbank
-                          layer.setIcon(Icon_PhoneShop_softbank);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                }else if (!document.icon_select_point.PhoneShop_softbank.checked && kmlLayer_ps_sb) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(kmlLayer_ps_sb);
-                  kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
-                }
-
-                /*タイルレイヤデータ*/
-                //洪水レイヤ
-                if (document.icon_select_layer.Flood.checked && !Layer_flood) { 
-                  Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
-                    opacity: 0.5
-                  }).addTo(map);
-
-                  //凡例画像
-                  info = L.control({position: 'bottomleft'});
-                  info.onAdd = function (map) {
-                      this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-                      this.update();
-                      return this._div;
-                  };
-                  //凡例画像
-                  info.update = function (props) {
-                      this._div.innerHTML = '<img src="./PlaceData/浸水_凡例.png" width="200" height="200">';
-                  };
-                  info.addTo(map);
-                }else if (!document.icon_select_layer.Flood.checked && Layer_flood) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(Layer_flood);
-                  Layer_flood = null; // レイヤを削除したらnullにしておく
-                  map.removeControl(info);
-                  info = null;
-                }
-
-                //土石流レイヤ
-                if (document.icon_select_layer.DebrisFlow.checked && !Layer_DebrisFlow) { 
-                  Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
-                    opacity: 0.5
-                  }).addTo(map);
-                }else if (!document.icon_select_layer.DebrisFlow.checked && Layer_DebrisFlow) {
-                  // チェックボックスがOFFの場合、レイヤを削除
-                  map.removeLayer(Layer_DebrisFlow);
-                  Layer_DebrisFlow = null; // レイヤを削除したらnullにしておく
-                }
-              }
-              
-              function CheckAll(){
-                //コンビニ
-                if (document.icon_select_point.ConvenienceStore.checked) { 
-                  if(!kmlLayer_cs_se){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_SevenEleven").checked = true;
-                    kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
-                      kmlLayer_cs_se.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                        var feature = layer.feature; // GeoJSON feature
-                        // ExtendedData内のcategory属性を取得
-                        var category = feature.properties['category'];
-                        if (category === 'ConvenienceStore_SevenEleven') { //セブンイレブン
-                          layer.setIcon(Icon_ConvenienceStore_SevenEleven);
-                        }
-                        else {
-                          layer.setIcon(Icon_Error); //エラー表示
-                        }
-                        // layerに対してポップアップを設定
-                        layer.bindPopup(layer.feature.properties.description);
-                      }
-                    });
-                  }).addTo(map);
-                  }
-                  if(!kmlLayer_cs_fm){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_FamilyMart").checked = true;
-                    kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
-                      kmlLayer_cs_fm.eachLayer(function(layer) {
-                      if (layer instanceof L.Marker) {
-                          var feature = layer.feature; // GeoJSON feature
-                          // ExtendedData内のcategory属性を取得
-                          var category = feature.properties['category'];
-                          if (category === 'ConvenienceStore_FamilyMart') { //ファミマ
-                            layer.setIcon(Icon_ConvenienceStore_FamilyMart);
-                          }
-                          else {
-                            layer.setIcon(Icon_Error); //エラー表示
-                          }
-                          // layerに対してポップアップを設定
-                          layer.bindPopup(layer.feature.properties.description);
-                        }
-                      });
-                    }).addTo(map);
-                  }
-                  if(!kmlLayer_cs_l){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_Lawson").checked = true;
-                    kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
-                      kmlLayer_cs_l.eachLayer(function(layer) {
-                        if (layer instanceof L.Marker) {
-                          var feature = layer.feature; // GeoJSON feature
-                          // ExtendedData内のcategory属性を取得
-                          var category = feature.properties['category'];
-                          if (category === 'ConvenienceStore_Lawson') { //ローソン
-                            layer.setIcon(Icon_ConvenienceStore_Lawson);
-                          }
-                          else {
-                            layer.setIcon(Icon_Error); //エラー表示
-                          }
-                          // layerに対してポップアップを設定
-                          layer.bindPopup(layer.feature.properties.description);
-                        }
-                      });
-                    }).addTo(map);
-                  }
-                }else if (!document.icon_select_point.ConvenienceStore.checked) {
-                  if(kmlLayer_cs_se){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_SevenEleven").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_cs_se);
-                    kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
-                  }
-                  if(kmlLayer_cs_fm){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_FamilyMart").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_cs_fm);
-                    kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
-                  }
-                  if(kmlLayer_cs_l){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("ConvenienceStore_Lawson").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_cs_l);
-                    kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
-                  }
-                }
-
-                //携帯会社
-                if (document.icon_select_point.PhoneShop.checked) { 
-                  if(!kmlLayer_ps_au){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("PhoneShop_au").checked = true;
-                    kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
-                        kmlLayer_ps_au.eachLayer(function(layer) {
-                        if (layer instanceof L.Marker) {
-                          var feature = layer.feature; // GeoJSON feature
-                          // ExtendedData内のcategory属性を取得
-                          var category = feature.properties['category'];
-                          if (category === 'PhoneShop_au') { //auショップ
-                            layer.setIcon(Icon_PhoneShop_au);
-                          }
-                          else {
-                            layer.setIcon(Icon_Error); //エラー表示
-                          }
-                          // layerに対してポップアップを設定
-                          layer.bindPopup(layer.feature.properties.description);
-                        }
-                      });
-                    }).addTo(map);
-                  }
-                  if(!kmlLayer_ps_dcm){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("PhoneShop_docomo").checked = true;
-                    kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
-                        kmlLayer_ps_dcm.eachLayer(function(layer) {
-                        if (layer instanceof L.Marker) {
-                          var feature = layer.feature; // GeoJSON feature
-                          // ExtendedData内のcategory属性を取得
-                          var category = feature.properties['category'];
-                          if (category === 'PhoneShop_docomo') { //docomo
-                            layer.setIcon(Icon_PhoneShop_docomo);
-                          }
-                          else {
-                            layer.setIcon(Icon_Error); //エラー表示
-                          }
-                          // layerに対してポップアップを設定
-                          layer.bindPopup(layer.feature.properties.description);
-                        }
-                      });
-                    }).addTo(map);
-                  }
-                  if(!kmlLayer_ps_sb){
-                    // チェックボックスのチェックをつける
-                    document.getElementById("PhoneShop_softbank").checked = true;
-                    kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
-                      kmlLayer_ps_sb.eachLayer(function(layer) {
-                        if (layer instanceof L.Marker) {
-                          var feature = layer.feature; // GeoJSON feature
-                          // ExtendedData内のcategory属性を取得
-                          var category = feature.properties['category'];
-                          if (category === 'PhoneShop_softbank') { //softbank
-                            layer.setIcon(Icon_PhoneShop_softbank);
-                          }
-                          else {
-                            layer.setIcon(Icon_Error); //エラー表示
-                          }
-                          // layerに対してポップアップを設定
-                          layer.bindPopup(layer.feature.properties.description);
-                        }
-                      });
-                    }).addTo(map);
-                  }
-                }else if (!document.icon_select_point.PhoneShop.checked) {
-                  if(kmlLayer_ps_au){
-                    // チェックボックスのチェックを外す
-                    document.getElementById("PhoneShop_au").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_ps_au);
-                    kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
-                  }
-                  if(kmlLayer_ps_dcm){
-                    // チェックボックスのチェックを外す
-                    document.getElementById("PhoneShop_docomo").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_ps_dcm);
-                    kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
-                  }
-                  if(kmlLayer_ps_sb){
-                    // チェックボックスのチェックを外す
-                    document.getElementById("PhoneShop_softbank").checked = false;
-                    // チェックボックスがOFFの場合、レイヤを削除
-                    map.removeLayer(kmlLayer_ps_sb);
-                    kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
-                  }
-                }
-              }
-
-              function Selected(){
-                // チェックボックスの状態を取得
-                var isChecked = document.getElementById("DisasterArea_Wide_Designated").checked;
-                if(document.icon_select_point.DisasterArea_Wide.checked){
-                  // チェックが入っている場合、マーカーを表示
-                  if (isChecked) {
-                    removeMarkers.forEach(function(marker) {
-                      marker.addTo(map);
-                    });
-                  } 
-                  // チェックが外れた場合、マーカーを非表示
-                  else {
-                    removeMarkers.forEach(function(marker) {
-                      map.removeLayer(marker);
-                    });
-                  }
-                }
-              }
-            
-              function Debag(){    
-                //フリーWi-Fi
-                if (document.icon_select_point.WiFi.checked && kmlLayer_wf) { 
-                  document.getElementById("WiFi").checked = false;
-                  map.removeLayer(kmlLayer_wf);
-                  kmlLayer_wf = null; // レイヤを削除したらnullにしておく
-                }
-
-                //災害ベンダー
-                if (document.icon_select_point.vendor.checked && kmlLayer_dv) { 
-                  document.getElementById("vendor").checked = false;
-                  map.removeLayer(kmlLayer_dv);
-                  kmlLayer_dv = null; // レイヤを削除したらnullにしておく
-                }
-
-                //広域避難場所
-                if (document.icon_select_point.DisasterArea_Wide.checked && kmlLayer_ew) { 
-                  document.getElementById("DisasterArea_Wide").checked = false;
-                  map.removeLayer(kmlLayer_ew);
-                  kmlLayer_ew = null; // レイヤを削除したらnullにしておく
-                }
-
-                //指定緊急避難場所
-                if (document.icon_select_point.Evacuation_Designated.checked && kmlLayer_de) { 
-                  document.getElementById("Evacuation_Designated").checked = false;
-                  map.removeLayer(kmlLayer_de);
-                  kmlLayer_de = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ドラッグストア
-                if (document.icon_select_point.DrugStore.checked && kmlLayer_ds) {
-                  document.getElementById("DrugStore").checked = false;
-                  map.removeLayer(kmlLayer_ds);
-                  kmlLayer_ds = null; // レイヤを削除したらnullにしておく
-                }
-
-                //コインランドリー
-                if (document.icon_select_point.Laundry.checked && kmlLayer_cl) { 
-                  document.getElementById("Laundry").checked = false;
-                  map.removeLayer(kmlLayer_cl);
-                  kmlLayer_cl = null; // レイヤを削除したらnullにしておく
-                }
-
-                //入浴施設
-                if (document.icon_select_point.HotSpring.checked && kmlLayer_hs) { 
-                  document.getElementById("HotSpring").checked = false;
-                  map.removeLayer(kmlLayer_hs);
-                  kmlLayer_hs = null; // レイヤを削除したらnullにしておく
-                }
-
-                //公衆トイレ
-                if (document.icon_select_point.PublicToilet.checked && kmlLayer_pt) { 
-                  document.getElementById("PublicToilet").checked = false;
-                  map.removeLayer(kmlLayer_pt);
-                  kmlLayer_pt = null; // レイヤを削除したらnullにしておく
-                }
-
-                //公衆電話
-                if (document.icon_select_point.PublicPhone.checked && kmlLayer_pp) { 
-                  document.getElementById("PublicPhone").checked = false;
-                  map.removeLayer(kmlLayer_pp);
-                  kmlLayer_pp = null; // レイヤを削除したらnullにしておく
-                }
-
-                document.getElementById("ConvenienceStore").checked = false;
-
-                //セブンイレブン
-                if (document.icon_select_point.ConvenienceStore_SevenEleven.checked && kmlLayer_cs_se) { 
-                  document.getElementById("ConvenienceStore_SevenEleven").checked = false;
-                  map.removeLayer(kmlLayer_cs_se);
-                  kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ファミマ
-                if (document.icon_select_point.ConvenienceStore_FamilyMart.checked && kmlLayer_cs_fm) { 
-                  document.getElementById("ConvenienceStore_FamilyMart").checked = false;
-                  map.removeLayer(kmlLayer_cs_fm);
-                  kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
-                }
-
-                //ローソン
-                if (document.icon_select_point.ConvenienceStore_Lawson.checked && kmlLayer_cs_l) { 
-                  document.getElementById("ConvenienceStore_Lawson").checked = false;
-                  map.removeLayer(kmlLayer_cs_l);
-                  kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
-                }
-
-                document.getElementById("PhoneShop").checked = false;
-
-                //auショップ
-                if (document.icon_select_point.PhoneShop_au.checked && kmlLayer_ps_au) { 
-                  document.getElementById("PhoneShop_au").checked = false;
-                  map.removeLayer(kmlLayer_ps_au);
-                  kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
-                }
-
-                //docomo
-                if (document.icon_select_point.PhoneShop_docomo.checked && kmlLayer_ps_dcm) { 
-                  document.getElementById("PhoneShop_docomo").checked = false;
-                  map.removeLayer(kmlLayer_ps_dcm);
-                  kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
-                }
-
-                //softbank
-                if (document.icon_select_point.PhoneShop_softbank.checked && kmlLayer_ps_sb) {
-                  document.getElementById("PhoneShop_softbank").checked = false;
-                  map.removeLayer(kmlLayer_ps_sb);
-                  kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
-                }
-              }
-
-            </script>
-          </div>
         </div>
-        <div class="row py-5">
-          <div class="accordion" id="accordionPanelsStayOpenExample">
-            <!-- フリーWi-Fi -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  フリーWi-Fi
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>平常時だけでなく、災害時にもご利用いただけます。<br>
-                  (ご登録されている携帯会社やご利用中のプランによってお使いいただけるフリーWi-Fiは異なりますのでご注意ください)</p>
-                  <details>
-                    <summary class="font_mid"> 詳細</summary>
-                    <table border="1" class="text-center" style="border-collapse: collapse; width: 100%;">
-                      <tr class="bg-info-subtle">
-                        <th>Wi-Fi</th>
-                        <th>対象</th>
-                        <th>SSID</th>
-                        <th>URL</th>
-                      </tr>
-                      <tr>
-                        <td>Nagano City Free Wi-Fi</td>
-                        <td>どなたでも</td>
-                        <td>Nagano_City_Free_Wi-Fi</td>
-                        <td><a href="https://www.city.nagano.nagano.jp/n150800/kanko/p002593.html" target="_blank">https://www.city.nagano.nagano.jp/n150800/kanko/p002593.html</a></td>
-                      </tr>
-                      <tr>
-                        <td>FREESPOT</td>
-                        <td>『FREESPOT』に登録されている方</td>
-                        <td>'freespot' =SecurityPassword(AES)</td>
-                        <td><a href="http://www.freespot.com/" target="_blank">http://www.freespot.com/</a></td>
-                      </tr>
-                      <tr>
-                        <td>au Wi-Fi</td>
-                        <td>auユーザーかつ、特定の料金プランをご利用の方</td>
-                        <td>au_Wi-Fi2</td>
-                        <td><a href="https://www.au.com/mobile/service/wifi/wifi-spot/" target="_blank">https://www.au.com/mobile/service/wifi/wifi-spot/</a></td>
-                      </tr>
-                      <tr>
-                        <td>d Wi-Fi</td>
-                        <td>dポイントクラブ会員</td>
-                        <td>「0001docomo」または「0000docomo」</td>
-                        <td><a href="https://www.nttdocomo.co.jp/service/d_wifi//" target="_blank">https://www.nttdocomo.co.jp/service/d_wifi//</a></td>
-                      </tr>
-                      <tr>
-                        <td>ソフトバンクWi-Fi</td>
-                        <td>ソフトバンクユーザー</td>
-                        <td>「mobilepoint」、「0000softbank」または「0001softbank」</td>
-                        <td><a href="https://www.softbank.jp/mobile/network/wifispot/" target="_blank">https://www.softbank.jp/mobile/network/wifispot/</a></td>
-                      </tr>
-                    </table>
-                  </details>
-                </div>
-              </div>
+      
+
+      </div>
+    </div>
+
+    <footer class="font" style="background-color: #333; color: #ffffff;">
+      <div class="row d-flex justify-content-center align-items-center" style="gap:280px">
+        <div class="col-auto flex-column pt-3">
+          <p class="font_bold mb-0 d-flex justify-content-center" style="font-size:xx-large;">よりよい防災マップ</p>
+          <p class="text-center mb-0 d-flex justify-content-end">長野工業高校</p>
+          <button onclick="location.href='./enquiries.html'" class="m-3 d-flex justify-content-center align-items-center btn_footer">
+            お問い合わせ
+          </button>
+        </div>
+        <div class="col-auto d-flex justify-content-center hooter-pc">
+          <div class="row py-3">
+            <div class="col-auto d-flex flex-column px-5">
+              <a href="./index.html" class="footer_link py-1">HOME</a>
+              <a href="./about.html" class="footer_link py-1">よりよい防災マップとは</a>
+              <a href="./detail.html" class="footer_link py-1">掲載情報について</a>
             </div>
-            <!-- 災害ベンダー -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                  災害ベンダー
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>停電時・災害時に、飲料の無償提供を行う自動販売機です。<br>(諸事情により、非公開となっている箇所もあります)</p>
-                </div>
-              </div>
-            </div>
-            <!-- 広域避難場所-->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
-                  広域避難場所
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>災害の規模が拡大した場所などで、仮設住宅などを建設して長期間にわたり避難者を収容することが可能となる場所です。</p>
-                  <div class="font_mid">さらに絞り込む</div>
-                  <input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" onclick="Selected()" checked>
-                  <label class="form-check-label font" for="DisasterArea_Wide_Designated">指定避難所</label>
-                </div>
-              </div>
-            </div>
-            <!-- 指定緊急避難場所 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
-                  指定緊急避難場所
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>災害時の危険から命を守るために、緊急的に非難する場所です。<br>警戒レベル3以上の避難情報を発令した際に、市が開放します。</p>
-                </div>
-              </div>
-            </div>
-            <!-- 薬局・ドラッグストア -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
-                  薬局・ドラッグストア
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>日用品や食料、医薬品等の購入ができます。</p>
-                </div>
-              </div>
-            </div>
-            <!-- コインランドリー -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
-                  コインランドリー
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>災害時に、割引や無料開放等の災害支援を行っている店舗もあります。</p>
-                  <p>(詳細は各店舗にお問い合わせください)</p>
-                </div>
-              </div>
-            </div>
-            <!-- 入浴施設 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
-                  入浴施設
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>災害時に、割引や無料開放等の災害支援を行っている店舗もあります。</p>
-                  <p>(詳細は各店舗にお問い合わせください)</p>
-                </div>
-              </div>
-            </div>
-            <!-- 公衆トイレ・公衆電話 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
-                  公衆トイレ・公衆電話
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>非常時にもお使いいただけます。</p>
-                </div>
-              </div>
-            </div>
-            <!-- コンビニエンスストア -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
-                  コンビニエンスストア
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>災害時には、物資の支援や充電器の貸し出しなどの災害支援を行っています。避難後の日用品の調達にもご利用いただけます。<br>また、日ごろからフリーWi-Fiをお使いいただけます。</p>
-                  <p>(詳細は各店舗のポイントよりご確認ください)</p>
-                  <a href="https://www.lawson.co.jp/" target="_blank">ローソン公式サイト</a><br>
-                  <a href="https://www.family.co.jp/" target="_blank">ファミリーマート公式サイト</a><br>
-                  &emsp;※「SEMA」(日本国内での大規模自然災害発生時に、民間企業とNPOの連携により企業が持つ物資・サービス等の支援をワンストップで提供する緊急災害対応アライアンス)<br>
-                  <a href="https://www.sej.co.jp/" target="_blank">セブンイレブン公式サイト</a><br>
-                </div>
-              </div>
-            </div>
-            <!-- 携帯会社 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
-                  携帯会社
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <p>充電スポット開放等の災害支援を行っています。</p>
-                  <p>(詳細は各店舗にお問い合わせください)</p>
-                </div>
-              </div>
-            </div>
-            <!-- 関連リンク -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="true" aria-controls="panelsStayOpen-collapseEleven">
-                  防災関連リンク
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse show">
-                <div class="accordion-body font">
-                  <a href="https://twitter.com/BosaiNaganoPref?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">長野県防災@BosaiNaganoPref(長野県公式アカウント)</a><br>
-                  <a href="https://disaportal.gsi.go.jp/maps/?ll=36.64852,138.194833&z=14&base=pale&vs=c1j0l0u0" target="_blank">重ねるハザードマップ(国土地理院)</a><br>
-                  信州防災アプリ(インストール)<br>
-                    &emsp;<a href="https://play.google.com/store/apps/details?id=jp.lg.nagano.pref.naganobousai&hl=ja&gl=US" target="_blank">GooglePlay</a><br>
-                    &emsp;<a href="https://apps.apple.com/jp/app/%E4%BF%A1%E5%B7%9E%E9%98%B2%E7%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id1569769981" target="_blank">Appstore</a>
-                </div>
-              </div>
+            <div class="col-auto d-flex flex-column px-5">
+              <a href="./howto.html" class="footer_link py-1">使い方</a>
+              <a href="./info.html" class="footer_link py-1">お知らせ</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <footer>
-      <p class="px-2 text-end font">©︎ 2025 Haruka Kimura</p>
+      <p class="text-end font px-3">©︎ 2025 Haruka Kimura</p>
     </footer>
   </body>
+
+
+  <script>
+    //基礎レイヤ追加
+    var map = L.map('map').setView([36.648735,138.19494], 18);
+    var removeMarkers = [];
+    L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+      attribution: '国土地理院'
+    }).addTo(map);
+
+    //フリーWi-Fi追加(初期値：表示)
+    var kmlLayer_wf = omnivore.kml('./PlaceData/Free Wi-Fi.kml').on('ready', function() {
+        //map.fitBounds(kmlLayer_wf.getBounds()); // KMLの範囲にズーム
+        kmlLayer_wf.eachLayer(function(layer) {
+          if (layer instanceof L.Marker) {
+            var feature = layer.feature; // GeoJSON feature
+            // ExtendedData内のcategory属性を取得
+            var category = feature.properties['category'];
+            if (category === 'FreeWiFi') { //災害ベンダー
+              layer.setIcon(Icon_WiFi);
+            }
+            else {
+              layer.setIcon(Icon_Error); //エラー表示
+            }
+
+            // layerに対してポップアップを設定
+            layer.bindPopup(layer.feature.properties.description);
+          }
+      });
+    }).addTo(map);
+
+    //災害ベンダー追加(初期値：表示)
+    var kmlLayer_dv = omnivore.kml('./PlaceData/DisasterVendor.kml').on('ready', function() {
+        //map.fitBounds(kmlLayer_dv.getBounds()); // KMLの範囲にズーム
+        kmlLayer_dv.eachLayer(function(layer) {
+          if (layer instanceof L.Marker) {
+            var feature = layer.feature; // GeoJSON feature
+            // ExtendedData内のcategory属性を取得
+            var category = feature.properties['category'];
+            if (category === 'Vendor') { //災害ベンダー
+              layer.setIcon(Icon_Vendor);
+            }
+            else {
+              layer.setIcon(Icon_Error); //エラー表示
+            }
+
+            // layerに対してポップアップを設定
+            layer.bindPopup(layer.feature.properties.description);
+          }
+      });
+    }).addTo(map);
+
+    // マーカー管理用リスト
+    var wideMarkers = []; // 広域避難場所のすべてのマーカー
+    var designatedMarkers = []; // 指定避難所のマーカー（広域避難場所のサブセット）
+    var kmlLayer_ew = omnivore.kml('./PlaceData/WideAreaEvacuationSite.kml').on('ready', function () {
+      kmlLayer_ew.eachLayer(function (layer) {
+          if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              var category = feature.properties['category'];
+
+              // カテゴリに応じたアイコン設定
+              if (category === 'Evacuation_Wide') {
+                  layer.setIcon(Icon_Evacuation_Wide);
+              } else {
+                  layer.setIcon(Icon_Error);
+              }
+
+              // ポップアップ設定
+              layer.bindPopup(layer.feature.properties.description);
+
+              // 広域避難場所リストに追加
+              wideMarkers.push(layer);
+
+              // 指定避難所かどうかの判定
+              if (feature.properties['指定避難所'] === '○') {
+                  designatedMarkers.push(layer);
+              }
+          }
+      });
+    }).addTo(map); // 初期表示
+
+    //指定緊急避難場所追加(初期値：表示)
+    var kmlLayer_de = omnivore.kml('./PlaceData/DesignatedEmergencyEvacuationSite.kml').on('ready', function() {
+      map.fitBounds(kmlLayer_wf.getBounds()); //KMLの範囲にズーム
+      kmlLayer_de.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'Evacuation_Designated') {
+            layer.setIcon(Icon_Evacuation_Designated); // 指定緊急避難場所
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //薬局・ドラッグストア(初期値：表示)
+    var kmlLayer_ds = omnivore.kml('./PlaceData/DrugStore.kml').on('ready', function() {
+      kmlLayer_ds.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'DrugStore') {
+            layer.setIcon(Icon_DrugStore); // 指定緊急避難場所
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //コインランドリー(初期値：表示)
+    var kmlLayer_cl = omnivore.kml('PlaceData/Laundry.kml').on('ready', function() {
+      kmlLayer_cl.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'Laundry') {
+            layer.setIcon(Icon_Laundry); // 指定緊急避難場所
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //入浴施設(初期値：表示)
+    var kmlLayer_hs = omnivore.kml('./PlaceData/HotSpring.kml').on('ready', function() {
+      kmlLayer_hs.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'HotSpring') {
+            layer.setIcon(Icon_HotSpring); // 指定緊急避難場所
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //公衆トイレ(初期値：表示)
+    var kmlLayer_pt = omnivore.kml('./PlaceData/PublicToilet.kml').on('ready', function() {
+      kmlLayer_pt.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'PublicToilet') {
+            layer.setIcon(Icon_PublicToilet); //公衆トイレ
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //公衆電話(初期値：表示)
+    var kmlLayer_pp = omnivore.kml('./PlaceData/PublicPhone.kml').on('ready', function() {
+      kmlLayer_pp.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'PublicPhone') {
+            layer.setIcon(Icon_PublicPhone); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //セブンイレブン(初期値：表示)
+      var kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
+      kmlLayer_cs_se.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'ConvenienceStore_SevenEleven') {
+            layer.setIcon(Icon_ConvenienceStore_SevenEleven); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //ファミマ(初期値：表示)
+    var kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
+      kmlLayer_cs_fm.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'ConvenienceStore_FamilyMart') {
+            layer.setIcon(Icon_ConvenienceStore_FamilyMart); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //ローソン(初期値：表示)
+    var kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
+      kmlLayer_cs_l.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'ConvenienceStore_Lawson') {
+            layer.setIcon(Icon_ConvenienceStore_Lawson); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //auショップ(初期値：表示)
+    var kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
+      kmlLayer_ps_au.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'PhoneShop_au') {
+            layer.setIcon(Icon_PhoneShop_au); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //docomo(初期値：表示)
+    var kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
+      kmlLayer_ps_dcm.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'PhoneShop_docomo') {
+            layer.setIcon(Icon_PhoneShop_docomo); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //softbank(初期値：表示)
+    var kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
+      kmlLayer_ps_sb.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+          var feature = layer.feature; // GeoJSON feature
+          // ExtendedData内のcategory属性を取得
+          var category = feature.properties['category'];
+          if (category === 'PhoneShop_softbank') {
+            layer.setIcon(Icon_PhoneShop_softbank); //公衆電話
+          }
+          else {
+            layer.setIcon(Icon_Error); //エラー表示
+          }
+          // layerに対してポップアップを設定
+          layer.bindPopup(layer.feature.properties.description);
+        }
+      });
+    }).addTo(map);
+
+    //洪水レイヤ
+    var Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
+      opacity: 0.5
+    }).addTo(map);
+
+    var info = L.control({position: 'bottomleft'});
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this.update();
+        return this._div;
+    };
+    // method that we will use to update the control based on feature properties passed
+    info.update = function (props) {
+        this._div.innerHTML = '<img src="./PlaceData/浸水_凡例.png" width="200" height="200">';
+    };
+    info.addTo(map);
+
+    //土砂災害レイヤ
+    var Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
+      opacity: 0.5
+    }).addTo(map);
+
+    //アイコンの設定
+    //フリーWi-Fi
+    var Icon_WiFi = L.icon({
+      iconUrl: './Icon/フリーWi-Fi.png',
+      iconRetinaUrl: './Icon/フリーWi-Fi.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //災害ベンダー
+    var Icon_Vendor = L.icon({
+      iconUrl: './Icon/Disaster Vendor.png',
+      iconRetinaUrl: './Icon/Disaster Vendor.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //広域避難場所
+    var Icon_Evacuation_Wide = L.icon({
+      iconUrl: './Icon/Wide area evacuation site.png',
+      iconRetinaUrl: './Icon/Wide area evacuation site.png',
+      iconSize: [30,30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //指定緊急避難場所
+    var Icon_Evacuation_Designated = L.icon({
+      iconUrl: './Icon/Designated emergency evacuation site.png',
+      iconRetinaUrl: './Icon/Designated emergency evacuation site.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //薬局・ドラッグストア
+    var Icon_DrugStore = L.icon({
+      iconUrl: './Icon/drug store.png',
+      iconRetinaUrl: './Icon/drug store.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //コインランドリー
+    var Icon_Laundry = L.icon({
+      iconUrl: './Icon/コインランドリー.png',
+      iconRetinaUrl: './Icon/コインランドリー.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //入浴施設
+    var Icon_HotSpring = L.icon({
+      iconUrl: './Icon/hot spring.png',
+      iconRetinaUrl: './Icon/hot spring.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //公衆トイレ
+    var Icon_PublicToilet= L.icon({
+      iconUrl: './Icon/restroom.png',
+      iconRetinaUrl: './Icon/restroom.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //公衆電話
+    var Icon_PublicPhone = L.icon({
+      iconUrl: './Icon/phone.png',
+      iconRetinaUrl: './Icon/phone.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //セブンイレブン
+    var Icon_ConvenienceStore_SevenEleven = L.icon({
+      iconUrl: './Icon/convenience.png',
+      iconRetinaUrl: './Icon/convenience.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //ファミリーマート
+    var Icon_ConvenienceStore_FamilyMart = L.icon({
+      iconUrl: './Icon/FamilyMart.png',
+      iconRetinaUrl: './Icon/FamilyMart.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //ローソン
+    var Icon_ConvenienceStore_Lawson = L.icon({
+      iconUrl: './Icon/LAWSON.png',
+      iconRetinaUrl: './Icon/LAWSON.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //auショップ
+      var Icon_PhoneShop_au = L.icon({
+      iconUrl: './Icon/au.png',
+      iconRetinaUrl: './Icon/au.png',
+      iconSize: [50, 30],
+      iconAnchor: [25, 10],
+      popupAnchor: [15, -20]
+    });
+    //docomo
+    var Icon_PhoneShop_docomo = L.icon({
+      iconUrl: './Icon/docomo.png',
+      iconRetinaUrl: './Icon/docomo.png',
+      iconSize: [50, 30],
+      iconAnchor: [25, 10],
+      popupAnchor: [15, -20]
+    });
+    //softbank
+    var Icon_PhoneShop_softbank = L.icon({
+      iconUrl: './Icon/softbank.png',
+      iconRetinaUrl: './Icon/softbank.png',
+      iconSize: [50, 7],
+      iconAnchor: [25, 4],
+      popupAnchor: [20, -3]
+    });
+    
+    
+    //テスト用アイコンデータ
+    var Icon_Test = L.icon({
+      iconUrl: './Icon/Test.png',
+      iconRetinaUrl: './Icon/Test.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 10],
+      popupAnchor: [0, -20]
+    });
+    //エラー表示用アイコン
+    var Icon_Error= L.icon({
+      iconUrl: './Icon/Error.png',
+      iconRetinaUrl: './Icon/Error.png',
+      iconSize: [100, 100],
+      iconAnchor: [50, 40],
+      popupAnchor: [0, -60]
+    });
+
+
+    function Check(){    
+      //フリーWi-Fi
+      if (document.icon_select_point.WiFi.checked && !kmlLayer_wf) { 
+        kmlLayer_wf = omnivore.kml('./PlaceData/Free Wi-Fi.kml').on('ready', function() {
+            kmlLayer_wf.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'FreeWiFi') { //災害ベンダー
+                layer.setIcon(Icon_WiFi);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.WiFi.checked && kmlLayer_wf) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_wf);
+        kmlLayer_wf = null; // レイヤを削除したらnullにしておく
+      }
+
+      //災害ベンダー
+      if (document.icon_select_point.vendor.checked && !kmlLayer_dv) { 
+        kmlLayer_dv = omnivore.kml('./PlaceData/DisasterVendor.kml').on('ready', function() {
+            kmlLayer_dv.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'Vendor') { //災害ベンダー
+                layer.setIcon(Icon_Vendor);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.vendor.checked && kmlLayer_dv) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_dv);
+        kmlLayer_dv = null; // レイヤを削除したらnullにしておく
+      }
+
+      //指定緊急避難場所
+      if (document.icon_select_point.Evacuation_Designated.checked && !kmlLayer_de) { 
+        kmlLayer_de = omnivore.kml('./PlaceData/DesignatedEmergencyEvacuationSite.kml').on('ready', function() {
+            kmlLayer_de.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'Evacuation_Designated') { //指定緊急避難場所
+                layer.setIcon(Icon_Evacuation_Designated);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.Evacuation_Designated.checked && kmlLayer_de) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_de);
+        kmlLayer_de = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ドラッグストア
+      if (document.icon_select_point.DrugStore.checked && !kmlLayer_ds) { 
+        kmlLayer_ds = omnivore.kml('./PlaceData/DrugStore.kml').on('ready', function() {
+            kmlLayer_ds.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'DrugStore') { //ドラッグストア
+                layer.setIcon(Icon_DrugStore);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.DrugStore.checked && kmlLayer_ds) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_ds);
+        kmlLayer_ds = null; // レイヤを削除したらnullにしておく
+      }
+
+      //コインランドリー
+      if (document.icon_select_point.Laundry.checked && !kmlLayer_cl) { 
+        kmlLayer_cl = omnivore.kml('PlaceData/Laundry.kml').on('ready', function() {
+            kmlLayer_cl.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'Laundry') { //コインランドリー
+                layer.setIcon(Icon_Laundry);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.Laundry.checked && kmlLayer_cl) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_cl);
+        kmlLayer_cl = null; // レイヤを削除したらnullにしておく
+      }
+
+      //入浴施設
+      if (document.icon_select_point.HotSpring.checked && !kmlLayer_hs) { 
+        kmlLayer_hs = omnivore.kml('./PlaceData/HotSpring.kml').on('ready', function() {
+            kmlLayer_hs.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'HotSpring') { //コインランドリー
+                layer.setIcon(Icon_HotSpring);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.HotSpring.checked && kmlLayer_hs) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_hs);
+        kmlLayer_hs = null; // レイヤを削除したらnullにしておく
+      }
+
+      //公衆トイレ
+      if (document.icon_select_point.PublicToilet.checked && !kmlLayer_pt) { 
+        kmlLayer_pt = omnivore.kml('./PlaceData/PublicToilet.kml').on('ready', function() {
+            kmlLayer_pt.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'PublicToilet') { //公衆トイレ
+                layer.setIcon(Icon_PublicToilet);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.PublicToilet.checked && kmlLayer_pt) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_pt);
+        kmlLayer_pt = null; // レイヤを削除したらnullにしておく
+      }
+
+      //公衆電話
+      if (document.icon_select_point.PublicPhone.checked && !kmlLayer_pp) { 
+        kmlLayer_pp = omnivore.kml('./PlaceData/PublicPhone.kml').on('ready', function() {
+            kmlLayer_pp.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'PublicPhone') { //公衆電話
+                layer.setIcon(Icon_PublicPhone);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.PublicPhone.checked && kmlLayer_pp) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_pp);
+        kmlLayer_pp = null; // レイヤを削除したらnullにしておく
+      }
+
+      //セブンイレブン
+      if (document.icon_select_point.ConvenienceStore_SevenEleven.checked && !kmlLayer_cs_se) { 
+        kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
+            kmlLayer_cs_se.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'ConvenienceStore_SevenEleven') { //セブンイレブン
+                layer.setIcon(Icon_ConvenienceStore_SevenEleven);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.ConvenienceStore_SevenEleven.checked && kmlLayer_cs_se) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_cs_se);
+        kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ファミマ
+      if (document.icon_select_point.ConvenienceStore_FamilyMart.checked && !kmlLayer_cs_fm) { 
+        kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
+            kmlLayer_cs_fm.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'ConvenienceStore_FamilyMart') { //ファミマ
+                layer.setIcon(Icon_ConvenienceStore_FamilyMart);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.ConvenienceStore_FamilyMart.checked && kmlLayer_cs_fm) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_cs_fm);
+        kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ローソン
+      if (document.icon_select_point.ConvenienceStore_Lawson.checked && !kmlLayer_cs_l) { 
+        kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
+            kmlLayer_cs_l.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'ConvenienceStore_Lawson') { //ローソン
+                layer.setIcon(Icon_ConvenienceStore_Lawson);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.ConvenienceStore_Lawson.checked && kmlLayer_cs_l) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_cs_l);
+        kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
+      }
+
+      //auショップ
+      if (document.icon_select_point.PhoneShop_au.checked && !kmlLayer_ps_au) { 
+        kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
+            kmlLayer_ps_au.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'PhoneShop_au') { //auショップ
+                layer.setIcon(Icon_PhoneShop_au);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.PhoneShop_au.checked && kmlLayer_ps_au) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_ps_au);
+        kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
+      }
+
+      //docomo
+      if (document.icon_select_point.PhoneShop_docomo.checked && !kmlLayer_ps_dcm) { 
+        kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
+            kmlLayer_ps_dcm.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'PhoneShop_docomo') { //docomo
+                layer.setIcon(Icon_PhoneShop_docomo);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.PhoneShop_docomo.checked && kmlLayer_ps_dcm) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_ps_dcm);
+        kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
+      }
+
+      //softbank
+      if (document.icon_select_point.PhoneShop_softbank.checked && !kmlLayer_ps_sb) { 
+        kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
+            kmlLayer_ps_sb.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'PhoneShop_softbank') { //softbank
+                layer.setIcon(Icon_PhoneShop_softbank);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+      }else if (!document.icon_select_point.PhoneShop_softbank.checked && kmlLayer_ps_sb) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(kmlLayer_ps_sb);
+        kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
+      }
+
+      /*タイルレイヤデータ*/
+      //洪水レイヤ
+      if (document.icon_select_layer.Flood.checked && !Layer_flood) { 
+        Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
+          opacity: 0.5
+        }).addTo(map);
+
+        //凡例画像
+        info = L.control({position: 'bottomleft'});
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+            this.update();
+            return this._div;
+        };
+        //凡例画像
+        info.update = function (props) {
+            this._div.innerHTML = '<img src="./PlaceData/浸水_凡例.png" width="200" height="200">';
+        };
+        info.addTo(map);
+      }else if (!document.icon_select_layer.Flood.checked && Layer_flood) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(Layer_flood);
+        Layer_flood = null; // レイヤを削除したらnullにしておく
+        map.removeControl(info);
+        info = null;
+      }
+
+      //土石流レイヤ
+      if (document.icon_select_layer.DebrisFlow.checked && !Layer_DebrisFlow) { 
+        Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
+          opacity: 0.5
+        }).addTo(map);
+      }else if (!document.icon_select_layer.DebrisFlow.checked && Layer_DebrisFlow) {
+        // チェックボックスがOFFの場合、レイヤを削除
+        map.removeLayer(Layer_DebrisFlow);
+        Layer_DebrisFlow = null; // レイヤを削除したらnullにしておく
+      }
+    }
+    
+    function CheckAll(){
+      //コンビニ
+      if (document.icon_select_point.ConvenienceStore.checked) { 
+        if(!kmlLayer_cs_se){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_SevenEleven").checked = true;
+          kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
+            kmlLayer_cs_se.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+              var feature = layer.feature; // GeoJSON feature
+              // ExtendedData内のcategory属性を取得
+              var category = feature.properties['category'];
+              if (category === 'ConvenienceStore_SevenEleven') { //セブンイレブン
+                layer.setIcon(Icon_ConvenienceStore_SevenEleven);
+              }
+              else {
+                layer.setIcon(Icon_Error); //エラー表示
+              }
+              // layerに対してポップアップを設定
+              layer.bindPopup(layer.feature.properties.description);
+            }
+          });
+        }).addTo(map);
+        }
+        if(!kmlLayer_cs_fm){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_FamilyMart").checked = true;
+          kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
+            kmlLayer_cs_fm.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+                var feature = layer.feature; // GeoJSON feature
+                // ExtendedData内のcategory属性を取得
+                var category = feature.properties['category'];
+                if (category === 'ConvenienceStore_FamilyMart') { //ファミマ
+                  layer.setIcon(Icon_ConvenienceStore_FamilyMart);
+                }
+                else {
+                  layer.setIcon(Icon_Error); //エラー表示
+                }
+                // layerに対してポップアップを設定
+                layer.bindPopup(layer.feature.properties.description);
+              }
+            });
+          }).addTo(map);
+        }
+        if(!kmlLayer_cs_l){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_Lawson").checked = true;
+          kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
+            kmlLayer_cs_l.eachLayer(function(layer) {
+              if (layer instanceof L.Marker) {
+                var feature = layer.feature; // GeoJSON feature
+                // ExtendedData内のcategory属性を取得
+                var category = feature.properties['category'];
+                if (category === 'ConvenienceStore_Lawson') { //ローソン
+                  layer.setIcon(Icon_ConvenienceStore_Lawson);
+                }
+                else {
+                  layer.setIcon(Icon_Error); //エラー表示
+                }
+                // layerに対してポップアップを設定
+                layer.bindPopup(layer.feature.properties.description);
+              }
+            });
+          }).addTo(map);
+        }
+      }else if (!document.icon_select_point.ConvenienceStore.checked) {
+        if(kmlLayer_cs_se){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_SevenEleven").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_cs_se);
+          kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
+        }
+        if(kmlLayer_cs_fm){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_FamilyMart").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_cs_fm);
+          kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
+        }
+        if(kmlLayer_cs_l){
+          // チェックボックスのチェックをつける
+          document.getElementById("ConvenienceStore_Lawson").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_cs_l);
+          kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
+        }
+      }
+
+      //携帯会社
+      if (document.icon_select_point.PhoneShop.checked) { 
+        if(!kmlLayer_ps_au){
+          // チェックボックスのチェックをつける
+          document.getElementById("PhoneShop_au").checked = true;
+          kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
+              kmlLayer_ps_au.eachLayer(function(layer) {
+              if (layer instanceof L.Marker) {
+                var feature = layer.feature; // GeoJSON feature
+                // ExtendedData内のcategory属性を取得
+                var category = feature.properties['category'];
+                if (category === 'PhoneShop_au') { //auショップ
+                  layer.setIcon(Icon_PhoneShop_au);
+                }
+                else {
+                  layer.setIcon(Icon_Error); //エラー表示
+                }
+                // layerに対してポップアップを設定
+                layer.bindPopup(layer.feature.properties.description);
+              }
+            });
+          }).addTo(map);
+        }
+        if(!kmlLayer_ps_dcm){
+          // チェックボックスのチェックをつける
+          document.getElementById("PhoneShop_docomo").checked = true;
+          kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
+              kmlLayer_ps_dcm.eachLayer(function(layer) {
+              if (layer instanceof L.Marker) {
+                var feature = layer.feature; // GeoJSON feature
+                // ExtendedData内のcategory属性を取得
+                var category = feature.properties['category'];
+                if (category === 'PhoneShop_docomo') { //docomo
+                  layer.setIcon(Icon_PhoneShop_docomo);
+                }
+                else {
+                  layer.setIcon(Icon_Error); //エラー表示
+                }
+                // layerに対してポップアップを設定
+                layer.bindPopup(layer.feature.properties.description);
+              }
+            });
+          }).addTo(map);
+        }
+        if(!kmlLayer_ps_sb){
+          // チェックボックスのチェックをつける
+          document.getElementById("PhoneShop_softbank").checked = true;
+          kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
+            kmlLayer_ps_sb.eachLayer(function(layer) {
+              if (layer instanceof L.Marker) {
+                var feature = layer.feature; // GeoJSON feature
+                // ExtendedData内のcategory属性を取得
+                var category = feature.properties['category'];
+                if (category === 'PhoneShop_softbank') { //softbank
+                  layer.setIcon(Icon_PhoneShop_softbank);
+                }
+                else {
+                  layer.setIcon(Icon_Error); //エラー表示
+                }
+                // layerに対してポップアップを設定
+                layer.bindPopup(layer.feature.properties.description);
+              }
+            });
+          }).addTo(map);
+        }
+      }else if (!document.icon_select_point.PhoneShop.checked) {
+        if(kmlLayer_ps_au){
+          // チェックボックスのチェックを外す
+          document.getElementById("PhoneShop_au").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_ps_au);
+          kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
+        }
+        if(kmlLayer_ps_dcm){
+          // チェックボックスのチェックを外す
+          document.getElementById("PhoneShop_docomo").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_ps_dcm);
+          kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
+        }
+        if(kmlLayer_ps_sb){
+          // チェックボックスのチェックを外す
+          document.getElementById("PhoneShop_softbank").checked = false;
+          // チェックボックスがOFFの場合、レイヤを削除
+          map.removeLayer(kmlLayer_ps_sb);
+          kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
+        }
+      }
+    }
+
+    function Debag(){    
+      //フリーWi-Fi
+      if (document.icon_select_point.WiFi.checked && kmlLayer_wf) { 
+        document.getElementById("WiFi").checked = false;
+        map.removeLayer(kmlLayer_wf);
+        kmlLayer_wf = null; // レイヤを削除したらnullにしておく
+      }
+
+      //災害ベンダー
+      if (document.icon_select_point.vendor.checked && kmlLayer_dv) { 
+        document.getElementById("vendor").checked = false;
+        map.removeLayer(kmlLayer_dv);
+        kmlLayer_dv = null; // レイヤを削除したらnullにしておく
+      }
+
+      // //広域避難場所
+      // if (document.icon_select_point.DisasterArea_Wide.checked && kmlLayer_ew) { 
+      //   document.getElementById("DisasterArea_Wide").checked = false;
+      //   map.removeLayer(kmlLayer_ew);
+      //   kmlLayer_ew = null; // レイヤを削除したらnullにしておく
+      // }
+
+      //指定緊急避難場所
+      if (document.icon_select_point.Evacuation_Designated.checked && kmlLayer_de) { 
+        document.getElementById("Evacuation_Designated").checked = false;
+        map.removeLayer(kmlLayer_de);
+        kmlLayer_de = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ドラッグストア
+      if (document.icon_select_point.DrugStore.checked && kmlLayer_ds) {
+        document.getElementById("DrugStore").checked = false;
+        map.removeLayer(kmlLayer_ds);
+        kmlLayer_ds = null; // レイヤを削除したらnullにしておく
+      }
+
+      //コインランドリー
+      if (document.icon_select_point.Laundry.checked && kmlLayer_cl) { 
+        document.getElementById("Laundry").checked = false;
+        map.removeLayer(kmlLayer_cl);
+        kmlLayer_cl = null; // レイヤを削除したらnullにしておく
+      }
+
+      //入浴施設
+      if (document.icon_select_point.HotSpring.checked && kmlLayer_hs) { 
+        document.getElementById("HotSpring").checked = false;
+        map.removeLayer(kmlLayer_hs);
+        kmlLayer_hs = null; // レイヤを削除したらnullにしておく
+      }
+
+      //公衆トイレ
+      if (document.icon_select_point.PublicToilet.checked && kmlLayer_pt) { 
+        document.getElementById("PublicToilet").checked = false;
+        map.removeLayer(kmlLayer_pt);
+        kmlLayer_pt = null; // レイヤを削除したらnullにしておく
+      }
+
+      //公衆電話
+      if (document.icon_select_point.PublicPhone.checked && kmlLayer_pp) { 
+        document.getElementById("PublicPhone").checked = false;
+        map.removeLayer(kmlLayer_pp);
+        kmlLayer_pp = null; // レイヤを削除したらnullにしておく
+      }
+
+      document.getElementById("ConvenienceStore").checked = false;
+
+      //セブンイレブン
+      if (document.icon_select_point.ConvenienceStore_SevenEleven.checked && kmlLayer_cs_se) { 
+        document.getElementById("ConvenienceStore_SevenEleven").checked = false;
+        map.removeLayer(kmlLayer_cs_se);
+        kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ファミマ
+      if (document.icon_select_point.ConvenienceStore_FamilyMart.checked && kmlLayer_cs_fm) { 
+        document.getElementById("ConvenienceStore_FamilyMart").checked = false;
+        map.removeLayer(kmlLayer_cs_fm);
+        kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
+      }
+
+      //ローソン
+      if (document.icon_select_point.ConvenienceStore_Lawson.checked && kmlLayer_cs_l) { 
+        document.getElementById("ConvenienceStore_Lawson").checked = false;
+        map.removeLayer(kmlLayer_cs_l);
+        kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
+      }
+
+      document.getElementById("PhoneShop").checked = false;
+
+      //auショップ
+      if (document.icon_select_point.PhoneShop_au.checked && kmlLayer_ps_au) { 
+        document.getElementById("PhoneShop_au").checked = false;
+        map.removeLayer(kmlLayer_ps_au);
+        kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
+      }
+
+      //docomo
+      if (document.icon_select_point.PhoneShop_docomo.checked && kmlLayer_ps_dcm) { 
+        document.getElementById("PhoneShop_docomo").checked = false;
+        map.removeLayer(kmlLayer_ps_dcm);
+        kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
+      }
+
+      //softbank
+      if (document.icon_select_point.PhoneShop_softbank.checked && kmlLayer_ps_sb) {
+        document.getElementById("PhoneShop_softbank").checked = false;
+        map.removeLayer(kmlLayer_ps_sb);
+        kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
+      }
+    }
+
+    //Web初期化時にもCheck()を発火
+    window.ready(Check());
+
+  </script>
 </html>
