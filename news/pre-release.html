@@ -143,77 +143,216 @@
                 background-color: #3b864a;
                 color: #fff;
             }
+
+            @media (max-width: 1000px) {
+                .site-header-pc{
+                    display: none;
+                }
+            }
+        
+            @media (max-width: 1100px) {
+                .hooter-pc {
+                    display: none !important;
+                }
+            } 
+        
+            @media (min-width: 1000px) {
+                .site-header-phone {
+                    display: none !important;
+                }
+            }
+        
+            /* サイドメニュー用カスタムスタイル */
+            .offcanvas {
+                background-color: #ffffff;
+            }
+        
+            .offcanvas a {
+                color: #fff;
+                text-decoration: none;
+            }
+        
+            .offcanvas a:hover {
+                color: #ddd;
+            }
+        
+            .site-header-pc, .site-header-phone {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1050;
+                background-color: white;
+            }
+            .offcanvas-top {
+                top: 50px !important;
+                height: 80vw !important;
+            }
+            .offcanvas-backdrop.show {
+                background: rgba(0, 0, 0, 0.5);
+                top: 80px;
+                height: calc(100% - 80px);
+            }
         </style>
     </head>
 
     <body>
-        <header class="site-header p-0">
-            <div class="d-flex align-items-center justify-content-center position-relative">
+        <header class="p-0">
+            <div class="site-header-pc">
+              <div class="d-flex align-items-center justify-content-center position-relative">
                 <img src="../Icon/top_icon.png" alt="icon" style="width: 2cm;" class="px-2">
                 <h1 class="font_bold py-2" style="color: #3b864a;">よりよい防災マップ @Web</h1>
                 <h3 class="font_mid position-absolute end-0 me-5 bottom-0" style="color: #3b864a;">長野工業高校</h3>
-            </div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary shadow pt-4">
+              </div>
+              <nav class="navbar navbar-expand-lg bg-body-tertiary shadow pt-4">
                 <div class="container-fluid">
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">
-                                <div class="header_button">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-                                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
-                                    </svg>
-                                    <div class="ms-2">Home</div>
-                                </div>                
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../about.html">
-                                <div class="header_button">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
-                                    </svg>
-                                    <div class="ms-2" style="font-size: medium">よりよい防災マップとは</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../detail.html">
-                                <div class="header_button">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                    </svg>
-                                    <div class="ms-2" style="font-size: large;">掲載情報について</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../howto.html">
-                                <div class="header_button">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
-                                    </svg>
-                                    <div class="ms-2">使い方</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item" style="background-color: #3b864a;">
-                            <a class="nav-link active" aria-current="page" href="../info.html">
-                                <div class="header_button" style="color: #ffffff;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-                                    </svg>
-                                    <div class="ms-2">お知らせ</div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+                  <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">
+                        <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                          </svg>
+                          <div class="ms-2">HOME</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../about.html">
+                        <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                          </svg>
+                          <div class="ms-2" style="font-size: medium; text-align: center;">よりよい防災マップとは</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../detail.html">
+                        <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                          </svg>
+                          <div class="ms-2" style="font-size: medium; text-align: center;">掲載情報について</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../howto.html">
+                        <div class="header_button" style="width: clamp(10vw,15vw,15vw);">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                          </svg>
+                          <div class="ms-2">使い方</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item" style="background-color: #3b864a;">
+                      <a class="nav-link active" aria-current="page" href="../info.html">
+                        <div class="header_button" style="color: #ffffff; width: clamp(10vw,15vw,15vw);">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                          </svg>
+                          <div class="ms-2">お知らせ</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-            </nav>
-        </header>
+              </nav>
+            </div>
+            <div class="site-header-phone">
+              <div class="d-flex align-items-center justify-content-center flex-column">
+                <div class="d-flex align-items-end pt-2">
+                  <!-- PC -->
+                  <img src="../Icon/top_icon.png" alt="icon" class="px-2 d-block d-md-none" style="width: 10vw;">
+                  <img src="../Icon/top_icon.png" alt="icon" class="px-2 d-none d-md-block" style="width: 8vw;">
+                  <h1 class="font_bold" style="color: #3b864a; font-size: 4vw;">よりよい防災マップ @Web</h1>
+                  <nav class="navbar navbar-center">
+                  <button class="navbar-toggler ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="background-color: #3b864a; color: #fff;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                  </button>
+                </nav>
+                </div>
+                <h3 class="font_mid" style="color: #3b864a; font-size: 3vw;">長野工業高校</h3>
+              </div>
+            </div>
+          </header>
+
+        <!-- オフキャンバスメニュー（上から表示） -->
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-body">
+                <a class="active" href="../index.html">
+                    <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                        </svg>
+                        <div class="ms-2 font" style="font-size: 3vw;">HOME</div>
+                    </div>
+                </a>
+                <a class="active" href="../about.html">
+                    <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                        </svg>
+                        <div class="ms-2 font" style="font-size: 3vw;">よりよい防災マップとは</div>
+                    </div>
+                </a>
+                <a class="active" href="../detail.html">
+                    <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        <div class="ms-2 font" style="font-size: 3vw;">掲載情報について</div>
+                    </div>
+                </a>
+                <a class="active" href="../howto.html">
+                    <div class="d-flex align-items-center ps-2" style="color: #3b864a; height: 15vw;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                        </svg>
+                        <div class="ms-2 font" style="font-size: 3vw;">使い方</div>
+                    </div>
+                </a>
+                <a class="active" href="../info.html">
+                    <div class="d-flex align-items-center ps-2" style="background-color: #3b864a; color: #ffffff; height: 15vw;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                        </svg>
+                        <div class="ms-2 font" style="font-size: 3vw;">お知らせ</div>
+                    </div>
+                </a>
+            </div>
+        </div>
 
         <div class="bezel">
             <div class="container">
-                <div class="row py-5 font">
+                <!--PC-->
+                <div class="row d-none d-lg-block" style="margin-top: 180px;">
+                    <div class=" pt-4 pb-3 d-flex align-items-center">
+                        <div class="font_bold" style="color: #7d7d7d;">2025-02-01</div>
+                        <div class="d-block ms-3"
+                        style="font-size: medium; width: 120px; padding: 0.5%; border: 1px solid #3b7887; background-color: #3b7887; border-radius: 20px; color: #ffffff; text-align: center;">
+                            ニュース
+                        </div>
+                    </div>
+                    <h2 class="font_bold" style="font-size: xx-large;">「よりよい防災マップ @Web」がリリースされました</h2>
+                    <hr class="mt-5 mb-4">
+                </div>
+                <!--PC未満-->
+                <div class="row d-block d-lg-none" style="margin-top: calc(45px + 8vw);">
+                    <div class=" pt-4 pb-3 d-flex align-items-top">
+                        <div class="font_bold" style="color: #7d7d7d;">2025-02-01</div>
+                        <div class="d-block ms-3"
+                        style="font-size: medium; width: 120px; padding: 0.5%; border: 1px solid #3b7887; background-color: #3b7887; border-radius: 20px; color: #ffffff; text-align: center;">
+                            ニュース
+                        </div>
+                    </div>
+                    <h2 class="font_bold" style="font-size: xx-large;">「よりよい防災マップ @Web」がリリースされました</h2>
+                    <hr class="mt-5 mb-4">
+                </div>
+                <!-- <div class="row py-5 font">
                     <div class=" pt-4 pb-3 d-flex align-items-top">
                         <div class="font_bold" style="color: #7d7d7d;">2025-02-01</div>
                         <div class="d-block ms-3"
@@ -223,7 +362,7 @@
                     </div>
                     <h2 class="font_bold" style="font-size: 2.5vw;">「よりよい防災マップ @Web」がリリースされました</h2>
                     <hr class="mt-5 mb-4">
-                </div>
+                </div> -->
                 <div class="row article font d-flex justify-content-center">
                     <p>
                         平素よりご関心をお寄せいただき、誠にありがとうございます。<br>
@@ -246,7 +385,7 @@
                     </p>
                 </div>
                 <div class="row pt-5 pb-3">
-                    <a href="../info.html" class="d-block return ms-3 py-1" style="width: 8vw; font-size: 1.0vw;">
+                    <a href="../info.html" class="d-block return ms-3 py-1" style="width: 100px; font-size: 15px;">
                         &#9664;&emsp;前へ
                     </a>
                 </div>
@@ -255,28 +394,28 @@
 
         <footer class="font" style="background-color: #333; color: #ffffff;">
             <div class="row d-flex justify-content-center align-items-center" style="gap:280px">
-                <div class="col-auto flex-column pt-3">
-                    <p class="font_bold mb-0 d-flex justify-content-center" style="font-size:xx-large;">よりよい防災マップ</p>
-                    <p class="text-center mb-0 d-flex justify-content-end">長野工業高校</p>
-                    <button onclick="location.href='./enquiries.html'" class="m-3 d-flex justify-content-center align-items-center btn_footer">
-                        お問い合わせ
-                    </button>
+              <div class="col-auto flex-column pt-3">
+                <p class="font_bold mb-0 d-flex justify-content-center" style="font-size:xx-large;">よりよい防災マップ</p>
+                <p class="text-center mb-0 d-flex justify-content-end">長野工業高校</p>
+                <button onclick="location.href='../enquiries.html'" class="m-3 d-flex justify-content-center align-items-center btn_footer">
+                  お問い合わせ
+                </button>
+              </div>
+              <div class="col-auto d-flex justify-content-center hooter-pc">
+                <div class="row py-3">
+                  <div class="col-auto d-flex flex-column px-5">
+                    <a href="../index.html" class="footer_link py-1">HOME</a>
+                    <a href="../about.html" class="footer_link py-1">よりよい防災マップとは</a>
+                    <a href="../detail.html" class="footer_link py-1">掲載情報について</a>
+                  </div>
+                  <div class="col-auto d-flex flex-column px-5">
+                    <a href="../howto.html" class="footer_link py-1">使い方</a>
+                    <a href="../info.html" class="footer_link py-1">お知らせ</a>
+                  </div>
                 </div>
-                <div class="col-auto d-flex justify-content-center">
-                    <div class="row py-3">
-                        <div class="col-auto d-flex flex-column px-5">
-                            <a href="../index.html" class="footer_link py-1">HOME</a>
-                            <a href="../about.html" class="footer_link py-1">よりよい防災マップとは</a>
-                            <a href="../detail.html" class="footer_link py-1">掲載情報について</a>
-                        </div>
-                        <div class="col-auto d-flex flex-column px-5">
-                            <a href="../howto.html" class="footer_link py-1">使い方</a>
-                            <a href="../info.html" class="footer_link py-1">お知らせ</a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
             <p class="text-end font px-3">©︎ 2025 Haruka Kimura</p>
-        </footer>
+          </footer>
     </body>
 </html>
