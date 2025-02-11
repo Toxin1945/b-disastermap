@@ -385,7 +385,7 @@
         <div class="row font pt-5 d-none d-lg-block" style="font-size: 1vw;">
             <p>発災時に役立つ情報をまとめた防災マップです。<br>
               各ポイントのアイコンをクリックすることで、詳細な情報を確認することができます。<br>
-              チェックボックスをクリックすることで、ピンまたはレイヤの表示/非表示を切り替えることができます。<br>
+              チェックボックスをクリックすることで、ピンの表示/非表示を切り替えることができます。<br>
               ピンの画像は、クリック(タップ)することで拡大表示できます。
             </p>
             <p>
@@ -395,7 +395,7 @@
         <div class="row font pt-5 d-block d-lg-none" style="font-size: 1.8vw;">
           <p>発災時に役立つ情報をまとめた防災マップです。<br>
             各ポイントのアイコンをクリックすることで、詳細な情報を確認することができます。<br>
-            チェックボックスをクリックすることで、ピンまたはレイヤの表示/非表示を切り替えることができます。<br>
+            チェックボックスをクリックすることで、ピンの表示/非表示を切り替えることができます。<br>
             ピンの画像は、クリック(タップ)することで拡大表示できます。
           </p>
           <p>
@@ -418,17 +418,17 @@
                   <!-- フリーWi-Fi -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="WiFi" id="WiFi" onclick="Check()" checked>
-                    <label class="form-check-label font" for="WiFi">フリーWi-Fi</label>
+                    <label class="form-check-label font" for="WiFi"><img src="./Icon/フリーWi-Fi.png" alt="フリーWi-Fi_icon" style="width: 1rem;">フリーWi-Fi</label>
                   </div>
                   <!-- 災害ベンダー -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="vendor" id="vendor" onclick="Check()" checked>
-                    <label class="form-check-label font" for="vendor">災害ベンダー</label>
+                    <label class="form-check-label font" for="vendor"><img src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon" style="width: 1rem;">災害ベンダー</label>
                   </div>
                   <div class="py-1 accordion-body">
                     <!-- 広域避難場所 -->
                     <input class="form-check-input mt-0" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
-                    <label class="form-check-label font" for="DisasterArea_Wide">広域避難場所</label>
+                    <label class="form-check-label font" for="DisasterArea_Wide"><img src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon" style="width: 1rem;">広域避難場所</label>
                     <details class="ms-3">
                       <summary class="font_mid mt-1">さらに絞り込む</summary>
                       <div class="mt-2">
@@ -518,7 +518,7 @@
                   <!-- 指定緊急避難場所 -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check()" checked>
-                    <label class="form-check-label font" for="Evacuation_Designated">指定緊急避難場所</label>
+                    <label class="form-check-label font" for="Evacuation_Designated"><img src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon" style="width: 1rem;">指定緊急避難場所</label>
                     <!--絞り込み検索-->
                     <!-- <details class="ms-3">
                       <summary class="font_mid mt-1">さらに絞り込む</summary>
@@ -531,27 +531,27 @@
                   <!-- 薬局・ドラッグストア -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()">
-                    <label class="form-check-label font" for="Drugstore">薬局・ドラッグストア</label>
+                    <label class="form-check-label font" for="Drugstore" style="font-size: 0.8rem;"><img src="./Icon/drug store.png" alt="ドラッグストア_icon" style="width: 1rem;">薬局・ドラッグストア</label>
                   </div>
                   <!-- コインランドリー -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="Laundry" id="Laundry" onclick="Check()">
-                    <label class="form-check-label font" for="Laundry">コインランドリー</label>
+                    <label class="form-check-label font" for="Laundry"><img src="./Icon/coinraundry.png" alt="コインランドリー_icon" style="width: 1rem;">コインランドリー</label>
                   </div>
                   <!-- 入浴施設 -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()">
-                    <label class="form-check-label font" for="HotSpring">入浴施設</label>
+                    <label class="form-check-label font" for="HotSpring"><img src="./Icon/hot spring.png" alt="入浴施設_icon" style="width: 1rem;">入浴施設</label>
                   </div>
                   <!-- 公衆トイレ -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()">
-                    <label class="form-check-label font" for="PublicToilet">公衆トイレ</label>
+                    <label class="form-check-label font" for="PublicToilet"><img src="./Icon/restroom.png" alt="公衆トイレ_icon" style="width: 1rem;">公衆トイレ</label>
                   </div>
                   <!-- 公衆電話 -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()">
-                    <label class="form-check-label font" for="PublicPhone">公衆電話</label>
+                    <label class="form-check-label font" for="PublicPhone"><img src="./Icon/phone.png" alt="公衆電話_icon" style="width: 1rem;">公衆電話</label>
                   </div>
                   <!-- コンビニ -->
                   <div class="py-1">
@@ -561,17 +561,17 @@
                   <!--セブンイレブン-->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
-                    <label class="form-check-label font" for="ConvenienceStore_SevenEleven">セブンイレブン</label>
+                    <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img src="./Icon/convenience.png" alt="セブンイレブン_icon" style="width: 1rem;">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
-                    <label class="form-check-label font" for="ConvenienceStore_FamilyMart">ファミリーマート</label>
+                    <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img src="./Icon/FamilyMart.png" alt="ファミリーマート_icon" style="width: 1rem;">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
-                    <label class="form-check-label font" for="ConvenienceStore_Lawson">ローソン</label>
+                    <label class="form-check-label font" for="ConvenienceStore_Lawson"><img src="./Icon/LAWSON.png" alt="ローソン_icon" style="width: 1rem;">ローソン</label>
                   </div>
                   <!-- 携帯会社 -->
                   <div class="py-1">
@@ -581,17 +581,17 @@
                   <!-- auショップ -->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
-                    <label class="form-check-label font" for="PhoneShop_au">auショップ</label>
+                    <label class="form-check-label font" for="PhoneShop_au"><img src="./Icon/au.png" alt="auショップ_icon" style="width: 1rem;">auショップ</label>
                   </div>
                   <!-- docomo -->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
-                    <label class="form-check-label font" for="PhoneShop_docomo">docomo</label>
+                    <label class="form-check-label font" for="PhoneShop_docomo"><img src="./Icon/docomo.png" alt="docomo_icon" style="width: 1rem;">docomo</label>
                   </div>
                   <!-- softbank -->
                   <div class="px-4">
                     <input class="form-check-input mt-0 px-2" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
-                    <label class="form-check-label font" for="PhoneShop_softbank">softbank</label>
+                    <label class="form-check-label font" for="PhoneShop_softbank"><img src="./Icon/softbank.png" alt="softbank_icon" style="width: 1rem;">softbank</label>
                   </div>
                 </form>
               </div>
@@ -602,12 +602,12 @@
                   <div class="py-1">
                     <!-- 洪水警戒地域 -->
                     <input class="form-check-input mt-0" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
-                    <label class="form-check-label font" for="Flood">洪水浸水想定地域</label>
+                    <label class="form-check-label font" for="Flood">洪水</label>
                   </div>
                 <div class="py-1">
                   <!-- 土砂災害警戒区域(土石流) -->
                   <input class="form-check-input mt-0" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
-                  <label class="form-check-label font" for="DebrisFlow">土砂災害警戒区域</label>
+                  <label class="form-check-label font" for="DebrisFlow">土砂災害</label>
                 </div>
               </form>
               </div>
@@ -618,10 +618,17 @@
               <input class="form-check-input my-1" type="checkbox" name="DebagMode" id="DebagMode" onclick="Debag()" checked>
               <label class="form-check-label font my-1" for="DebagMode">全解除</label> -->
           </div>
-
         </div>
-      
 
+        <div class="row font">
+          <hr>
+          <h2 class="font" style="color: #3b864a;">関連リンク</h2>
+          <p>&emsp;<a href="https://twitter.com/BosaiNaganoPref?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">長野県防災@BosaiNaganoPref(長野県公式アカウント)</a><br></p>
+          <p>&emsp;<a href="https://disaportal.gsi.go.jp/maps/?ll=36.64852,138.194833&z=14&base=pale&vs=c1j0l0u0" target="_blank">重ねるハザードマップ(国土地理院)</a><br></p>
+          <div>&emsp;信州防災アプリ(インストール)<br></div>
+          <div>&emsp;&emsp;<a href="https://play.google.com/store/apps/details?id=jp.lg.nagano.pref.naganobousai&hl=ja&gl=US" target="_blank">GooglePlay</a><br></div>
+          <div>&emsp;&emsp;<a href="https://apps.apple.com/jp/app/%E4%BF%A1%E5%B7%9E%E9%98%B2%E7%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id1569769981" target="_blank">Appstore</a></div>
+        </div>
       </div>
     </div>
 
@@ -1027,8 +1034,8 @@
     });
     //コインランドリー
     var Icon_Laundry = L.icon({
-      iconUrl: 'https://github.com/Toxin1945/b-disastermap/blob/main/Icon/coinraundry.png?raw=true',
-      iconRetinaUrl: 'https://github.com/Toxin1945/b-disastermap/blob/main/Icon/coinraundry.png?raw=true',
+      iconUrl: './Icon/コインランドリー.png',
+      iconRetinaUrl: './Icon/コインランドリー.png',
       iconSize: [30, 30],
       iconAnchor: [15, 10],
       popupAnchor: [0, -20]
