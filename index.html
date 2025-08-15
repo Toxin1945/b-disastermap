@@ -20,6 +20,10 @@
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js">c</script>
     <style type="text/css">
 
+    .bezel{
+      min-width: 100%;
+    }
+
     .navbar-nav {
       display: flex;
       align-items: flex-end;
@@ -62,13 +66,13 @@
       padding: 0;
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 999px) {
       .site-header-pc{
           display: none;
       }
     }
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1000px) {
         .hooter-pc {
             display: none !important;
         }
@@ -452,9 +456,9 @@
           </p>
       </div>
         
-        <div class="row d-flex flex-nowrap" style="width: 95%;">
+        <div class="row d-flex flex-nowrap">
           <!-- マップ -->
-          <div class="order-2 display_map flex-grow-1" style="max-width:80%">
+          <div class="order-2 display_map flex-grow-1" style="width:20%">
             <div id="map"></div>
           </div>
 
@@ -680,7 +684,7 @@
       </div>
     </div>
 
-    <footer class="font" style="background-color: #333; color: #ffffff;">
+    <footer class="font" style="width:100%; background-color: #333; color: #ffffff;">
       <div class="row d-flex justify-content-center align-items-center" style="gap:280px">
         <div class="col-auto flex-column pt-3">
           <p class="font_bold mb-0 d-flex justify-content-center" style="font-size:xx-large;">よりよい防災マップ</p>
