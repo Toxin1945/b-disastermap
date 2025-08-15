@@ -5,6 +5,8 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link href="./style.css" rel="stylesheet">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -17,24 +19,6 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js">c</script>
     <style type="text/css">
-
-    .font {
-      font-family: "M PLUS 1p", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-
-    .font_mid {
-      font-family: "M PLUS 1p", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-
-    .font_bold {
-      font-family: "M PLUS 1p", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-    }
 
     .navbar-nav {
       display: flex;
@@ -418,7 +402,7 @@
                   <!-- フリーWi-Fi -->
                   <div class="py-1">
                     <input class="form-check-input mt-0" type="checkbox" name="WiFi" id="WiFi" onclick="Check()" checked>
-                    <label class="form-check-label font" for="WiFi"><img src="./Icon/フリーWi-Fi.png" alt="フリーWi-Fi_icon" style="width: 1rem;">フリーWi-Fi</label>
+                    <label class="form-check-label font" for="WiFi"><img src="./Icon/FreeWi-Fi.png" alt="FreeWi-Fi_icon" style="width: 1rem;">フリーWi-Fi</label>
                   </div>
                   <!-- 災害ベンダー -->
                   <div class="py-1">
@@ -982,7 +966,7 @@
     };
     // method that we will use to update the control based on feature properties passed
     info.update = function (props) {
-        this._div.innerHTML = '<img src="./PlaceData/" wi水dth="200" height="200">';
+        this._div.innerHTML = '<img src="./PlaceData/Immersion_GeneralRules.png" width="200" height="200">';
     };
     info.addTo(map);
 
@@ -994,8 +978,8 @@
     //アイコンの設定
     //フリーWi-Fi
     var Icon_WiFi = L.icon({
-      iconUrl: './Icon/フリーWi-Fi.png',
-      iconRetinaUrl: './Icon/フリーWi-Fi.png',
+      iconUrl: './Icon/FreeWi-Fi.png',
+      iconRetinaUrl: './Icon/FreeWi-Fi.png',
       iconSize: [30, 30],
       iconAnchor: [15, 10],
       popupAnchor: [0, -20]
@@ -1034,8 +1018,8 @@
     });
     //コインランドリー
     var Icon_Laundry = L.icon({
-      iconUrl: './Icon/コインランドリー.png',
-      iconRetinaUrl: './Icon/コインランドリー.png',
+      iconUrl: './Icon/coinraundry.png',
+      iconRetinaUrl: './Icon/coinraundry.png',
       iconSize: [30, 30],
       iconAnchor: [15, 10],
       popupAnchor: [0, -20]
