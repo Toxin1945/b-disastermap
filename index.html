@@ -217,17 +217,18 @@
       padding: 0;
     }
 
-    #map{
-      min-width: 60vw;
+    @media (max-width: 999px) {
+      #map{
+        min-width: 70%;
+      }
+    }
+    @media (min-width: 1000px) {
+      #map{
+        width: 70vw;
+      }
     }
 
     /*絞り込み欄*/
-    .display_checkboxes{
-      min-width:35vw;
-    }
-    .display_checkboxes{
-      min-width:40vw;
-    }
     @media (max-width: 999px) {
       .display_checkboxes{
         width: 150px;
