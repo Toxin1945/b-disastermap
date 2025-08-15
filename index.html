@@ -129,14 +129,6 @@
       z-index: 0;
     }
 
-    .display_map {
-      display: flex;
-      justify-content: flex-start;
-      padding: 0;
-      min-width: 55vw;
-    }
-
-
     @media (min-width: 1000px) {
       .txt-more-narrow-down{
         font-size: 15px;
@@ -219,11 +211,20 @@
         height: calc(100% - 80px);
     }
 
-    .display_checkboxes{
-      min-width:38%;
+    .display_map {
+      display: flex;
+      justify-content: flex-start;
+      padding: 0;
+    }
+
+    #map{
+      min-width: 60vw;
     }
 
     /*絞り込み欄*/
+    .display_checkboxes{
+      min-width:35vw;
+    }
     .display_checkboxes{
       min-width:40vw;
     }
