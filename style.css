@@ -1,0 +1,17 @@
+.font {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font_mid {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font_bold {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
