@@ -211,17 +211,71 @@
         height: calc(100% - 80px);
     }
 
-    .form-check-input{
-      font-size: clamp(10px, 2vw, 15px);
+    /*絞り込み欄*/
+    @media (max-width: 999px) {
+      .display_checkboxes{
+        max-width:225px;
+      }
     }
-    
-    .form-check-label{
-      font-size: clamp(10px, 2vw, 15px);
+    @media (min-width: 1000px) {
+      .display_checkboxes{
+        max-width:260px;
+      }
     }
 
-    .form-check-icon{
-      width: clamp(0.4rem,1rem,1rem);
+    /*チェックボックスサイズ*/
+    @media (max-width: 999px) {
+      .form-check-input{
+        margin-top: 10px;
+        font-size: 12px;
+      }
     }
+    @media (min-width: 1000px) {
+      .form-check-input{
+        font-size: 15px;
+      }
+    }
+
+    /*チェックボックスラベル*/
+    @media (max-width: 999px) {
+      .form-check-label{
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 1000px) {
+      .form-check-label{
+        font-size: 15px;
+      }
+    }
+
+    /*チェックボックスアイコン*/
+    .form-check-icon{
+      margin-right: 3px;
+    }
+    @media (max-width: 999px) {
+      .form-check-icon{
+        width: 15px;
+      }
+    }
+    @media (min-width: 1000px) {
+      .form-check-icon{
+        width: 20px;
+      }
+    }
+
+    /*さらに絞り込む*/
+    @media (max-width: 999px) {
+      .txt-more-narrow-down{
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 1000px) {
+      .txt-more-narrow-down{
+        font-size: 15px;
+      }
+    }
+
+
     </style>
   </head>
 
@@ -398,33 +452,33 @@
           </p>
       </div>
         
-        <div class="row d-flex flex-nowrap">
+        <div class="row d-flex flex-nowrap" style="width: 95%;">
           <!-- マップ -->
           <div class="order-2 display_map flex-grow-1" style="max-width:80%">
             <div id="map"></div>
           </div>
 
           <!-- チェックボックス -->
-          <div class="order-1" style="width: 50px;">
+          <div class="order-1 display_checkboxes">
               <!--選択フォーム-->
-              <div class="ps-3 py-2" style="border: 1px solid #255b2f;">
+              <div class="ps-2 py-2" style="border: 1px solid #255b2f;">
                 <form name="icon_select_point">
                   <!-- フリーWi-Fi -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="WiFi" id="WiFi" onclick="Check()" checked>
+                    <input class="form-check-input" type="checkbox" name="WiFi" id="WiFi" onclick="Check()" checked>
                     <label class="form-check-label font" for="WiFi"><img class="form-check-icon" src="./Icon/FreeWi-Fi.png" alt="FreeWi-Fi_icon">フリーWi-Fi</label>
                   </div>
                   <!-- 災害ベンダー -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="vendor" id="vendor" onclick="Check()" checked>
+                    <input class="form-check-input" type="checkbox" name="vendor" id="vendor" onclick="Check()" checked>
                     <label class="form-check-label font" for="vendor"><img class="form-check-icon" src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon">災害ベンダー</label>
                   </div>
                   <div class="py-1 accordion-body">
                     <!-- 広域避難場所 -->
-                    <input class="form-check-input mt-1" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
+                    <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
                     <label class="form-check-label font" for="DisasterArea_Wide"><img class="form-check-icon" src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon">広域避難場所</label>
                     <details class="ms-3">
-                      <summary class="font_mid mt-1" style="font-size: clamp(8px, 2vw, 15px);">さらに絞り込む</summary>
+                      <summary class="font_mid txt-more-narrow-down">さらに絞り込む</summary>
                       <div class="mt-2">
                         &emsp;<input class="form-check-input mt-1" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" checked>
                         <label class="form-check-label font" for="DisasterArea_Wide_Designated">指定避難所</label>
@@ -511,7 +565,7 @@
                   </div>
                   <!-- 指定緊急避難場所 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check()" checked>
+                    <input class="form-check-input type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check()" checked>
                     <label class="form-check-label font" for="Evacuation_Designated"><img class="form-check-icon" src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon">指定緊急避難場所</label>
                     <!--絞り込み検索-->
                     <!-- <details class="ms-3">
@@ -524,83 +578,83 @@
                   </div>
                   <!-- 薬局・ドラッグストア -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()">
                     <label class="form-check-label font" for="Drugstore"><img class="form-check-icon" src="./Icon/drug store.png" alt="ドラッグストア_icon">薬局・ドラッグストア</label>
                   </div>
                   <!-- コインランドリー -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="Laundry" id="Laundry" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Laundry" id="Laundry" onclick="Check()">
                     <label class="form-check-label font" for="Laundry"><img class="form-check-icon" src="./Icon/coinraundry.png" alt="コインランドリー_icon">コインランドリー</label>
                   </div>
                   <!-- 入浴施設 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()">
                     <label class="form-check-label font" for="HotSpring"><img class="form-check-icon" src="./Icon/hot spring.png" alt="入浴施設_icon">入浴施設</label>
                   </div>
                   <!-- 公衆トイレ -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()">
                     <label class="form-check-label font" for="PublicToilet"><img class="form-check-icon" src="./Icon/restroom.png" alt="公衆トイレ_icon">公衆トイレ</label>
                   </div>
                   <!-- 公衆電話 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()">
                     <label class="form-check-label font" for="PublicPhone"><img class="form-check-icon" src="./Icon/phone.png" alt="公衆電話_icon">公衆電話</label>
                   </div>
                   <!-- コンビニ -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()">
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img class="form-check-icon" src="./Icon/convenience.png" alt="セブンイレブン_icon">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img class="form-check-icon" src="./Icon/FamilyMart.png" alt="ファミリーマート_icon">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson"><img class="form-check-icon" src="./Icon/LAWSON.png" alt="ローソン_icon">ローソン</label>
                   </div>
                   <!-- 携帯会社 -->
                   <div class="py-1">
-                    <input class="form-check-input mt-1" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()">
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_au"><img class="form-check-icon" src="./Icon/au.png" alt="auショップ_icon">auショップ</label>
                   </div>
                   <!-- docomo -->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_docomo"><img class="form-check-icon" src="./Icon/docomo.png" alt="docomo_icon">docomo</label>
                   </div>
                   <!-- softbank -->
                   <div class="px-4">
-                    <input class="form-check-input mt-1 px-2" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_softbank"><img class="form-check-icon" src="./Icon/softbank.png" alt="softbank_icon">softbank</label>
                   </div>
                 </form>
               </div>
               <br>
               <!--災害情報レイヤ-->
-              <div class="p-2" style="border: 1px solid #255b2f;">
+              <div class="ps-2" style="border: 1px solid #255b2f;">
                 <form name="icon_select_layer">
                   <div class="py-1">
                     <!-- 洪水警戒地域 -->
-                    <input class="form-check-input mt-0" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
+                    <input class="form-check-input mt-2" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
                     <label class="form-check-label font" for="Flood">洪水</label>
                   </div>
                 <div class="py-1">
                   <!-- 土砂災害警戒区域(土石流) -->
-                  <input class="form-check-input mt-0" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
+                  <input class="form-check-input mt-2" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
                   <label class="form-check-label font" for="DebrisFlow">土砂災害</label>
                 </div>
               </form>
