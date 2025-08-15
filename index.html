@@ -233,7 +233,7 @@
     /*絞り込み欄*/
     @media (max-width: 999px) {
       .display_checkboxes{
-        max-width:200px;
+        max-width:160px;
       }
     }
     @media (min-width: 1000px) {
@@ -255,13 +255,29 @@
     /*チェックボックスサイズ*/
     @media (max-width: 999px) {
       .form-check-input{
-        margin-top: 8px;
-        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 10px;
       }
     }
     @media (min-width: 1000px) {
       .form-check-input{
         font-size: 15px;
+      }
+    }
+    
+    /*チェックボックスアイコン*/
+    .form-check-icon{
+      margin-right: 2px;
+    }
+    @media (max-width: 999px) {
+      .form-check-icon{
+        width: 10px;
+      }
+    }
+    @media (min-width: 1000px) {
+      .form-check-icon{
+        width: 20px;
       }
     }
 
@@ -277,20 +293,6 @@
       }
     }
 
-    /*チェックボックスアイコン*/
-    .form-check-icon{
-      margin-right: 3px;
-    }
-    @media (max-width: 999px) {
-      .form-check-icon{
-        width: 12px;
-      }
-    }
-    @media (min-width: 1000px) {
-      .form-check-icon{
-        width: 20px;
-      }
-    }
 
     /*さらに絞り込む*/
     @media (max-width: 999px) {
@@ -636,17 +638,17 @@
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img class="form-check-icon" src="./Icon/convenience.png" alt="セブンイレブン_icon">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img class="form-check-icon" src="./Icon/FamilyMart.png" alt="ファミリーマート_icon">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson"><img class="form-check-icon" src="./Icon/LAWSON.png" alt="ローソン_icon">ローソン</label>
                   </div>
@@ -656,17 +658,17 @@
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_au"><img class="form-check-icon" src="./Icon/au.png" alt="auショップ_icon">auショップ</label>
                   </div>
                   <!-- docomo -->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_docomo"><img class="form-check-icon" src="./Icon/docomo.png" alt="docomo_icon">docomo</label>
                   </div>
                   <!-- softbank -->
-                  <div class="px-4">
+                  <div class="px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_softbank"><img class="form-check-icon" src="./Icon/softbank.png" alt="softbank_icon">softbank</label>
                   </div>
