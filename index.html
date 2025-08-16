@@ -185,30 +185,30 @@
     }
 
     .offcanvas a {
-        color: #fff;
-        text-decoration: none;
+      color: #fff;
+      text-decoration: none;
     }
 
     .offcanvas a:hover {
-        color: #ddd;
+      color: #ddd;
     }
 
     .site-header-pc, .site-header-phone {
-        position: fixed;
-        top: 0;
-        width: 100vw;
-        z-index: 1050;
-        background-color: white;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      z-index: 1050;
+      background-color: white;
     }
 
     .offcanvas-top {
-        top: 50px !important;
-        height: 80vw !important;
+      top: 50px !important;
+      height: 80vw !important;
     }
     .offcanvas-backdrop.show {
-        background: rgba(0, 0, 0, 0.5);
-        top: 80px;
-        height: calc(100% - 80px);
+      background: rgba(0, 0, 0, 0.5);
+      top: 80px;
+      height: calc(100% - 80px);
     }
 
     .display_map {
@@ -241,8 +241,9 @@
     }
 
     .div-checkbox{
-        margin-top:0;
-        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        margin-top:5px;
       }
     @media (min-width: 1000px){
       .div-checkbox{
@@ -253,7 +254,6 @@
     /*チェックボックスサイズ*/
     @media (max-width: 999px) {
       .form-check-input{
-        margin-top: 10px;
         margin-bottom: 0;
         font-size: 10px;
       }
@@ -265,21 +265,24 @@
     }
     
     /*チェックボックスアイコン*/
-    .form-check-icon{
-      margin-right: 2px;
-    }
     @media (max-width: 999px) {
       .form-check-icon{
         width: 10px;
+        margin-right: 2px;
       }
     }
     @media (min-width: 1000px) {
       .form-check-icon{
         width: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
       }
     }
 
     /*チェックボックスラベル*/
+    .form-check-label{
+      margin-left: 5px;
+      }
     @media (max-width: 999px) {
       .form-check-label{
         font-size: 8px;
@@ -505,14 +508,16 @@
                     <input class="form-check-input" type="checkbox" name="vendor" id="vendor" onclick="Check()" checked>
                     <label class="form-check-label font" for="vendor"><img class="form-check-icon" src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon">災害ベンダー</label>
                   </div>
-                  <div class="div-checkbox accordion-body">
+                  <div class="accordion-body">
                     <!-- 広域避難場所 -->
-                    <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
-                    <label class="form-check-label font" for="DisasterArea_Wide"><img class="form-check-icon" src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon">広域避難場所</label>
+                    <div class="div-checkbox">
+                      <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
+                      <label class="form-check-label font" for="DisasterArea_Wide"><img class="form-check-icon" src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon">広域避難場所</label>
+                    </div>
                     <details class="ms-3">
                       <summary class="font_mid txt-more-narrow-down">さらに絞り込む</summary>
-                      <div class="mt-2">
-                        &emsp;<input class="form-check-input mt-1" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" checked>
+                      <div>
+                        &emsp;<input class="form-check-input" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" checked>
                         <label class="form-check-label font" for="DisasterArea_Wide_Designated">指定避難所</label>
                       </div>
                     </details>
@@ -639,17 +644,17 @@
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img class="form-check-icon" src="./Icon/convenience.png" alt="セブンイレブン_icon">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img class="form-check-icon" src="./Icon/FamilyMart.png" alt="ファミリーマート_icon">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson"><img class="form-check-icon" src="./Icon/LAWSON.png" alt="ローソン_icon">ローソン</label>
                   </div>
@@ -659,17 +664,17 @@
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_au"><img class="form-check-icon" src="./Icon/au.png" alt="auショップ_icon">auショップ</label>
                   </div>
                   <!-- docomo -->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_docomo"><img class="form-check-icon" src="./Icon/docomo.png" alt="docomo_icon">docomo</label>
                   </div>
                   <!-- softbank -->
-                  <div class="px-2">
+                  <div class="div-checkbox px-2">
                     <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
                     <label class="form-check-label font" for="PhoneShop_softbank"><img class="form-check-icon" src="./Icon/softbank.png" alt="softbank_icon">softbank</label>
                   </div>
@@ -677,16 +682,16 @@
               </div>
               <br>
               <!--災害情報レイヤ-->
-              <div class="ps-2" style="border: 1px solid #255b2f;">
+              <div class="ps-2 py-2" style="border: 1px solid #255b2f;">
                 <form name="icon_select_layer">
-                  <div class="py-1">
+                  <div class="div-checkbox">
                     <!-- 洪水警戒地域 -->
-                    <input class="form-check-input mt-2" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
+                    <input class="form-check-input" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
                     <label class="form-check-label font" for="Flood">洪水</label>
                   </div>
-                <div class="py-1">
+                <div class="div-checkbox">
                   <!-- 土砂災害警戒区域(土石流) -->
-                  <input class="form-check-input mt-2" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
+                  <input class="form-check-input" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
                   <label class="form-check-label font" for="DebrisFlow">土砂災害</label>
                 </div>
               </form>
