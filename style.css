@@ -23,7 +23,7 @@
         justify-content: space-between; /* 左・中央・右を三分割配置 */
         background-color: #333;
         color: #ffffff;
-        width: 100vw;
+        width: 100%;
         padding: 10px;
     }
 
