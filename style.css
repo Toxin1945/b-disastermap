@@ -73,7 +73,7 @@ footer p{
 /*コンテンツの高さ固定*/
 @media (max-width: 999px) {
     .fix-height{
-        height:calc(10vh - (2560px * 2)) !important;
+        min-height:900px !important;
     }
 }
 @media (min-width: 1000px) {
