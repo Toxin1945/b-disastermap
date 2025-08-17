@@ -256,7 +256,25 @@
         top: 80px;
         height: calc(100% - 80px);
     }
-  
+
+    .sticky{
+      align-self: flex-start;
+      top:150px;
+      position:sticky;
+    }
+
+    .jump-list {
+      background-color: #87817f;
+      padding:10px;
+    }
+
+    .jump-list-item{
+        color: #fff;
+        width: 100%;
+        text-decoration: none;
+        display:flex;
+        justify-content: end;
+      }
     </style>
   </head>
 
@@ -412,14 +430,6 @@
             <h2 class="ps-2 font_bold" style="color: #3b864a; font-size: 3.5vw;">掲載情報について</h2>
           </div>
         </div>
-        <!-- <div class="row py-5" style="color: #3b864a;">
-          <div class="d-flex align-items-top justify-content-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-            </svg>
-            <h2 class="ps-2 font_bold" style="color: #3b864a;">掲載情報について</h2>
-          </div>
-        </div> -->
 
         <div class="row pt-5">
           <p>
@@ -429,89 +439,82 @@
           </p>
         </div>
         <div class="row pb-5">
-          <div class="col-lg-2 d-none d-lg-block">
-              <!-- 背景全体 -->
-              <div class="p-3 sticky-top" style="background-color: #87817f; top: 20px;">
-                  <!-- アーカイブタイトル -->
-                  <h5 class="font_bold mb-3" style="color: #fff;">ジャンプリスト</h5>
-                  <!-- リスト -->
-                  <ul class="list-unstyled mb-0">
-                    <!-- リストアイテム -->
-                    <li class="mb-2">
-                        <a href="#WiFi" class="py-1 d-flex justify-content-end" 
-                        style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                          フリーWi-Fi &#9660;
+          <!--<div class="col-lg-3 d-none d-lg-block">-->
+          <div class="col-lg-3">
+            <!-- 背景全体 -->
+              <div class="sticky">
+                <div class="jump-list">
+                    <!-- アーカイブタイトル -->
+                    <h5 class="font_bold mb-3" style="color: #fff;">ジャンプリスト</h5>
+                    <!-- リスト -->
+                    <ul class="list-unstyled mb-0">
+                      <!-- リストアイテム -->
+                      <li class="mb-2">
+                          <a href="#WiFi" class="jump-list-item">
+                            フリーWi-Fi &#9660;
+                          </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Vendor" class="jump-list-item">
+                          災害ベンダー &#9660;
                         </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Vendor" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        災害ベンダー &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Wide" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        広域避難場所 &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#De" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        指定緊急避難場所 &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Drug" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; font-size: 0.9vw; width: 100%; max-width: 100%; text-decoration: none;">
-                        薬局・ドラッグストア &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Roundry" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        コインランドリー &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Bath" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        入浴施設 &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Public" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; font-size: 0.9vw; width: 100%; max-width: 100%; text-decoration: none;">
-                        公衆トイレ・公衆電話 &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Conveni" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; font-size: 0.9vw; width: 100%; max-width: 100%; text-decoration: none;">
-                        コンビニエンスストア &#9660;
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Phone" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff; width: 100%; max-width: 100%; text-decoration: none;">
-                        携帯会社 &#9660
-                      </a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#Link" class="py-1 d-flex justify-content-end" 
-                      style="color: #fff;width: 100%; max-width: 100%; text-decoration: none;">
-                        関連リンク &#9660;
-                      </a>
-                    </li>
-                  </ul>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Wide" class="jump-list-item">
+                          広域避難場所 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#De"  class="jump-list-item">
+                          指定緊急避難場所 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Drug"  class="jump-list-item">
+                          薬局・ドラッグストア &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Roundry"  class="jump-list-item">
+                          コインランドリー &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Bath"  class="jump-list-item">
+                          入浴施設 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Public"  class="jump-list-item">
+                          公衆トイレ・公衆電話 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Conveni"  class="jump-list-item">
+                          コンビニエンスストア &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Phone"  class="jump-list-item">
+                          携帯会社 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="#Link"  class="jump-list-item">
+                          関連リンク &#9660;
+                        </a>
+                      </li>
+                    </ul>
+                </div>
               </div>
           </div>
-          <div class="col-lg-10">
+          <div class="col-lg-9">
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <!-- フリーWi-Fi -->
               <div class="accordion-item">
                 <div class="accordion-header">
-                  <button class="accordion-button font" id="WiFi" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  <div id="WiFi"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                     <img src="./Icon/FreeWi-Fi.png" alt="フリーWi-Fi_icon" style="width: 2rem; padding-right: 0.5rem;">フリーWi-Fi
                   </button>
                 </div>
@@ -566,7 +569,8 @@
               <!-- 災害ベンダー -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Vendor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                  <div id="Vendor"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
                     <img src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon" style="width: 2rem; padding-right: 0.5rem;">災害ベンダー
                   </button>
                 </h2>
@@ -579,7 +583,8 @@
               <!-- 広域避難場所-->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font"  id="Wide" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                  <div id="Wide"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
                     <img src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon" style="width: 2rem; padding-right: 0.5rem;">広域避難場所
                   </button>
                 </h2>
@@ -592,7 +597,8 @@
               <!-- 指定緊急避難場所 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="De" id="De" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                  <div id="De"></div>
+                  <button class="accordion-button font" id="De" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
                     <img src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon" style="width: 2rem; padding-right: 0.5rem;">指定緊急避難場所
                   </button>
                 </h2>
@@ -605,7 +611,8 @@
               <!-- 薬局・ドラッグストア -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Drug" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                  <div id="Drug"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
                     <img src="./Icon/drug store.png" alt="ドラッグストア_icon" style="width: 2rem; padding-right: 0.5rem;">薬局・ドラッグストア
                   </button>
                 </h2>
@@ -618,7 +625,8 @@
               <!-- コインランドリー -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Roundry" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+                  <div id="Roundry"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
                     <img src="./Icon/coinraundry.png" alt="コインランドリー_icon" style="width: 2rem; padding-right: 0.5rem;">コインランドリー
                   </button>
                 </h2>
@@ -632,7 +640,8 @@
               <!-- 入浴施設 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Bath" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+                  <div id="Bath"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
                     <img src="./Icon/hot spring.png" alt="入浴施設_icon" style="width: 2rem; padding-right: 0.5rem;">入浴施設
                   </button>
                 </h2>
@@ -646,7 +655,8 @@
               <!-- 公衆トイレ・公衆電話 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Public" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                  <div id="Public"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
                     <img src="./Icon/restroom.png" alt="公衆トイレ_icon" style="width: 2rem; padding-right: 0.5rem;"> 公衆トイレ・<img src="./Icon/phone.png" alt="公衆電話_icon" style="width: 2rem; padding-right: 0.5rem;"> 公衆電話
                   </button>
                 </h2>
@@ -659,7 +669,8 @@
               <!-- コンビニエンスストア -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Conveni" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+                  <div id="Conveni"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
                     コンビニエンスストア
                   </button>
                 </h2>
@@ -677,7 +688,8 @@
               <!-- 携帯会社 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button font" id="Phone" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
+                  <div id="Phone"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
                     携帯会社
                   </button>
                 </h2>
@@ -691,6 +703,29 @@
             </div>
           </div>
         </div>
+
+        <script>
+          document.querySelectorAll('.jump-list-item').forEach(link => {
+            link.addEventListener('click', function(e) {
+              e.preventDefault(); // デフォルトのジャンプを止める
+
+              const targetId = this.getAttribute('href');
+              const target = document.querySelector(targetId);
+
+              // sticky の余白（20pxなど）を考慮
+              const offset = 150;
+              const topPos = target.getBoundingClientRect().top + window.scrollY - offset;
+
+              // accordion を開く
+              const collapse = bootstrap.Collapse.getOrCreateInstance(target.nextElementSibling);
+              collapse.show();
+
+              // スクロール
+              window.scrollTo({ top: topPos, behavior: 'smooth' });
+            });
+          });
+
+        </script>
       </div>
     </div>
 
