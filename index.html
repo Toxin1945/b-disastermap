@@ -19,300 +19,303 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js">c</script>
     <style type="text/css">
-
-    .navbar-nav {
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      padding: 0;
-      margin: 0 auto;
-      height: 100%;
-    }
-
-
-  .header_button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #3b864a;
-      font-size: larger;
-      height: 50px;
-      width: 230px;
-  }
-
-  .font_bold {
-      font-family: "M PLUS 1p", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-  }
-
-
-
-    .nav-item {
-      flex: 1;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      position: relative;
-    }
-
-    header.site-header {
-      padding: 0;
-      margin: 0;
-    }
-
-    .container-fluid {
-      padding: 0;
-    }
-
-    .navbar {
-      margin: 0;
-      padding: 0;
-    }
-
-
-
-    .nav-item:hover{
-      background-color: #3b864a;
-    }
-
-    .nav-item:hover .header_button {
-      color: #ffffff;
-    }
-
-    .nav-link {
-      padding: 0;
-    }
-
-    .nav-item:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 1px;
-      background-color: #3b864a;
-      z-index: 0;
-    }
-
-    .nav-item:first-child::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 1px;
-      background-color: #3b864a;
-      z-index: 0;
-    }
-
-    .nav-item:last-child::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 1px;
-      background-color: #3b864a;
-      z-index: 0;
-    }
-
-    @media (min-width: 1000px) {
-      .txt-more-narrow-down{
-        font-size: 15px;
+      .navbar-nav {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        height: 100%;
       }
-    }
-
-    summary {
-      list-style-type: none;
-    }
-    summary::-webkit-details-marker {
-      display: none;
-    }
-    summary:before {
-      content: "＋";
-    }
-    details[open] summary:before,
-    summary details[open] summary:before {
-      content: "−";
-    }
-
-    .footer_link{
-      color:#ffffff;
-      font-size: large;
-    }
 
 
-    .footer_link:hover {
-      color: #7d7d7d;
-    }
-
-    .btn_footer{
-      background-color: #3b864a;
-      color: #ffffff;
-      border-radius:30px;
-      height: 50px;
-      width: 300px;
-      text-decoration:none;
-      color:#ffffff;
-      font-size:larger;
-    }
-
-    .btn_footer:hover{
-      color: #c8cbcb;
-      background-color: #255b2f;
-    }
-
-    a{
-      color: #255b2f;
-    }
-
-    /* サイドメニュー用カスタムスタイル */
-    .offcanvas {
-        background-color: #ffffff;
-    }
-
-    .offcanvas a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .offcanvas a:hover {
-      color: #ddd;
-    }
-
-    .site-header-pc, .site-header-phone {
-      position: fixed;
-      top: 0;
-      width: 100vw;
-      z-index: 1050;
-      background-color: white;
-    }
-
-    .offcanvas-top {
-      top: 50px !important;
-      height: 80vw !important;
-    }
-    .offcanvas-backdrop.show {
-      background: rgba(0, 0, 0, 0.5);
-      top: 80px;
-      height: calc(100% - 80px);
-    }
-
-    .display_map {
-      display: flex;
-      justify-content: flex-start;
-      padding: 0;
-    }
-
-    @media (max-width: 999px) {
-      #map{
-        min-width: 70%;
-      }
-    }
-    @media (min-width: 1000px) {
-      #map{
-        /*width: 1050px;*/
-        width: clamp(500px,65vw,1050px);
-      }
-    }
-
-    /*絞り込み欄*/
-    @media (max-width: 999px) {
-      .filter-field{
-        width: 150px;
-      }
-    }
-    @media (min-width: 1000px) {
-      .filter-field{
-        max-width:260px;
-      }
-    }
-
-    .div-checkbox{
+    .header_button {
         display: flex;
         align-items: center;
-        margin-top:5px;
+        justify-content: center;
+        color: #3b864a;
+        font-size: larger;
+        height: 50px;
+        width: 230px;
+    }
+
+    .font_bold {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+
+
+      .nav-item {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
       }
-    @media (min-width: 1000px){
+
+      header.site-header {
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-fluid {
+        padding: 0;
+      }
+
+      .navbar {
+        margin: 0;
+        padding: 0;
+      }
+
+
+
+      .nav-item:hover{
+        background-color: #3b864a;
+      }
+
+      .nav-item:hover .header_button {
+        color: #ffffff;
+      }
+
+      .nav-link {
+        padding: 0;
+      }
+
+      .nav-item:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #3b864a;
+        z-index: 0;
+      }
+
+      .nav-item:first-child::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #3b864a;
+        z-index: 0;
+      }
+
+      .nav-item:last-child::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #3b864a;
+        z-index: 0;
+      }
+
+      @media (min-width: 1000px) {
+        .txt-more-narrow-down{
+          font-size: 15px;
+        }
+      }
+
+      summary {
+        list-style-type: none;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary:before {
+        content: "＋";
+      }
+      details[open] summary:before,
+      summary details[open] summary:before {
+        content: "−";
+      }
+
+      .footer_link{
+        color:#ffffff;
+        font-size: large;
+      }
+
+
+      .footer_link:hover {
+        color: #7d7d7d;
+      }
+
+      .btn_footer{
+        background-color: #3b864a;
+        color: #ffffff;
+        border-radius:30px;
+        height: 50px;
+        width: 300px;
+        text-decoration:none;
+        color:#ffffff;
+        font-size:larger;
+      }
+
+      .btn_footer:hover{
+        color: #c8cbcb;
+        background-color: #255b2f;
+      }
+
+      a{
+        color: #255b2f;
+      }
+
+      /* サイドメニュー用カスタムスタイル */
+      .offcanvas {
+          background-color: #ffffff;
+      }
+
+      .offcanvas a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .offcanvas a:hover {
+        color: #ddd;
+      }
+
+      .site-header-pc, .site-header-phone {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1050;
+        background-color: white;
+      }
+
+      .offcanvas-top {
+        top: 50px !important;
+        height: 80vw !important;
+      }
+      .offcanvas-backdrop.show {
+        background: rgba(0, 0, 0, 0.5);
+        top: 80px;
+        height: calc(100% - 80px);
+      }
+
+      .display_map {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+      }
+
+      @media (max-width: 999px) {
+        #map{
+          min-width: 70%;
+        }
+      }
+      @media (min-width: 1000px) {
+        #map{
+          /*width: 1050px;*/
+          width: clamp(500px,65vw,1050px);
+        }
+      }
+
+      /*絞り込み欄*/
+      @media (max-width: 999px) {
+        .filter-field{
+          width: 150px;
+        }
+      }
+      @media (min-width: 1000px) {
+        .filter-field{
+          max-width:260px;
+        }
+      }
+
       .div-checkbox{
-        margin-top:0.5em;
+          display: flex;
+          align-items: center;
+          margin-top:5px;
+        }
+      @media (min-width: 1000px){
+        .div-checkbox{
+          margin-top:0.5em;
+        }
       }
-    }
 
-    .filter-spots{
-      padding-left: 10px;
-      padding-bottom:5px;
-      border: 1px solid #255b2f;
-    }
-
-    .filter-restricted-area{
-      padding-left: 10px;
-      padding-bottom:5px;
-      border: 1px solid #255b2f;
-      margin-bottom: 10px;
-    }
-
-    /*チェックボックスサイズ*/
-    @media (max-width: 999px) {
-      .form-check-input{
-        margin-bottom: 0;
-        font-size: 10px;
+      .filter-spots{
+        padding-left: 10px;
+        padding-bottom:5px;
+        border: 1px solid #255b2f;
       }
-    }
-    @media (min-width: 1000px) {
-      .form-check-input{
-        font-size: 15px;
-      }
-    }
 
-    /*チェックボックスアイコン*/
-    @media (max-width: 999px) {
-      .form-check-icon{
-        width: 10px;
-        margin-right: 2px;
+      .filter-restricted-area{
+        padding-left: 10px;
+        padding-bottom:5px;
+        border: 1px solid #255b2f;
+        margin-bottom: 10px;
       }
-    }
-    @media (min-width: 1000px) {
-      .form-check-icon{
-        width: 20px;
+
+      /*チェックボックスサイズ*/
+      @media (max-width: 999px) {
+        .form-check-input{
+          margin-bottom: 0;
+          font-size: 10px;
+        }
+      }
+      @media (min-width: 1000px) {
+        .form-check-input{
+          font-size: 15px;
+        }
+      }
+
+      /*チェックボックスアイコン*/
+      @media (max-width: 999px) {
+        .form-check-icon{
+          width: 10px;
+          margin-right: 2px;
+        }
+      }
+      @media (min-width: 1000px) {
+        .form-check-icon{
+          width: 20px;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+
+      /*チェックボックスラベル*/
+      .form-check-label{
         margin-left: 5px;
-        margin-right: 5px;
+        }
+      @media (max-width: 999px) {
+        .form-check-label{
+          font-size: 8px;
+        }
       }
-    }
-
-    /*チェックボックスラベル*/
-    .form-check-label{
-      margin-left: 5px;
+      @media (min-width: 1000px) {
+        .form-check-label{
+          font-size: 15px;
+        }
       }
-    @media (max-width: 999px) {
-      .form-check-label{
-        font-size: 8px;
-      }
-    }
-    @media (min-width: 1000px) {
-      .form-check-label{
-        font-size: 15px;
-      }
-    }
 
 
-    /*さらに絞り込む*/
-    .txt-more-narrow-down{
-      color:rgb(226, 157, 28);
-    }
-    @media (max-width: 999px) {
+      /*さらに絞り込む*/
       .txt-more-narrow-down{
-        font-size: 10px;
+        color:rgb(226, 157, 28);
       }
-    }
-    @media (min-width: 1000px) {
-      .txt-more-narrow-down{
-        font-size: 15px;
+      @media (max-width: 999px) {
+        .txt-more-narrow-down{
+          font-size: 10px;
+        }
       }
-    }
+      @media (min-width: 1000px) {
+        .txt-more-narrow-down{
+          font-size: 15px;
+        }
+      }
 
-
+      .install-link{
+        margin-left: 25px;
+        padding : 10px 5px;
+        border: 1px solid #3b864a;
+      }
     </style>
   </head>
 
@@ -543,15 +546,15 @@
                                       } else {
                                           layer.setIcon(Icon_Error); // エラー表示
                                       }
-                                              
+
                                       // 広域避難場所リストに追加
                                       wideMarkers.push(layer);
-                                    
+
                                       // 指定避難所かどうかの判定
                                       if (feature.properties['指定避難所'] === '○') {
                                           designatedMarkers.push(layer);
                                       }
-                                    
+
                                       // ポップアップを設定
                                       layer.bindPopup(layer.feature.properties.description);
                                   }
@@ -713,9 +716,11 @@
           <h2 class="font" style="color: #3b864a;">関連リンク</h2>
           <p>&emsp;<a href="https://twitter.com/BosaiNaganoPref?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">長野県防災@BosaiNaganoPref(長野県公式アカウント)</a><br></p>
           <p>&emsp;<a href="https://disaportal.gsi.go.jp/maps/?ll=36.64852,138.194833&z=14&base=pale&vs=c1j0l0u0" target="_blank">重ねるハザードマップ(国土地理院)</a><br></p>
-          <div>&emsp;信州防災アプリ(インストール)<br></div>
-          <div>&emsp;&emsp;<a href="https://play.google.com/store/apps/details?id=jp.lg.nagano.pref.naganobousai&hl=ja&gl=US" target="_blank">GooglePlay</a><br></div>
-          <div>&emsp;&emsp;<a href="https://apps.apple.com/jp/app/%E4%BF%A1%E5%B7%9E%E9%98%B2%E7%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id1569769981" target="_blank">Appstore</a></div>
+          <div class="install-link">
+            <div>信州防災アプリ(インストール)<br></div>
+            <div>&emsp;<a href="https://play.google.com/store/apps/details?id=jp.lg.nagano.pref.naganobousai&hl=ja&gl=US" target="_blank">GooglePlay</a><br></div>
+            <div>&emsp;<a href="https://apps.apple.com/jp/app/%E4%BF%A1%E5%B7%9E%E9%98%B2%E7%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id1569769981" target="_blank">Appstore</a></div>
+          </div>
         </div>
       </div>
     </div>
