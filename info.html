@@ -210,7 +210,58 @@
         top: 80px;
         height: calc(100% - 80px);
     }
-  
+
+    .topics{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .topic{
+      display: flex;
+      width: 700px;
+      flex-direction: column;
+    }
+
+    .topic-attribute{
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-left: 50px;
+    }
+
+    .topic-datetime{
+      display: flex;
+      align-items: center;
+      font-size: large;
+    }
+
+    .topic-title{
+      margin-left: 80px;
+    }
+    @media (max-width: 999px) {
+      .topic-title a{
+        font-size: 15px;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      .topic-title a{
+        font-size: 18px;
+      }
+    }
+
+
+    .topic-news{
+      font-size: small;
+      width: 100px;
+      padding: 5px;
+      border: 1px solid #3b7887;
+      background-color: #3b7887;
+      border-radius: 20px; 
+      color: #ffffff;
+      text-align: center;
+      margin-left: 10px;
+    }
     </style>
   </head>
 
@@ -367,25 +418,18 @@
           </div>
         </div>
         <!--お知らせ-->
-        <span class="font" id="news_content">
-          <div class="row d-flex justify-content-center pt-5">
-            <div class="d-flex flex-row" style="width: 80%;">
-              <div class="col-3 d-flex align-items-center" style="font-size: large;">
-                2025-02-01
+        <div class="font topics">
+            <div class="topic">
+              <div class="topic-attribute">
+                <div class="topic-datetime">2025-02-01</div>
+                <div class="topic-news">ニュース</div>
               </div>
-              <div class="col-3">
-                <div class="d-block"
-                style="font-size: small; width: 100px; padding: 2%; border: 1px solid #3b7887; background-color: #3b7887; border-radius: 20px; color: #ffffff; text-align: center;">
-                  ニュース
-                </div>
+              <div class="topic-title">
+                <a href="./news/pre-release.html" class="news_link">「よりよい防災マップ @Web」がリリースされました</a>
               </div>
-              <div class="col-6 d-flex align-items-center">
-                <a href="./news/pre-release.html" class="news_link" style="font-size: large;">「よりよい防災マップ @Web」がリリースされました</a>
-              </div>
+              <hr>
             </div>
-            <hr class="mb-4 mt-3" style="width: 80%; border: 1px solid #333;">
           </div>
-        </span>
       </div>
     </div>
 
