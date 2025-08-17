@@ -11,6 +11,12 @@
     font-style: normal;
 }
 
+.font_bold {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
 /*閲覧媒体ごとのサイズ変更*/
     @media (max-width: 999px) {
       .site-header-pc{
