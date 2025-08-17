@@ -204,6 +204,21 @@
         padding: 0;
       }
 
+      #infoFlood,#infoDebrisFlow{
+        margin-top: 5px;
+        margin-left: 20px;
+      }
+      @media (max-width: 999px) {
+        #infoFlood{
+          width:80px;
+        }
+      }
+      @media (min-width: 1000px) {
+        #infoFlood{
+          width:150px;
+        }
+      }
+
       @media (max-width: 999px) {
         #map{
           min-width: 70%;
@@ -314,7 +329,8 @@
       .install-link{
         margin-left: 25px;
         padding : 10px 5px;
-        border: 1px solid #3b864a;
+        border: 1px dotted #3b864a;
+        width: 250px;
       }
     </style>
   </head>
@@ -695,6 +711,7 @@
                     <input class="form-check-input" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
                     <label class="form-check-label font" for="Flood">洪水</label>
                   </div>
+                  <img id="infoFlood" src="./PlaceData/Immersion_GeneralRules.png"></img>
                 <div class="div-checkbox">
                   <!-- 土砂災害警戒区域(土石流) -->
                   <input class="form-check-input" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
@@ -1067,18 +1084,6 @@
     var Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
       opacity: 0.5
     }).addTo(map);
-
-    var info = L.control({position: 'bottomleft'});
-    info.onAdd = function (map) {
-        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-        this.update();
-        return this._div;
-    };
-    // method that we will use to update the control based on feature properties passed
-    info.update = function (props) {
-        this._div.innerHTML = '<img src="./PlaceData/Immersion_GeneralRules.png" width="200" height="200">';
-    };
-    info.addTo(map);
 
     //土砂災害レイヤ
     var Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
@@ -1579,29 +1584,20 @@
 
       /*タイルレイヤデータ*/
       //洪水レイヤ
-      if (document.icon_select_layer.Flood.checked && !Layer_flood) { 
+      var infoFlood = document.getElementById("infoFlood");
+      if (document.icon_select_layer.Flood.checked && !Layer_flood) {
         Layer_flood = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_kuni_data/{z}/{x}/{y}.png', {
           opacity: 0.5
         }).addTo(map);
 
-        //凡例画像
-        info = L.control({position: 'bottomleft'});
-        info.onAdd = function (map) {
-            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-            this.update();
-            return this._div;
-        };
-        //凡例画像
-        info.update = function (props) {
-            this._div.innerHTML = '<img src="./PlaceData/Immersion_GeneralRules.png" width="200" height="200">';
-        };
-        info.addTo(map);
+        //画像を表示
+        infoFlood.style.display = 'block';
       }else if (!document.icon_select_layer.Flood.checked && Layer_flood) {
         // チェックボックスがOFFの場合、レイヤを削除
         map.removeLayer(Layer_flood);
         Layer_flood = null; // レイヤを削除したらnullにしておく
-        map.removeControl(info);
-        info = null;
+
+        infoFlood.style.display = 'none';
       }
 
       //土石流レイヤ
@@ -1609,6 +1605,8 @@
         Layer_DebrisFlow = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {
           opacity: 0.5
         }).addTo(map);
+
+
       }else if (!document.icon_select_layer.DebrisFlow.checked && Layer_DebrisFlow) {
         // チェックボックスがOFFの場合、レイヤを削除
         map.removeLayer(Layer_DebrisFlow);
