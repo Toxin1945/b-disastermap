@@ -18,54 +18,68 @@
 }
 
 /*閲覧媒体ごとのサイズ変更*/
-    @media (max-width: 999px) {
-      .site-header-pc{
-          display: none;
-      }
+@media (max-width: 999px) {
+    .site-header-pc{
+        display: none;
     }
+}
 
-    footer{
-        display: flex;
-        justify-content: space-between; /* 左・中央・右を三分割配置 */
-        background-color: #333;
-        color: #ffffff;
-        width: 100%;
-        padding: 10px;
-    }
+footer{
+    display: flex;
+    justify-content: space-between; /* 左・中央・右を三分割配置 */
+    background-color: #333;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+}
 
-    .footer-left{
-        flex: 1;
-        width: 5vw;
-    }
+.footer-left{
+    flex: 1;
+    width: 5vw;
+}
 
-    footer p{
-        display: flex;
-        align-items: flex-end;
-    }
+footer p{
+    display: flex;
+    align-items: flex-end;
+}
 
-    .footer-nav{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        right: 0;
-    }
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    right: 0;
+}
 
-    .footer-pc{
-        flex: 0 0 auto;
-        width: auto;
-        max-width: 100%;
-        display: flex;
-    }
+.footer-pc{
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+}
 
 
-    @media (max-width: 1100px) {
-        .footer-pc {
-            display: none !important;
-        }
-    }
-
-    @media (min-width: 1000px) {
-      .site-header-phone {
+@media (max-width: 1100px) {
+    .footer-pc {
         display: none !important;
-      }
     }
+}
+
+@media (min-width: 1000px) {
+    .site-header-phone {
+    display: none !important;
+    }
+}
+
+/*コンテンツの高さ固定*/
+@media (max-width: 999px) {
+    .fix-height{
+        height:calc(10vh - (2560px * 2)) !important;
+    }
+}
+@media (min-width: 1000px) {
+    .fix-height{
+        min-height:1140px !important;
+    }
+}
+
+
