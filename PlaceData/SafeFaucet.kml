@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>安心の蛇口</name>
+
+        <!-- 三本柳中央公園 -->
+        <Placemark>
+            <name>三本柳中央公園</name>
+            <Point>
+                <coordinates>138.1614107,36.6183,0</coordinates>
+            </Point>
+            <description><![CDATA[<b>三本柳中央公園</b>]]></description>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>SafeFaucet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 南長野運動公園-->
+        <Placemark>
+            <name>南長野運動公園</name>
+            <Point>
+                <coordinates>138.1651679, 36.5793974,0</coordinates>
+            </Point>
+            <description><![CDATA[<b>南長野運動公園</b>]]></description>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>SafeFaucet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- いなさと公園 -->
+        <Placemark>
+            <name>いなさと公園</name>
+            <Point>
+                <coordinates>138.1708244, 36.6022302,0</coordinates>
+            </Point>
+            <description><![CDATA[<b>いなさと公園</b>]]></description>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>SafeFaucet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 篠ノ井体育館 -->
+        <Placemark>
+            <name>篠ノ井体育館</name>
+            <Point>
+                <coordinates>138.1282648, 36.585979,0</coordinates>
+            </Point>
+            <description><![CDATA[<b>篠ノ井体育館</b>]]></description>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>SafeFaucet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+
+        <!-- 御厨公園 -->
+        <Placemark>
+            <name>御厨公園</name>
+            <Point>
+                <coordinates>138.161064, 36.5931394,0</coordinates>
+            </Point>
+            <description><![CDATA[<b>御厨公園</b>]]></description>
+
+            <ExtendedData>
+                <Data name="category">
+                    <value>SafeFaucet</value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

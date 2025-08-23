@@ -10,6 +10,18 @@
     margin-left: 10px;
 }
 
+.topic-notice{
+    font-size: small;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #873b78;
+    background-color: #873b78;
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+}
+
 .topic-maintenance{
     font-size: small;
     width: 130px;
