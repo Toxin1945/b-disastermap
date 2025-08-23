@@ -17,19 +17,292 @@
     font-style: normal;
 }
 
-/*閲覧媒体ごとのサイズ変更*/
+.container-fluid {
+    padding: 0;
+}
+
+/*ヘッダー*/
+header{
+    padding: 0;
+}
+header.site-header {
+    padding: 0;
+    margin: 0;
+}
+
+.site-header-pc, .site-header-phone {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: white;
+}
+
+/*ヘッダー(PC)*/
+@media (max-width: 1000px) {
+    .site-header-pc{
+        display: none;
+    }
+}
 @media (max-width: 999px) {
     .site-header-pc{
         display: none;
     }
 }
 
+.site-header-pc > .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.site-header-pc > .title > img{
+    width: 60px;
+    margin-right: 5px;
+}
+
+.site-header-pc > .title > h1{
+    font-weight: bold;
+    padding: 15px,0;
+    color:#3b864a;
+}
+
+/*ヘッダー(携帯)*/
+.site-header-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+@media (min-width: 1000px) {
+    .site-header-phone {
+        display: none !important;
+    }
+}
+
+.site-header-phone > .title{
+    display: flex;
+    align-items: end;
+    padding-top:10px;
+}
+
+.site-header-phone > .title > img{
+    padding-right: 5px;
+    width: 50px;
+}
+
+.site-header-phone > .title > h1{
+    font-weight: bold;
+    color: #3b864a;
+    font-size: 25px;
+}
+
+.site-header-phone > .title > nav{
+    margin-left: 20px !important;
+}
+
+.site-header-phone > .title > nav > button{
+    background-color: #3b864a;
+    color: #ffffff;
+}
+
+
+/*ナビゲーションバー(ヘッダー)*/
+.navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nav-item {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-item > a{
+    text-decoration: none !important;
+}
+
+.nav-item > a:hover{
+    text-decoration: none !important;
+    font-weight: normal;
+}
+
+.nav-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #3b864a;
+    z-index: 0;
+}
+
+.nav-item:first-child::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #3b864a;
+    z-index: 0;
+}
+
+.nav-item:last-child::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #3b864a;
+    z-index: 0;
+}
+
+.nav-item:hover{
+    background-color: #3b864a;
+}
+
+.nav-item:hover .nav-content {
+    color: #ffffff;
+}
+
+.nav-item-selected{
+    background-color: #3b864a;
+}
+
+.nav-selected{
+    background-color: #3b864a;
+}
+.nav-selected > .nav-content{
+    color: #ffffff;
+}
+
+.nav-content{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b864a;
+    font-size: larger;
+    height: 50px;
+    width: clamp(10vw,18vw,18vw);
+}
+
+.nav-content-link{
+    font-size: large;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.nav-content-link:hover{
+    text-decoration-line: underline !important;
+    text-decoration-color: #fff !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* サイドメニュー用カスタムスタイル */
+.offcanvas {
+    background-color: #ffffff;
+}
+
+.offcanvas-top {
+    top: 80px !important;
+    height: 450px !important;
+}
+
+.offcanvas a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.offcanvas a:hover {
+    color: #ddd;
+}
+
+.offcanvas-link{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height:85px;
+    color: #3b864a;
+}
+
+.offcanvas-link-selected{
+    background-color: #3b864a;
+    color: #fff;
+}
+
+.offcanvas-content{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+.offcanvas-backdrop.show {
+    background: rgba(0, 0, 0, 0.5);
+    top: 85px;
+    height: 1000px;
+}
+
+
+/*見出し*/
+.heading{
+    color: #3b864a;
+    display: flex;
+    justify-content: center;
+}
+
+.heading > h2{
+    font-weight: bold;
+}
+
+.heading-pc{
+    margin-top: 180px;
+}
+
+.heading-phone{
+    margin-top: 100px;
+    display: flex;
+}
+
+.heading-pc > .heading > h2{
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.heading-phone > .heading > h2{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+
+/*フッター*/
 footer{
     background-color: #333;
-    color: #ffffff;
+    color: #ffffff !important;
     width: 100%;
     padding: 10px;
 }
+
+
 
 .footer-left{
     flex: 1;
@@ -48,6 +321,45 @@ footer p{
     justify-content: center;
     align-self: center;
     right: 0;
+
+    width: auto;
+}
+
+.footer-mutual{
+    flex: 0 0 auto;
+    padding-top: 30px;
+    gap: 280px;
+}
+
+.footer-mutual > p{
+    font-weight: bold;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.footer-mutual > button{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-footer{
+    background-color: #3b864a;
+    color: #ffffff;
+    border-radius:30px;
+    height: 50px;
+    width: 300px;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:larger;
+}
+
+.btn-footer:hover{
+    color: #c8cbcb;
+    background-color: #255b2f;
 }
 
 .footer-pc{
@@ -55,8 +367,31 @@ footer p{
     width: auto;
     max-width: 100%;
     display: flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    flex: 0 0 auto;
+    width: auto !important;
+}
+
+.footer-link{
+    color:#fff !important;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-link:hover {
+    font-weight: normal;
+    color: #7d7d7d !important;
+}
 
 @media (max-width: 1100px) {
     .footer-pc {
@@ -66,9 +401,10 @@ footer p{
 
 @media (min-width: 1000px) {
     .site-header-phone {
-    display: none !important;
+        display: none !important;
     }
 }
+
 
 /*コンテンツの高さ固定*/
 @media (max-width: 999px) {
