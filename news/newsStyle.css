@@ -1,0 +1,46 @@
+.topic-title{
+font-weight: bold;
+font-size: xx-large;
+}
+
+.topic-date{
+font-weight: bold;
+color: #7d7d7d;
+}
+
+.topic-article{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.emphasis{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.emphasis > strong{
+    margin-left: 1em;
+}
+
+.emphasis > ul{
+    margin-left: 1.5em;
+}
+
+.return{
+text-decoration: none;
+padding: 0.1vw;
+border: 1px solid #3b864a;
+background-color: #fff;
+border-radius: 20px;
+color: #3b864a;
+text-align: center;
+}
+.return:hover{
+    background-color: #3b864a;
+    color: #fff;
+}
+
+.heading{
+    align-items: center;
+}

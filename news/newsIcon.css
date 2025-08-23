@@ -4,7 +4,19 @@
     padding: 5px;
     border: 1px solid #3b7887;
     background-color: #3b7887;
-    border-radius: 20px; 
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.topic-maintenance{
+    font-size: small;
+    width: 130px;
+    padding: 5px;
+    border: 1px solid #4b3b87;
+    background-color: #4b3b87;
+    border-radius: 20px;
     color: #ffffff;
     text-align: center;
     margin-left: 10px;
