@@ -9,6 +9,9 @@ html, body {
     box-sizing: border-box !important;
 }
 
+.container{
+    max-width: 70vw !important;
+}
 
 /*フォント*/
 .font {
@@ -381,11 +384,14 @@ footer p{
     display: flex;
     padding-top: 30px;
     padding-bottom: 15px;
+    display: flex;
+    flex-wrap: nowrap !important;
 }
 
 .footer-links{
     display: flex;
     flex-direction: column;
+
     padding-left: 50px !important;
     padding-right: 50px !important;
     flex: 0 0 auto;
