@@ -190,11 +190,34 @@
         width: 250px;
       }
 
-      #modal[hidden] { display: none; }
-      #modal { position: fixed; inset: 0; }
-      .backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.4); }
-      .panel { position: relative; margin: 10vh auto; max-width: 480px; background: #fff; padding: 1.25rem; border-radius: .75rem; }
-      body.modal-open { overflow: hidden; }
+      #modal[hidden] {
+        display: none;
+      }
+
+      #modal {
+        position: fixed;
+        inset: 0;
+      }
+
+      .backdrop {
+        position: absolute;
+        inset: 0;
+        z-index:2000;
+        background: rgba(0,0,0,.4);
+      }
+
+      .panel {
+        position: relative;
+        margin: 10vh auto;
+        max-width: 480px;
+        background: #fff;
+        padding: 1.25rem;
+        border-radius: .75rem;
+      }
+
+      body.modal-open {
+        overflow: hidden;
+      }
     </style>
   </head>
 
@@ -226,9 +249,14 @@
     }
 
     function startGuide(){
-      const msg = new SpeechSynthesisUtterance("こんにちは、これは読み上げのサンプルです。");
+      const msg1 = new SpeechSynthesisUtterance("よりよい防災マップは、災害時に役立つデジタルハザードマップです。");
+      const msg2 = new SpeechSynthesisUtterance("災害が起きた時に必要な情報を、いつでもどこでも見ることができます。");
+      const msg3 = new SpeechSynthesisUtterance("詳しい情報はこちらをご覧ください。");
       msg.lang = "ja-JP";
-      speechSynthesis.speak(msg);
+      speechSynthesis.speak(msg1);
+      speechSynthesis.speak(msg2);
+      closeModal();
+      speechSynthesis.speak(msg3);
     }
 
     function closeModal() {
