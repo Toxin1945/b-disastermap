@@ -190,100 +190,51 @@
         width: 250px;
       }
 
-      /* モーダルを開くボタン */
-.modal-open{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  font-size: 16px;
-  font-weight: bold;
-  width: 300px;
-  height: 60px;
-  color: #fff;
-  background: #000;
-  border: none;
-  cursor: pointer;
-  translate: -50% -50%;
-}
-
-/* モーダルと背景の指定 */
-.modal{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: rgba(0,0,0,50%);
-  padding: 40px 20px;
-  overflow: auto;
-  opacity: 0;
-  visibility: hidden;
-  transition: .3s;
-  box-sizing: border-box;
-}
-
-/* モーダルの擬似要素の指定 */
-.modal:before{
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-  margin-left: -0.2em;
-}
-
-/* クラスが追加された時の指定 */
-.modal.is-active{
-  opacity: 1;
-  visibility: visible;
-}
-
-/* モーダル内側の指定 */
-.modal-container{
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 600px;
-  width: 90%;
-}
-
-/* モーダルを閉じるボタンの指定 */
-.modal-close{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: -20px;
-  right: -20px;
-  width: 40px;
-  height: 40px;
-  color: #fff;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-/* モーダルのコンテンツ部分の指定 */
-.modal-content{
-  background: #fff;
-  text-align: left;
-  line-height: 1.8;
-  padding: 20px;
-}
-
-/* モーダルのコンテンツ部分のテキストの指定 */
-.modal-content p{
-  margin: 1em 0;
-}
+  #modal[hidden] { display: none; }
+  #modal { position: fixed; inset: 0; }
+  .backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.4); }
+  .panel { position: relative; margin: 10vh auto; max-width: 480px; background: #fff; padding: 1.25rem; border-radius: .75rem; }
+  body.modal-open { overflow: hidden; }
     </style>
   </head>
 
   <body class="font">
-    <!-- モーダルを開くボタン -->
-    <button class="modal-open js-modal-open">モーダルを開く</button>
 
 
+  <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="backdrop" data-close></div>
+    <div class="panel" role="document">
+      <h2 id="modal-title">お知らせ</h2>
+      <p>ページ読み込み直後に表示されるモーダルです。</p>
+      <button id="closeBtn" type="button" data-close>閉じる</button>
+    </div>
+  </div>
 
+  <script>
+    function openModal() {
+      const modal = document.getElementById('modal');
+      const closeEls = modal.querySelectorAll('[data-close]');
+      modal.hidden = false;
+      document.body.classList.add('modal-open');
+      // フォーカスを閉じるボタンへ（簡易フォーカス管理）
+      modal.querySelector('#closeBtn')?.focus();
+
+      closeEls.forEach(el => el.addEventListener('click', closeModal));
+      document.addEventListener('keydown', escClose);
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('modal');
+      modal.hidden = true;
+      document.body.classList.remove('modal-open');
+      document.removeEventListener('keydown', escClose);
+    }
+
+    function escClose(e) { if (e.key === 'Escape') closeModal(); }
+
+    // DOM構築が終わったら表示（画像の読み込みは待たない）
+    document.addEventListener('DOMContentLoaded', openModal);
+  </script>
 
     <header>
       <div class="site-header-pc">
@@ -410,18 +361,6 @@
             <div class="offcanvas-content">お知らせ</div>
           </div>
         </a>
-      </div>
-    </div>
-
-    <!-- モーダル本体 -->
-    <div class="modal js-modal">
-      <div class="modal-container">
-        <!-- モーダルを閉じるボタン -->
-        <div class="modal-close js-modal-close">×</div>
-        <!-- モーダル内部のコンテンツ -->
-        <div class="modal-content">
-          <p>開きました。</p>
-        </div>
       </div>
     </div>
 
@@ -732,31 +671,5 @@
     </footer>
   </body>
 
-  <script>
-    //要素を取得
-    const modal = document.querySelector('.js-modal'),
-          open = document.querySelector('.js-modal-open'),
-          close = document.querySelector('.js-modal-close');
-
-    //「開くボタン」をクリックしてモーダルを開く
-    function modalOpen() {
-      modal.classList.add('is-active');
-    }
-    open.addEventListener('click', modalOpen);
-
-    //「閉じるボタン」をクリックしてモーダルを閉じる
-    function modalClose() {
-      modal.classList.remove('is-active');
-    }
-    close.addEventListener('click', modalClose);
-
-    //「モーダルの外側」をクリックしてモーダルを閉じる
-    function modalOut(e) {
-      if (e.target == modal) {
-        modal.classList.remove('is-active');
-      }
-    }
-    addEventListener('click', modalOut);
-  </script>
   <script src="./mapSetting.js"></script>
 </html>
