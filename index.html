@@ -190,23 +190,23 @@
         width: 250px;
       }
 
-  #modal[hidden] { display: none; }
-  #modal { position: fixed; inset: 0; }
-  .backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.4); }
-  .panel { position: relative; margin: 10vh auto; max-width: 480px; background: #fff; padding: 1.25rem; border-radius: .75rem; }
-  body.modal-open { overflow: hidden; }
+      #modal[hidden] { display: none; }
+      #modal { position: fixed; inset: 0; }
+      .backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.4); }
+      .panel { position: relative; margin: 10vh auto; max-width: 480px; background: #fff; padding: 1.25rem; border-radius: .75rem; }
+      body.modal-open { overflow: hidden; }
     </style>
   </head>
 
   <body class="font">
 
-
+  <!-- モーダル -->
   <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
     <div class="backdrop" data-close></div>
     <div class="panel" role="document">
       <h2 id="modal-title">お知らせ</h2>
       <p>ページ読み込み直後に表示されるモーダルです。</p>
-      <button id="closeBtn" type="button" data-close>閉じる</button>
+      <button id="closeBtn" type="button" data-close>再生</button>
     </div>
   </div>
 
@@ -219,8 +219,16 @@
       // フォーカスを閉じるボタンへ（簡易フォーカス管理）
       modal.querySelector('#closeBtn')?.focus();
 
-      closeEls.forEach(el => el.addEventListener('click', closeModal));
+      closeEls.forEach(
+        el => el.addEventListener('click', startGuide)
+      );
       document.addEventListener('keydown', escClose);
+    }
+
+    function startGuide(){
+      const msg = new SpeechSynthesisUtterance("こんにちは、これは読み上げのサンプルです。");
+      msg.lang = "ja-JP";
+      speechSynthesis.speak(msg);
     }
 
     function closeModal() {
@@ -230,10 +238,11 @@
       document.removeEventListener('keydown', escClose);
     }
 
-    function escClose(e) { if (e.key === 'Escape') closeModal(); }
+    function escClose(e) {
+      if (e.key === 'Escape') closeModal();
+    }
 
-    // DOM構築が終わったら表示（画像の読み込みは待たない）
-    document.addEventListener('DOMContentLoaded', openModal);
+    window.addEventListener('load', openModal);
   </script>
 
     <header>
