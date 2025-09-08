@@ -1132,5 +1132,18 @@ function Debag(){
     }
 }
 
-//Web初期化時にもCheck()を発火
-window.ready(Check());
+function openModal() {
+    const modal = document.getElementById('modal');
+    const closeEls = modal.querySelectorAll('[data-close]');
+    modal.hidden = false;
+    document.body.classList.add('modal-open');
+    // フォーカスを閉じるボタンへ（簡易フォーカス管理）
+    modal.querySelector('#closeBtn')?.focus();
+
+    closeEls.forEach(
+    el => el.addEventListener('click', startGuide)
+    );
+    document.addEventListener('keydown', escClose);
+}
+
+window.addEventListener('ready', Check);
