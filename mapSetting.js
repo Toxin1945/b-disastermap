@@ -1146,4 +1146,30 @@ function openModal() {
     document.addEventListener('keydown', escClose);
 }
 
+//現在地取得
+if ("geolocation" in navigator) {
+navigator.geolocation.getCurrentPosition(
+    function (position) {
+    const lat = position.coords.latitude;
+    const lng = position.coords.longitude;
+    console.log("現在地:", lat, lng);
+    // ここでピンを打つ処理を呼び出す
+    addMarker(lat, lng);
+    },
+    function (error) {
+    console.error("位置情報エラー:", error);
+    }
+);
+} else {
+alert("お使いのブラウザは位置情報に対応していません");
+}
+
+
+function addMarker(lat, lng) {
+const pos = [lat, lng];
+L.marker(pos).addTo(map).bindPopup("現在地").openPopup();
+map.setView(pos, 15);
+}
+
+
 window.addEventListener('ready', Check);
