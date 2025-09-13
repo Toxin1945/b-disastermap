@@ -139,7 +139,7 @@ const areaCheckboxConfig = {
 
 document.addEventListener("DOMContentLoaded", function() {
     //現在地取得
-    /*if ("geolocation" in navigator) {
+    if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
             function (position) {
             const lat = position.coords.latitude;
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     } else {
         alert("お使いのブラウザは位置情報に対応していません");
-    }*/
+    }
 
     //基礎レイヤ追加
     map = L.map('map').setView([36.648735,138.19494], 18);
@@ -198,185 +198,35 @@ function CheckArea(el){
     }
 }
 
-function CheckAll(){
-    //コンビニ
-    if (document.icon_select_point.ConvenienceStore.checked) { 
-    if(!kmlLayer_cs_se){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_SevenEleven").checked = true;
-        kmlLayer_cs_se = omnivore.kml('./PlaceData/ConvenienceStore_SevenEleven.kml').on('ready', function() {
-        kmlLayer_cs_se.eachLayer(function(layer) {
+// フィルタ処理
+function filterShelters(el) {
+    console.log(el.checked);
+    // まず一旦全部非表示にする
+    iconLayers['DisasterArea_Wide'].eachLayer(function (layer) {
         if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'ConvenienceStore_SevenEleven') { //セブンイレブン
-            layer.setIcon(Icon_ConvenienceStore_SevenEleven);
-            }
-            else {
-            layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
+            layer.remove();  // マップから消す
         }
-        });
-    }).addTo(map);
-    }
-    if(!kmlLayer_cs_fm){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_FamilyMart").checked = true;
-        kmlLayer_cs_fm = omnivore.kml('./PlaceData/ConvenienceStore_FamilyMart.kml').on('ready', function() {
-        kmlLayer_cs_fm.eachLayer(function(layer) {
-        if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'ConvenienceStore_FamilyMart') { //ファミマ
-                layer.setIcon(Icon_ConvenienceStore_FamilyMart);
-            }
-            else {
-                layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
-            }
-        });
-        }).addTo(map);
-    }
-    if(!kmlLayer_cs_l){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_Lawson").checked = true;
-        kmlLayer_cs_l = omnivore.kml('./PlaceData/ConvenienceStore_Lawson.kml').on('ready', function() {
-        kmlLayer_cs_l.eachLayer(function(layer) {
-            if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'ConvenienceStore_Lawson') { //ローソン
-                layer.setIcon(Icon_ConvenienceStore_Lawson);
-            }
-            else {
-                layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
-            }
-        });
-        }).addTo(map);
-    }
-    }else if (!document.icon_select_point.ConvenienceStore.checked) {
-    if(kmlLayer_cs_se){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_SevenEleven").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_cs_se);
-        kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
-    }
-    if(kmlLayer_cs_fm){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_FamilyMart").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_cs_fm);
-        kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
-    }
-    if(kmlLayer_cs_l){
-        // チェックボックスのチェックをつける
-        document.getElementById("ConvenienceStore_Lawson").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_cs_l);
-        kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
-    }
-    }
+    });
 
-    //携帯会社
-    if (document.icon_select_point.PhoneShop.checked) { 
-    if(!kmlLayer_ps_au){
-        // チェックボックスのチェックをつける
-        document.getElementById("PhoneShop_au").checked = true;
-        kmlLayer_ps_au = omnivore.kml('./PlaceData/PhoneShop_au.kml').on('ready', function() {
-            kmlLayer_ps_au.eachLayer(function(layer) {
-            if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'PhoneShop_au') { //auショップ
-                layer.setIcon(Icon_PhoneShop_au);
+    // 再描画
+    iconLayers['DisasterArea_Wide'].eachLayer(function (layer) {
+        const feature = layer.feature;
+        if (!(layer instanceof L.Marker)) return;
+
+        if (el.checked) {
+            // チェックONなら「指定避難所」のみ表示
+            if (feature.properties['指定避難所'] === '○') {
+                layer.addTo(map);
             }
-            else {
-                layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
-            }
-        });
-        }).addTo(map);
-    }
-    if(!kmlLayer_ps_dcm){
-        // チェックボックスのチェックをつける
-        document.getElementById("PhoneShop_docomo").checked = true;
-        kmlLayer_ps_dcm = omnivore.kml('./PlaceData/PhoneShop_docomo.kml').on('ready', function() {
-            kmlLayer_ps_dcm.eachLayer(function(layer) {
-            if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'PhoneShop_docomo') { //docomo
-                layer.setIcon(Icon_PhoneShop_docomo);
-            }
-            else {
-                layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
-            }
-        });
-        }).addTo(map);
-    }
-    if(!kmlLayer_ps_sb){
-        // チェックボックスのチェックをつける
-        document.getElementById("PhoneShop_softbank").checked = true;
-        kmlLayer_ps_sb = omnivore.kml('./PlaceData/PhoneShop_softbank.kml').on('ready', function() {
-        kmlLayer_ps_sb.eachLayer(function(layer) {
-            if (layer instanceof L.Marker) {
-            var feature = layer.feature; // GeoJSON feature
-            // ExtendedData内のcategory属性を取得
-            var category = feature.properties['category'];
-            if (category === 'PhoneShop_softbank') { //softbank
-                layer.setIcon(Icon_PhoneShop_softbank);
-            }
-            else {
-                layer.setIcon(Icon_Error); //エラー表示
-            }
-            // layerに対してポップアップを設定
-            layer.bindPopup(layer.feature.properties.description);
-            }
-        });
-        }).addTo(map);
-    }
-    }else if (!document.icon_select_point.PhoneShop.checked) {
-    if(kmlLayer_ps_au){
-        // チェックボックスのチェックを外す
-        document.getElementById("PhoneShop_au").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_ps_au);
-        kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
-    }
-    if(kmlLayer_ps_dcm){
-        // チェックボックスのチェックを外す
-        document.getElementById("PhoneShop_docomo").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_ps_dcm);
-        kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
-    }
-    if(kmlLayer_ps_sb){
-        // チェックボックスのチェックを外す
-        document.getElementById("PhoneShop_softbank").checked = false;
-        // チェックボックスがOFFの場合、レイヤを削除
-        map.removeLayer(kmlLayer_ps_sb);
-        kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
-    }
-    }
+        } else {
+            // チェックOFFなら全部表示
+            console.log("全表示");
+            layer.addTo(map);
+        }
+    });
 }
+
+
 
 function Debag(){
     //フリーWi-Fi
