@@ -6,8 +6,8 @@ function startGuide(){
     msg2.lang = "ja-JP";
     msg3.lang = "ja-JP";
     speechSynthesis.speak(msg1);
-    speechSynthesis.speak(msg2);
-    speechSynthesis.speak(msg3);
+    //speechSynthesis.speak(msg2);
+    //speechSynthesis.speak(msg3);
 }
 
 
