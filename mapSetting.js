@@ -139,7 +139,7 @@ const areaCheckboxConfig = {
 
 document.addEventListener("DOMContentLoaded", function() {
     //現在地取得
-    /*if ("geolocation" in navigator) {
+    if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
             function (position) {
             const lat = position.coords.latitude;
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     } else {
         alert("お使いのブラウザは位置情報に対応していません");
-    }*/
+    }
 
     //基礎レイヤ追加
     map = L.map('map').setView([36.648735,138.19494], 18);
