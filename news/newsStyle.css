@@ -27,6 +27,28 @@ justify-content: center;
     margin-left: 1.5em;
 }
 
+.emphasis > .postScript{
+    margin-left: 2em;
+    border: 1px dotted #3b864a;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.postScript > .quotation{
+    color: #7d7d7d;
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+}
+
+a{
+    color: black !important;
+}
+a:hover{
+    font-weight: bold;
+}
+
 .return{
 text-decoration: none;
 padding: 0.1vw;

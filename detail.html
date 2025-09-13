@@ -114,7 +114,7 @@
       align-self: flex-start;
       top:150px;
       position:sticky;
-      width: 250px !important;
+      max-width: 250px !important;
     }
 
     .jump-list {
@@ -310,6 +310,11 @@
                         </a>
                       </li>
                       <li class="mb-2">
+                        <a href="#SafeFaucet" class="jump-list-item">
+                          安心の蛇口 &#9660;
+                        </a>
+                      </li>
+                      <li class="mb-2">
                         <a href="#Wide" class="jump-list-item">
                           広域避難場所 &#9660;
                         </a>
@@ -349,11 +354,12 @@
                           携帯会社 &#9660;
                         </a>
                       </li>
-                      <li class="mb-2">
+                      <!--<li class="mb-2">
                         <a href="#Link"  class="jump-list-item">
                           関連リンク &#9660;
                         </a>
                       </li>
+                      -->
                     </ul>
                 </div>
               </div>
@@ -430,15 +436,30 @@
                   </div>
                 </div>
               </div>
+              <!-- 安心の蛇口 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <div id="SafeFaucet"></div>
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                    <img src="./Icon/SafeFaucet.png" alt="安心の蛇口_icon" style="width: 2rem; padding-right: 0.5rem;">
+                    安心の蛇口 (8/24追加)
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                  <div class="accordion-body font">
+                    <p>災害時、周囲が断水になっても給水が可能な蛇口です。</p>
+                  </div>
+                </div>
+              </div>
               <!-- 広域避難場所-->
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Wide"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
                     <img src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon" style="width: 2rem; padding-right: 0.5rem;">広域避難場所
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>災害の規模が拡大した場所などで、仮設住宅などを建設して長期間にわたり避難者を収容することが可能となる場所です。</p>
                   </div>
@@ -448,11 +469,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="De"></div>
-                  <button class="accordion-button font" id="De" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                  <button class="accordion-button font" id="De" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
                     <img src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon" style="width: 2rem; padding-right: 0.5rem;">指定緊急避難場所
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>災害時の危険から命を守るために、緊急的に非難する場所です。<br>警戒レベル3以上の避難情報を発令した際に、市が開放します。</p>
                   </div>
@@ -462,11 +483,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Drug"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
                     <img src="./Icon/drug store.png" alt="ドラッグストア_icon" style="width: 2rem; padding-right: 0.5rem;">薬局・ドラッグストア
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>日用品や食料、医薬品等の購入ができます。</p>
                   </div>
@@ -476,11 +497,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Roundry"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
                     <img src="./Icon/coinraundry.png" alt="コインランドリー_icon" style="width: 2rem; padding-right: 0.5rem;">コインランドリー
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>災害時に、割引や無料開放等の災害支援を行っている店舗もあります。</p>
                     <p>(詳細は各店舗にお問い合わせください)</p>
@@ -491,11 +512,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Bath"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
                     <img src="./Icon/hot spring.png" alt="入浴施設_icon" style="width: 2rem; padding-right: 0.5rem;">入浴施設
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>災害時に、割引や無料開放等の災害支援を行っている店舗もあります。</p>
                     <p>(詳細は各店舗にお問い合わせください)</p>
@@ -506,11 +527,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Public"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
                     <img src="./Icon/restroom.png" alt="公衆トイレ_icon" style="width: 2rem; padding-right: 0.5rem;"> 公衆トイレ・<img src="./Icon/phone.png" alt="公衆電話_icon" style="width: 2rem; padding-right: 0.5rem;"> 公衆電話
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>非常時にもお使いいただけます。</p>
                   </div>
@@ -520,11 +541,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Conveni"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseten">
                     コンビニエンスストア
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>災害時には、物資の支援や充電器の貸し出しなどの災害支援を行っています。避難後の日用品の調達にもご利用いただけます。<br>また、日ごろからフリーWi-Fiをお使いいただけます。</p>
                     <p>(詳細は各店舗のポイントよりご確認ください)</p>
@@ -539,11 +560,11 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <div id="Phone"></div>
-                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
+                  <button class="accordion-button font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="true" aria-controls="panelsStayOpen-collapseEleven">
                     携帯会社
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show">
+                <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse show">
                   <div class="accordion-body font">
                     <p>充電スポット開放等の災害支援を行っています。</p>
                     <p>(詳細は各店舗にお問い合わせください)</p>
