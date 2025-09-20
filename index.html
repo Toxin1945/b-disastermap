@@ -426,34 +426,28 @@
                 <form name="icon_select_point">
                   <!-- フリーWi-Fi -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="WiFi" id="WiFi" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="WiFi" id="WiFi" onclick="Check(this,null)">
                     <label class="form-check-label font" for="WiFi"><img class="form-check-icon" src="./Icon/FreeWi-Fi.png" alt="FreeWi-Fi_icon">フリーWi-Fi</label>
                   </div>
                   <!-- 災害ベンダー -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="Vendor" id="Vendor" onclick="Check(this)" checked>
+                    <input class="form-check-input" type="checkbox" name="Vendor" id="Vendor" onclick="Check(this,null)" checked>
                     <label class="form-check-label font" for="vendor"><img class="form-check-icon" src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon">災害ベンダー</label>
                   </div>
                   <!-- 安心の蛇口 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="SafeFaucet" id="SafeFaucet" onclick="Check(this)" checked>
+                    <input class="form-check-input" type="checkbox" name="SafeFaucet" id="SafeFaucet" onclick="Check(this,null)" checked>
                     <label class="form-check-label font" for="safeFaucet"><img class="form-check-icon" src="./Icon/SafeFaucet.png" alt="安心の蛇口_icon">安心の蛇口</label>
                   </div>
                   <div class="accordion-body">
-                    <!-- 広域避難場所 -->
-                      <script>
-                        const childrenFilterKey = [
-                          'DisasterArea_Wide_Designated'
-                        ];
-                      </script>
                     <div class="div-checkbox">
-                      <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" checked>
+                      <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check(this,document.getElementById('DisasterArea_Wide_Designated'))" checked>
                       <label class="form-check-label font" for="DisasterArea_Wide"><img class="form-check-icon" src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon">広域避難場所</label>
                     </div>
                     <details class="ms-3">
                       <summary class="font_mid txt-more-narrow-down">さらに絞り込む</summary>
                       <span style="display: flex; height: 15px !important;">
-                        &emsp;<input class="form-check-input" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" onclick="filterShelters(this)">
+                        &emsp;<input class="form-check-input" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" onclick="filterShelters(this,document.getElementById('DisasterArea_Wide'))">
                         <label style="height: 10px;" class="form-check-label" for="DisasterArea_Wide_Designated">指定避難所のみ</label>
                       </span>
                     </details>
@@ -461,7 +455,7 @@
 
                   <!-- 指定緊急避難場所 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Evacuation_Designated"><img class="form-check-icon" src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon">指定緊急避難場所</label>
                     <!--絞り込み検索-->
                     <!-- <details class="ms-3">
@@ -474,67 +468,91 @@
                   </div>
                   <!-- 薬局・ドラッグストア -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Drugstore"><img class="form-check-icon" src="./Icon/drug store.png" alt="ドラッグストア_icon">薬局・ドラッグストア</label>
                   </div>
                   <!-- コインランドリー -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="Laundry" id="Laundry" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="Laundry" id="Laundry" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Laundry"><img class="form-check-icon" src="./Icon/coinraundry.png" alt="コインランドリー_icon">コインランドリー</label>
                   </div>
                   <!-- 入浴施設 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check(this,null)">
                     <label class="form-check-label font" for="HotSpring"><img class="form-check-icon" src="./Icon/hot spring.png" alt="入浴施設_icon">入浴施設</label>
                   </div>
                   <!-- 公衆トイレ -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PublicToilet"><img class="form-check-icon" src="./Icon/restroom.png" alt="公衆トイレ_icon">公衆トイレ</label>
                   </div>
                   <!-- 公衆電話 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PublicPhone"><img class="form-check-icon" src="./Icon/phone.png" alt="公衆電話_icon">公衆電話</label>
                   </div>
                   <!-- コンビニ -->
+                  <script>
+                    let CSChildren;
+
+                    document.addEventListener("DOMContentLoaded", () => {
+                      CSChildren = [
+                        document.getElementById('Convenience_SevenEleven'),
+                        document.getElementById('Convenience_FamilyMart'),
+                        document.getElementById('Convenience_Lawson')
+                      ];
+                    });
+                  </script>
+
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll(this,CSChildren)">
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="Convenience_SevenEleven" id="Convenience_SevenEleven" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="Convenience_SevenEleven" id="Convenience_SevenEleven" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img class="form-check-icon" src="./Icon/convenience.png" alt="セブンイレブン_icon">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="Convenience_FamilyMart" id="Convenience_FamilyMart" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="Convenience_FamilyMart" id="Convenience_FamilyMart" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img class="form-check-icon" src="./Icon/FamilyMart.png" alt="ファミリーマート_icon">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="Convenience_Lawson" id="Convenience_Lawson" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="Convenience_Lawson" id="Convenience_Lawson" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson"><img class="form-check-icon" src="./Icon/LAWSON.png" alt="ローソン_icon">ローソン</label>
                   </div>
                   <!-- 携帯会社 -->
+                  <script>
+                    let PhoneShopChildren;
+
+                    document.addEventListener("DOMContentLoaded", () => {
+                      PhoneShopChildren = [
+                        document.getElementById('PhoneShop_au'),
+                        document.getElementById('PhoneShop_docomo'),
+                        document.getElementById('PhoneShop_softbank')
+                      ];
+                    });
+                  </script>
+
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll(this,PhoneShopChildren)">
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_au"><img class="form-check-icon" src="./Icon/au.png" alt="auショップ_icon">auショップ</label>
                   </div>
                   <!-- docomo -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_docomo"><img class="form-check-icon" src="./Icon/docomo.png" alt="docomo_icon">docomo</label>
                   </div>
                   <!-- softbank -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check(this)">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_softbank"><img class="form-check-icon" src="./Icon/softbank.png" alt="softbank_icon">softbank</label>
                   </div>
                 </form>

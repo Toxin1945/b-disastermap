@@ -180,12 +180,16 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //表示・非表示を切り替え
-function Check(el){
+function Check(el,child){
+    console.log(child);
     //レイヤー追加
     if (el.checked) {
         iconLayers[el.name].addTo(map);
     }else if (!el.checked) {
         map.removeLayer(iconLayers[el.name]);
+        if(child != null && child.checked){
+            child.checked = false;
+        }
     }
 }
 
@@ -199,12 +203,14 @@ function CheckArea(el){
 }
 
 // フィルタ処理
-function filterShelters(el) {
-    console.log(el.checked);
-    // まず一旦全部非表示にする
+function filterShelters(el,parent) {
+    var parentChecked = parent.checked;
+    if(!parentChecked){
+        parent.checked = true;
+    }
     iconLayers['DisasterArea_Wide'].eachLayer(function (layer) {
         if (layer instanceof L.Marker) {
-            layer.remove();  // マップから消す
+            layer.remove();
         }
     });
 
@@ -214,16 +220,21 @@ function filterShelters(el) {
         if (!(layer instanceof L.Marker)) return;
 
         if (el.checked) {
-            // チェックONなら「指定避難所」のみ表示
             if (feature.properties['指定避難所'] === '○') {
                 layer.addTo(map);
             }
         } else {
-            // チェックOFFなら全部表示
-            console.log("全表示");
             layer.addTo(map);
         }
     });
+}
+
+function CheckAll(parent,children){
+    children.forEach(child=>{
+        console.log(child);
+        child.checked = parent.checked;
+        Check(child,null);
+    })
 }
 
 
@@ -356,6 +367,6 @@ function openModal() {
 
 function addMarker(lat, lng) {
     const pos = [lat, lng];
-    L.marker(pos).addTo(map).bindPopup("現在地").openPopup();
-    map.setView(pos, 15);
+    //L.marker(pos).addTo(map).bindPopup("現在地").openPopup();
+    //map.setView(pos, 15);
 }
