@@ -3,6 +3,12 @@ var highlight;
 
 
 function playGuide(){
+    if(window.innerWidth >= 1000){
+        highlight = document.getElementById("howToUse")
+    }else{
+        highlight = document.getElementById("menu");
+    }
+
     audio.src = "./image/ガイド音声(ずんだもん).wav";
     audio.currentTime = 0;
     audio.play();
@@ -24,12 +30,6 @@ function openModal() {
     document.body.classList.add('modal-open');
 
     modal.querySelector('#closeBtn')?.focus();
-
-    if(window.innerWidth >= 1000){
-        highlight = document.getElementById("howToUse")
-    }else{
-        highlight = document.getElementById("menu");
-    }
     console.log(highlight);
 
 }
