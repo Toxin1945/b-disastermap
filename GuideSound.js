@@ -1,25 +1,44 @@
-function startGuide(){
-    const msg1 = new SpeechSynthesisUtterance("よりよい防災マップは、災害時に役立つデジタルハザードマップです。");
-    const msg2 = new SpeechSynthesisUtterance("災害が起きた時に必要な情報を、いつでもどこでも見ることができます。");
-    const msg3 = new SpeechSynthesisUtterance("詳しい情報はこちらをご覧ください。");
-    msg1.lang = "ja-JP";
-    msg2.lang = "ja-JP";
-    msg3.lang = "ja-JP";
-    speechSynthesis.speak(msg1);
-    //speechSynthesis.speak(msg2);
-    //speechSynthesis.speak(msg3);
+const audio = document.getElementById("voice");
+var highlight;
+
+
+function playGuide(){
+    audio.src = "./image/ガイド音声(ずんだもん).wav";
+    audio.currentTime = 0;
+    audio.play();
+
+    setTimeout(() => {
+        highlight.style.outline = "3px solid orange";
+    }, 26000);
+
+    audio.addEventListener("ended", () => {
+        highlight.style.outline = "0px solid orange";
+        closeModal();
+    });
 }
 
+function openModal() {
+    const modal = document.getElementById('modal');
+    const closeEls = modal.querySelectorAll('[data-close]');
+    modal.hidden = false;
+    document.body.classList.add('modal-open');
+
+    modal.querySelector('#closeBtn')?.focus();
+
+    if(window.innerWidth >= 1000){
+        highlight = document.getElementById("howToUse")
+    }else{
+        highlight = document.getElementById("menu");
+    }
+    console.log(highlight);
+
+}
 
 function closeModal() {
+    audio.pause();
     const modal = document.getElementById('modal');
     modal.hidden = true;
     document.body.classList.remove('modal-open');
-    document.removeEventListener('keydown', escClose);
 }
 
-function escClose(e) {
-    if (e.key === 'Escape') closeModal();
-}
-
-    window.addEventListener('load', openModal);
+window.addEventListener('load', openModal);

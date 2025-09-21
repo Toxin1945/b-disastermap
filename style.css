@@ -59,11 +59,6 @@ header.site-header {
 }
 
 /*ヘッダー(PC)*/
-@media (max-width: 1000px) {
-    .site-header-pc{
-        display: none;
-    }
-}
 @media (max-width: 999px) {
     .site-header-pc{
         display: none;

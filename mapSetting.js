@@ -139,12 +139,11 @@ const areaCheckboxConfig = {
 
 document.addEventListener("DOMContentLoaded", function() {
     //現在地取得
-    if ("geolocation" in navigator) {
+    /*if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
             function (position) {
             const lat = position.coords.latitude;
             const lng = position.coords.longitude;
-            console.log("現在地:", lat, lng);
             // ここでピンを打つ処理を呼び出す
             addMarker(lat, lng);
             },
@@ -154,10 +153,10 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     } else {
         alert("お使いのブラウザは位置情報に対応していません");
-    }
+    }*/
 
     //基礎レイヤ追加
-    map = L.map('map').setView([36.648735,138.19494], 18);
+    map = L.map('map').setView([36.648735,138.19494], 12);
     L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
         attribution: '国土地理院'
     }).addTo(map);
@@ -237,136 +236,9 @@ function CheckAll(parent,children){
     })
 }
 
-
-
-function Debag(){
-    //フリーWi-Fi
-    if (document.icon_select_point.WiFi.checked && kmlLayer_wf) { 
-    document.getElementById("WiFi").checked = false;
-    map.removeLayer(kmlLayer_wf);
-    kmlLayer_wf = null; // レイヤを削除したらnullにしておく
-    }
-
-    //災害ベンダー
-    if (document.icon_select_point.vendor.checked && kmlLayer_dv) { 
-    document.getElementById("vendor").checked = false;
-    map.removeLayer(kmlLayer_dv);
-    kmlLayer_dv = null; // レイヤを削除したらnullにしておく
-    }
-
-    // //広域避難場所
-    // if (document.icon_select_point.DisasterArea_Wide.checked && kmlLayer_ew) { 
-    //   document.getElementById("DisasterArea_Wide").checked = false;
-    //   map.removeLayer(kmlLayer_ew);
-    //   kmlLayer_ew = null; // レイヤを削除したらnullにしておく
-    // }
-
-    //指定緊急避難場所
-    if (document.icon_select_point.Evacuation_Designated.checked && kmlLayer_de) { 
-    document.getElementById("Evacuation_Designated").checked = false;
-    map.removeLayer(kmlLayer_de);
-    kmlLayer_de = null; // レイヤを削除したらnullにしておく
-    }
-
-    //ドラッグストア
-    if (document.icon_select_point.DrugStore.checked && kmlLayer_ds) {
-    document.getElementById("DrugStore").checked = false;
-    map.removeLayer(kmlLayer_ds);
-    kmlLayer_ds = null; // レイヤを削除したらnullにしておく
-    }
-
-    //コインランドリー
-    if (document.icon_select_point.Laundry.checked && kmlLayer_cl) { 
-    document.getElementById("Laundry").checked = false;
-    map.removeLayer(kmlLayer_cl);
-    kmlLayer_cl = null; // レイヤを削除したらnullにしておく
-    }
-
-    //入浴施設
-    if (document.icon_select_point.HotSpring.checked && kmlLayer_hs) { 
-    document.getElementById("HotSpring").checked = false;
-    map.removeLayer(kmlLayer_hs);
-    kmlLayer_hs = null; // レイヤを削除したらnullにしておく
-    }
-
-    //公衆トイレ
-    if (document.icon_select_point.PublicToilet.checked && kmlLayer_pt) { 
-    document.getElementById("PublicToilet").checked = false;
-    map.removeLayer(kmlLayer_pt);
-    kmlLayer_pt = null; // レイヤを削除したらnullにしておく
-    }
-
-    //公衆電話
-    if (document.icon_select_point.PublicPhone.checked && kmlLayer_pp) { 
-    document.getElementById("PublicPhone").checked = false;
-    map.removeLayer(kmlLayer_pp);
-    kmlLayer_pp = null; // レイヤを削除したらnullにしておく
-    }
-
-    document.getElementById("ConvenienceStore").checked = false;
-
-    //セブンイレブン
-    if (document.icon_select_point.ConvenienceStore_SevenEleven.checked && kmlLayer_cs_se) { 
-    document.getElementById("ConvenienceStore_SevenEleven").checked = false;
-    map.removeLayer(kmlLayer_cs_se);
-    kmlLayer_cs_se = null; // レイヤを削除したらnullにしておく
-    }
-
-    //ファミマ
-    if (document.icon_select_point.ConvenienceStore_FamilyMart.checked && kmlLayer_cs_fm) { 
-    document.getElementById("ConvenienceStore_FamilyMart").checked = false;
-    map.removeLayer(kmlLayer_cs_fm);
-    kmlLayer_cs_fm = null; // レイヤを削除したらnullにしておく
-    }
-
-    //ローソン
-    if (document.icon_select_point.ConvenienceStore_Lawson.checked && kmlLayer_cs_l) { 
-    document.getElementById("ConvenienceStore_Lawson").checked = false;
-    map.removeLayer(kmlLayer_cs_l);
-    kmlLayer_cs_l = null; // レイヤを削除したらnullにしておく
-    }
-
-    document.getElementById("PhoneShop").checked = false;
-
-    //auショップ
-    if (document.icon_select_point.PhoneShop_au.checked && kmlLayer_ps_au) { 
-    document.getElementById("PhoneShop_au").checked = false;
-    map.removeLayer(kmlLayer_ps_au);
-    kmlLayer_ps_au = null; // レイヤを削除したらnullにしておく
-    }
-
-    //docomo
-    if (document.icon_select_point.PhoneShop_docomo.checked && kmlLayer_ps_dcm) { 
-    document.getElementById("PhoneShop_docomo").checked = false;
-    map.removeLayer(kmlLayer_ps_dcm);
-    kmlLayer_ps_dcm = null; // レイヤを削除したらnullにしておく
-    }
-
-    //softbank
-    if (document.icon_select_point.PhoneShop_softbank.checked && kmlLayer_ps_sb) {
-    document.getElementById("PhoneShop_softbank").checked = false;
-    map.removeLayer(kmlLayer_ps_sb);
-    kmlLayer_ps_sb = null; // レイヤを削除したらnullにしておく
-    }
-}
-
-function openModal() {
-    const modal = document.getElementById('modal');
-    const closeEls = modal.querySelectorAll('[data-close]');
-    modal.hidden = false;
-    document.body.classList.add('modal-open');
-    // フォーカスを閉じるボタンへ（簡易フォーカス管理）
-    modal.querySelector('#closeBtn')?.focus();
-
-    closeEls.forEach(
-    el => el.addEventListener('click', startGuide)
-    );
-    document.addEventListener('keydown', escClose);
-}
-
-
+/*
 function addMarker(lat, lng) {
     const pos = [lat, lng];
-    //L.marker(pos).addTo(map).bindPopup("現在地").openPopup();
-    //map.setView(pos, 15);
-}
+    L.marker(pos).addTo(map).bindPopup("現在地").openPopup();
+    map.setView(pos, 15);
+}*/
