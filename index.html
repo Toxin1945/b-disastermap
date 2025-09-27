@@ -18,7 +18,9 @@
     <!-- map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js">c</script>
+    <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=play_arrow" />
+    
     <style type="text/css">
 
       a{
@@ -75,6 +77,9 @@
         }
       }
 
+      #map{
+        z-index: 0;
+      }
       @media (max-width: 1060px) {
         #map{
           width: calc(100% - 170px);
@@ -188,10 +193,109 @@
         border: 1px dotted #3b864a;
         width: 250px;
       }
+
+      #modal[hidden] {
+        display: none;
+      }
+
+      #modal {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+      }
+
+      .backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,.4);
+      }
+
+      .panel {
+        position: relative;
+        margin: 30vh auto;
+        max-width: 300px;
+        height: 320px;
+        background: #fff;
+        border-radius: 3rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .close-modal{
+        position:absolute;
+        top: 20px;
+        width: 100%;
+        text-align: right;
+        margin-right: 4em;
+      }
+
+      .btn-close{
+        color: black;
+        background-color: unset;
+        border: 0px solid white;
+      }
+
+      .panel .btn-play{
+        width: 170px;
+        height:40px;
+        background-color: #3b864a;
+        color: white;
+        border-radius: .5em;
+        border: 1px solid #3b864a;
+      }
+
+      .panel-guide img{
+        width: 40%;
+        margin-bottom: 1em;
+      }
+
+      .panel-guide p{
+        font-weight:bold;
+        font-size: larger;
+        margin-bottom: 2em;
+      }
+
+      body.modal-open {
+        overflow: hidden;
+      }
+
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
     </style>
   </head>
 
   <body class="font">
+
+  <!-- モーダル -->
+  <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" class="font" hidden>
+    <div class="backdrop" onclick="closeModal()" data-close></div>
+    <div class="panel" role="document">
+      <!--閉じる-->
+      <div class="close-modal">
+            <button type="button" class="btn-close" onclick="closeModal()" aria-label="閉じる"></button>
+      </div>
+      <div class="panel-guide">
+        <img src="./image/volume.png">
+        <p>音声ガイドが流れます</p>
+        <button class="btn-play" type="button"  onclick="playGuide()" data-close>
+          <audio id="voice" preload="auto"></audio>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+          </svg>
+          <span>再生</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
     <header>
       <div class="site-header-pc">
         <div class="title">
@@ -233,7 +337,7 @@
                   </div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="howToUse">
                 <a aria-current="page" href="./howto.html">
                   <div class="nav-content">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
@@ -263,7 +367,7 @@
             <img src="./Icon/top_icon.png" alt="icon">
             <h1>よりよい防災マップ @Web</h1>
             <nav class="navbar navbar-center">
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <button class="navbar-toggler" id="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                 </svg>
@@ -359,11 +463,16 @@
             ピンの画像は、クリック(タップ)することで拡大表示できます。
           </p>
           <p>
-            各施設の詳細情報は<a href="./detail.html">コチラ</a>からご覧ください。
+            各施設の詳細情報は<a class="link" href="./detail.html">コチラ</a>からご覧ください。
           </p>
       </div>
-
+        <!-- ズーム(工事中)
+        <div style="display: flex;justify-content: flex-end;margin-bottom: 1em; width: 90%;">
+          <button style="width:180px;box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.35);border-radius:3px;background-color: #3b864a;color: white;border: 0px solid #3b864a;padding: 5px;">現在地へズームする</button>
+        </div>
+        -->
         <div class="row d-flex flex-nowrap">
+
           <!-- マップ -->
           <div class="order-2 display_map">
             <div id="map"></div>
@@ -376,114 +485,36 @@
                 <form name="icon_select_point">
                   <!-- フリーWi-Fi -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="WiFi" id="WiFi" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="WiFi" id="WiFi" onclick="Check(this,null)">
                     <label class="form-check-label font" for="WiFi"><img class="form-check-icon" src="./Icon/FreeWi-Fi.png" alt="FreeWi-Fi_icon">フリーWi-Fi</label>
                   </div>
                   <!-- 災害ベンダー -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="vendor" id="vendor" onclick="Check()" checked>
+                    <input class="form-check-input" type="checkbox" name="Vendor" id="Vendor" onclick="Check(this,null)" checked>
                     <label class="form-check-label font" for="vendor"><img class="form-check-icon" src="./Icon/Disaster Vendor.png" alt="災害ベンダー_icon">災害ベンダー</label>
                   </div>
                   <!-- 安心の蛇口 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="safeFaucet" id="safeFaucet" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="SafeFaucet" id="SafeFaucet" onclick="Check(this,null)" checked>
                     <label class="form-check-label font" for="safeFaucet"><img class="form-check-icon" src="./Icon/SafeFaucet.png" alt="安心の蛇口_icon">安心の蛇口</label>
                   </div>
                   <div class="accordion-body">
-                    <!-- 広域避難場所 -->
                     <div class="div-checkbox">
-                      <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check_DW()" checked>
+                      <input class="form-check-input" type="checkbox" name="DisasterArea_Wide" id="DisasterArea_Wide" onclick="Check(this,document.getElementById('DisasterArea_Wide_Designated'))" checked>
                       <label class="form-check-label font" for="DisasterArea_Wide"><img class="form-check-icon" src="./Icon/Wide area evacuation site.png" alt="広域避難場所_icon">広域避難場所</label>
                     </div>
                     <details class="ms-3">
                       <summary class="font_mid txt-more-narrow-down">さらに絞り込む</summary>
                       <span style="display: flex; height: 15px !important;">
-                        &emsp;<input class="form-check-input" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated">
-                        <label style="height: 10px;" class="form-check-label" for="DisasterArea_Wide_Designated">指定避難所</label>
+                        &emsp;<input class="form-check-input" type="checkbox" name="DisasterArea_Wide_Designated" id="DisasterArea_Wide_Designated" onclick="filterShelters(this,document.getElementById('DisasterArea_Wide'))">
+                        <label style="height: 10px;" class="form-check-label" for="DisasterArea_Wide_Designated">指定避難所のみ</label>
                       </span>
                     </details>
-                    <!--絞り込み検索(広域避難場所にチェックが入った時のみ表示したい！！！)-->
-                    <script>
-                      function Check_DW() {
-                        var isWideChecked = document.icon_select_point.DisasterArea_Wide.checked;
-                        if (isWideChecked && !kmlLayer_ew) {
-                          // レイヤーが未作成でチェックがONの場合に読み込み
-                          document.getElementById("DisasterArea_Wide_Designated").checked = false;
-                          kmlLayer_ew = omnivore.kml('./PlaceData/WideAreaEvacuationSite.kml').on('ready', function () {
-                              kmlLayer_ew.eachLayer(function (layer) {
-                                  if (layer instanceof L.Marker) {
-                                      var feature = layer.feature; // GeoJSON feature
-                                      var category = feature.properties['category'];
-
-                                      // カテゴリに応じたアイコン設定
-                                      if (category === 'Evacuation_Wide') {
-                                          layer.setIcon(Icon_Evacuation_Wide); // 広域避難場所
-                                      } else {
-                                          layer.setIcon(Icon_Error); // エラー表示
-                                      }
-
-                                      // 広域避難場所リストに追加
-                                      wideMarkers.push(layer);
-
-                                      // 指定避難所かどうかの判定
-                                      if (feature.properties['指定避難所'] === '○') {
-                                          designatedMarkers.push(layer);
-                                      }
-
-                                      // ポップアップを設定
-                                      layer.bindPopup(layer.feature.properties.description);
-                                  }
-                              });
-                            }).addTo(map);
-                          } else if (!isWideChecked && kmlLayer_ew) {
-                              // チェックがOFFの場合、レイヤを削除
-                              map.removeLayer(kmlLayer_ew);
-                              kmlLayer_ew = null; // レイヤを削除したらnullにしておく
-                              wideMarkers = [];
-                              designatedMarkers = [];
-                          
-                              document.getElementById("DisasterArea_Wide_Designated").checked = false;
-                          }
-
-                          // チェックがONの場合、絞り込みを反映
-                          if (isWideChecked) {
-                              Selected();
-                          }
-                      }
-                      function Selected() {
-                          // 広域避難所のチェック状態を確認
-                          var isWideChecked = document.icon_select_point.DisasterArea_Wide.checked;
-                      
-                          // 広域避難所がチェックされていない場合は処理を終了
-                          if (!isWideChecked) {
-                              return;
-                          }
-                        
-                          // 絞り込みチェックボックスの状態取得
-                          var isDesignatedChecked = document.getElementById("DisasterArea_Wide_Designated").checked;
-                        
-                          // すべての広域避難場所マーカーを一旦非表示
-                          wideMarkers.forEach(marker => map.removeLayer(marker));
-                        
-                          if (isDesignatedChecked) {
-                              // 指定避難所のみ表示
-                              designatedMarkers.forEach(marker => marker.addTo(map));
-                          } else {
-                              // 全ての広域避難場所を表示
-                              wideMarkers.forEach(marker => marker.addTo(map));
-                          }
-                      }
-
-                      // 広域避難所チェックボックスのイベントリスナー
-                      document.getElementById("DisasterArea_Wide").addEventListener("change", Check_DW);
-
-                      // 指定避難所チェックボックスのイベントリスナー
-                      document.getElementById("DisasterArea_Wide_Designated").addEventListener("change", Selected);
-                    </script>
                   </div>
+
                   <!-- 指定緊急避難場所 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Evacuation_Designated" id="Evacuation_Designated" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Evacuation_Designated"><img class="form-check-icon" src="./Icon/Designated emergency evacuation site.png" alt="指定緊急避難場所_icon">指定緊急避難場所</label>
                     <!--絞り込み検索-->
                     <!-- <details class="ms-3">
@@ -496,67 +527,91 @@
                   </div>
                   <!-- 薬局・ドラッグストア -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="DrugStore" id="DrugStore" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Drugstore"><img class="form-check-icon" src="./Icon/drug store.png" alt="ドラッグストア_icon">薬局・ドラッグストア</label>
                   </div>
                   <!-- コインランドリー -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="Laundry" id="Laundry" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Laundry" id="Laundry" onclick="Check(this,null)">
                     <label class="form-check-label font" for="Laundry"><img class="form-check-icon" src="./Icon/coinraundry.png" alt="コインランドリー_icon">コインランドリー</label>
                   </div>
                   <!-- 入浴施設 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="HotSpring" id="HotSpring" onclick="Check(this,null)">
                     <label class="form-check-label font" for="HotSpring"><img class="form-check-icon" src="./Icon/hot spring.png" alt="入浴施設_icon">入浴施設</label>
                   </div>
                   <!-- 公衆トイレ -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PublicToilet" id="PublicToilet" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PublicToilet"><img class="form-check-icon" src="./Icon/restroom.png" alt="公衆トイレ_icon">公衆トイレ</label>
                   </div>
                   <!-- 公衆電話 -->
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PublicPhone" id="PublicPhone" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PublicPhone"><img class="form-check-icon" src="./Icon/phone.png" alt="公衆電話_icon">公衆電話</label>
                   </div>
                   <!-- コンビニ -->
+                  <script>
+                    let CSChildren;
+
+                    document.addEventListener("DOMContentLoaded", () => {
+                      CSChildren = [
+                        document.getElementById('Convenience_SevenEleven'),
+                        document.getElementById('Convenience_FamilyMart'),
+                        document.getElementById('Convenience_Lawson')
+                      ];
+                    });
+                  </script>
+
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="ConvenienceStore" id="ConvenienceStore" onclick="CheckAll(this,CSChildren)">
                     <label class="form-check-label font" for="ConvenienceStore">コンビニエンスストア</label>
                   </div>
                   <!--セブンイレブン-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_SevenEleven" id="ConvenienceStore_SevenEleven" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Convenience_SevenEleven" id="Convenience_SevenEleven" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_SevenEleven"><img class="form-check-icon" src="./Icon/convenience.png" alt="セブンイレブン_icon">セブンイレブン</label>
                   </div>
                   <!--ファミマ-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_FamilyMart" id="ConvenienceStore_FamilyMart" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Convenience_FamilyMart" id="Convenience_FamilyMart" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_FamilyMart"><img class="form-check-icon" src="./Icon/FamilyMart.png" alt="ファミリーマート_icon">ファミリーマート</label>
                   </div>
                   <!--ローソン-->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="ConvenienceStore_Lawson" id="ConvenienceStore_Lawson" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="Convenience_Lawson" id="Convenience_Lawson" onclick="Check(this,null)">
                     <label class="form-check-label font" for="ConvenienceStore_Lawson"><img class="form-check-icon" src="./Icon/LAWSON.png" alt="ローソン_icon">ローソン</label>
                   </div>
                   <!-- 携帯会社 -->
+                  <script>
+                    let PhoneShopChildren;
+
+                    document.addEventListener("DOMContentLoaded", () => {
+                      PhoneShopChildren = [
+                        document.getElementById('PhoneShop_au'),
+                        document.getElementById('PhoneShop_docomo'),
+                        document.getElementById('PhoneShop_softbank')
+                      ];
+                    });
+                  </script>
+
                   <div class="div-checkbox">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop" id="PhoneShop" onclick="CheckAll(this,PhoneShopChildren)">
                     <label class="form-check-label font" for="PhoneShop">携帯会社</label>
                   </div>
                   <!-- auショップ -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_au" id="PhoneShop_au" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_au"><img class="form-check-icon" src="./Icon/au.png" alt="auショップ_icon">auショップ</label>
                   </div>
                   <!-- docomo -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_docomo" id="PhoneShop_docomo" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_docomo"><img class="form-check-icon" src="./Icon/docomo.png" alt="docomo_icon">docomo</label>
                   </div>
                   <!-- softbank -->
                   <div class="div-checkbox px-2">
-                    <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check()">
+                    <input class="form-check-input" type="checkbox" name="PhoneShop_softbank" id="PhoneShop_softbank" onclick="Check(this,null)">
                     <label class="form-check-label font" for="PhoneShop_softbank"><img class="form-check-icon" src="./Icon/softbank.png" alt="softbank_icon">softbank</label>
                   </div>
                 </form>
@@ -564,18 +619,18 @@
               <br>
               <!--災害情報表示切替欄-->
               <div class="filter-restricted-area">
-                <form name="icon_select_layer">
+                <form name="area_select_layer">
                   <div class="div-checkbox">
                     <!-- 洪水警戒地域 -->
-                    <input class="form-check-input" type="checkbox" name="Flood" id="Flood" onclick="Check()" checked>
+                    <input class="form-check-input" type="checkbox" name="Flood" id="Flood" onclick="CheckArea(this)" checked>
                     <label class="form-check-label font" for="Flood">洪水</label>
                   </div>
                   <img id="infoFlood" src="./PlaceData/Immersion_GeneralRules.png"></img>
-                <div class="div-checkbox">
-                  <!-- 土砂災害警戒区域(土石流) -->
-                  <input class="form-check-input" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="Check()" checked>
-                  <label class="form-check-label font" for="DebrisFlow">土砂災害</label>
-                </div>
+                  <div class="div-checkbox">
+                    <!-- 土砂災害警戒区域(土石流) -->
+                    <input class="form-check-input" type="checkbox" name="DebrisFlow" id="DebrisFlow" onclick="CheckArea(this)" checked>
+                    <label class="form-check-label font" for="DebrisFlow">土砂災害</label>
+                  </div>
               </form>
               </div>
 
@@ -627,6 +682,6 @@
     </footer>
   </body>
 
-
   <script src="./mapSetting.js"></script>
+  <script src="./GuideSound.js"></script>
 </html>
