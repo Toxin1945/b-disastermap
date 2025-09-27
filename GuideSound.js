@@ -9,7 +9,7 @@ function playGuide(){
         highlight = document.getElementById("menu");
     }
 
-    audio.src = "./image/ガイド音声(ずんだもん).wav";
+    audio.src = "./image/guide_voice.wav";
     audio.currentTime = 0;
     audio.play();
 
