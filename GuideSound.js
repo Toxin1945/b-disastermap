@@ -3,6 +3,10 @@ var highlight;
 
 
 function playGuide(){
+    //操作禁止(モーダル部分は除く)
+    document.body.style.pointerEvents = 'none';
+    document.getElementById('modal').style.pointerEvents = 'auto';
+
     if(window.innerWidth >= 1000){
         highlight = document.getElementById("howToUse")
     }else{
@@ -14,28 +18,35 @@ function playGuide(){
     audio.play();
 
     setTimeout(() => {
-        highlight.style.outline = "3px solid orange";
+        closeModal(false);
+    }, 24000);
+
+    setTimeout(() => {
+        highlight.style.outline = "5px solid orange";
     }, 26000);
 
     audio.addEventListener("ended", () => {
-        highlight.style.outline = "0px solid orange";
-        closeModal();
+        document.body.style.pointerEvents = 'auto';
+        highlight.style.outline = "0px solid white";
     });
 }
 
 function openModal() {
-        const modal = document.getElementById('modal');
-        const closeEls = modal.querySelectorAll('[data-close]');
-        modal.hidden = false;
-        document.body.classList.add('modal-open');
+    const modal = document.getElementById('modal');
+    const closeEls = modal.querySelectorAll('[data-close]');
+    modal.hidden = false;
+    document.body.classList.add('modal-open');
 
-        modal.querySelector('#closeBtn')?.focus();
+    modal.querySelector('#closeBtn')?.focus();
 
-        sessionStorage.setItem('firstAccessDone', 'true');
+    sessionStorage.setItem('firstAccessDone', 'true');
 }
 
-function closeModal() {
-    audio.pause();
+function closeModal(isStopVoice) {
+    if(isStopVoice){
+        document.body.style.pointerEvents = 'auto';
+        audio.pause();
+    }
     const modal = document.getElementById('modal');
     modal.hidden = true;
     document.body.classList.remove('modal-open');
