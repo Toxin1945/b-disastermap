@@ -80,15 +80,13 @@
       #map{
         z-index: 0;
       }
-
-      @media (max-width: 999px) {
+      @media (max-width: 1060px) {
         #map{
-          min-width: 70%;
+          width: calc(100% - 170px);
         }
       }
-      @media (min-width: 1000px) {
+      @media (min-width: 1061px) {
         #map{
-          /*width: 1050px;*/
           width: clamp(500px,50vw,1500px) !important;
         }
       }
