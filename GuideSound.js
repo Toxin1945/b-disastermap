@@ -24,14 +24,14 @@ function playGuide(){
 }
 
 function openModal() {
-    const modal = document.getElementById('modal');
-    const closeEls = modal.querySelectorAll('[data-close]');
-    modal.hidden = false;
-    document.body.classList.add('modal-open');
+        const modal = document.getElementById('modal');
+        const closeEls = modal.querySelectorAll('[data-close]');
+        modal.hidden = false;
+        document.body.classList.add('modal-open');
 
-    modal.querySelector('#closeBtn')?.focus();
-    console.log(highlight);
+        modal.querySelector('#closeBtn')?.focus();
 
+        sessionStorage.setItem('firstAccessDone', 'true');
 }
 
 function closeModal() {
@@ -41,4 +41,10 @@ function closeModal() {
     document.body.classList.remove('modal-open');
 }
 
-window.addEventListener('load', openModal);
+window.addEventListener('load', () =>{
+    if(!sessionStorage.getItem('firstAccessDone')){
+        openModal();
+    }else{
+        return true;
+    }
+});
