@@ -342,26 +342,40 @@
           </div>
         </div>
 
-        <div class="row font pt-5 d-none d-lg-block" style="font-size: 15px;">
+        <div style="display:flex;justify-content: center;">
+          <div class="notice">
+            <img class="danger-icon" src="./image/dange-icon.svg" alt="danger_icon">
+            <span>
+              本ページは高校生の探究活動の一環として作成されたものです。<br>
+              掲載情報は最新でない可能性がありますので、ご利用の際はご注意ください。<br>
+            </span>
+          </div>
+        </div>
+
+        <div class="row font pt-2 d-none d-lg-block" style="font-size: 15px;">
             <p>発災時に役立つ情報をまとめた防災マップです。<br>
               各ポイントのアイコンをクリックすることで、詳細な情報を確認することができます。<br>
               チェックボックスをクリックすることで、ピンの表示/非表示を切り替えることができます。<br>
-              ピンの画像は、クリック(タップ)することで拡大表示できます。
-            </p>
-            <p>
-              各施設の詳細情報は<a class="link" href="./detail.html">コチラ</a>からご覧ください。
+              各施設の詳細情報は<a class="link" href="./detail.html">コチラ</a>からご覧ください。<br>
+              <br>
+              <span style="font-weight: bold;">最終更新日時 : 2024年11月29日</span>
             </p>
         </div>
-        <div class="row font pt-5 d-block d-lg-none" style="font-size: 15px;">
+        <div class="row font pt-2 d-block d-lg-none" style="font-size: 15px;">
           <p>発災時に役立つ情報をまとめた防災マップです。<br>
             各ポイントのアイコンをクリックすることで、詳細な情報を確認することができます。<br>
             チェックボックスをクリックすることで、ピンの表示/非表示を切り替えることができます。<br>
-            ピンの画像は、クリック(タップ)することで拡大表示できます。
+            各施設の詳細情報は<a class="link" href="./detail.html">コチラ</a>からご覧ください。
+            <br>
+            <span style="font-weight: bold;">最終更新日時 : 2024年11月29日</span>
           </p>
-          <p>
-            各施設の詳細情報は<a href="./detail.html">コチラ</a>からご覧ください。
-          </p>
-      </div>
+        </div>
+        <!-- ズーム(工事中)
+        <div style="display: flex;justify-content: flex-end;margin-bottom: 1em; width: 90%;">
+          <button style="width:180px;box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.35);border-radius:3px;background-color: #3b864a;color: white;border: 0px solid #3b864a;padding: 5px;">現在地へズームする</button>
+        </div>
+        -->
+        <div class="row d-flex flex-nowrap">
 
         <div class="row d-flex flex-nowrap">
           <!-- マップ -->
@@ -370,7 +384,7 @@
           </div>
 
           <!-- チェックボックス -->
-          <div class="order-1 filter-field">
+          <div class="order-1 filter-field" style="max-width:30%">
               <!--選択フォーム-->
               <div class="filter-spots">
                 <form name="icon_select_point">
