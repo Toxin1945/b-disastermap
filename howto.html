@@ -20,6 +20,28 @@
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js">c</script>
     <style type="text/css">
 
+      /*ローディング表示*/
+      .video-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+
+      .hidden {
+        display: none;
+      }
+
       video{
         width: 100%;
         margin-top: 50px;
@@ -177,7 +199,15 @@
           </div>
         </div>
 
-        <video src="./image/HowToUse.mp4" autoplay></video>
+
+
+        <div class="video-container">
+          <!-- ローディング表示 -->
+          <div id="loader" class="loader">読み込み中...</div>
+
+          <!-- 動画 -->
+          <video id="VideoHowToUse" src="./image/HowToUse.mp4" autoplay muted playsinline></video>
+        </div>
       </div>
     </div>
 
@@ -204,5 +234,31 @@
       </div>
       <p>©︎ 2025 Haruka Kimura</p>
     </footer>
+
+
+      <script>
+        const video = document.getElementById("VideoHowToUse");
+        const loader = document.getElementById("loader");
+
+        // 読み込み開始
+        video.addEventListener("loadstart", () => {
+          loader.classList.remove("hidden");
+        });
+
+        // 再生可能になったら非表示
+        video.addEventListener("canplaythrough", () => {
+          loader.classList.add("hidden");
+        });
+
+        // バッファ切れ時は再表示
+        video.addEventListener("waiting", () => {
+          loader.classList.remove("hidden");
+        });
+
+        // 再生再開で非表示
+        video.addEventListener("playing", () => {
+          loader.classList.add("hidden");
+        });
+      </script>
   </body>
 </html>
